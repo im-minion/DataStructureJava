@@ -14,9 +14,13 @@ public class LinkedList {
 	public static void main(final String args[]) {
 		LinkedList linkedList = new LinkedList();
 		linkedList.display();
-		linkedList.insertElement(22);
-		linkedList.insertElement(23);
-		linkedList.insertElement(25);
+		linkedList.insertElementAtLast(22);
+		linkedList.insertElementAtLast(23);
+		linkedList.insertElementAtLast(25);
+		linkedList.display();
+		linkedList.insertElementAtFirst(1);
+		linkedList.display();
+		linkedList.insertElementAtSpecificIndex(4, 555);
 		linkedList.display();
 	}
 
@@ -24,6 +28,7 @@ public class LinkedList {
 		if (isEmpty() || size == 0) {
 			System.out.println("Linked List is empty");
 		} else {
+			System.out.println("\nSize of Linked List : " + size);
 			Node currentNode = head;
 			System.out.print(currentNode.data);
 			currentNode = currentNode.next;
@@ -31,7 +36,7 @@ public class LinkedList {
 				System.out.print(" -> " + currentNode.data);
 				currentNode = currentNode.next;
 			}
-			System.out.print(" ->  null ");
+			System.out.print(" ->  null\n");
 		}
 	}
 
@@ -39,18 +44,60 @@ public class LinkedList {
 		return this.head == null;
 	}
 
-	private void insertElement(int data) {
+	private void insertElementAtLast(int data) {
 		Node nodeToInsert = new Node(data);
 		if (isEmpty()) {
 			this.head = nodeToInsert;
-			this.size++;
 		} else {
 			Node currentNode = head;
 			while (currentNode.next != null) {
 				currentNode = currentNode.next;
 			}
 			currentNode.next = nodeToInsert;
-			this.size++;
+		}
+		this.size++;
+	}
+
+	private void insertElementAtFirst(int data) {
+		Node nodeToInsert = new Node(data);
+		if (isEmpty()) {
+			this.head = nodeToInsert;
+		} else {
+			Node currentFirst = this.head;
+			this.head = nodeToInsert;
+			this.head.next = currentFirst;
+		}
+		this.size++;
+	}
+
+	private void insertElementAtSpecificIndex(int index, int data) {
+		if (index >= 0) {
+			if (isEmpty() || index == 0) {
+				this.insertElementAtFirst(data);
+			} else {
+				Node nodeToInsert = new Node(data);
+				Node currentNode = this.head;
+				for (int i = 0; i < (index - 1); i++) {
+					if (currentNode != null) {
+						currentNode = currentNode.next;
+					} else {
+						throw new IllegalStateException(
+								"Can't traverse upto given index : " + index + ", because size of current Linked List : " + this.size);
+					}
+				}
+				if (currentNode != null) {
+					Node tempNode = currentNode.next;
+					currentNode.next = nodeToInsert;
+					nodeToInsert.next = tempNode;
+					this.size++;
+				} else {
+					throw new IllegalStateException(
+							"Can't traverse upto given index : " + index + ", because size of current Linked List : " + this.size);
+				}
+
+			}
+		} else {
+			throw new IllegalStateException("Index can't be less than 0");
 		}
 	}
 }
