@@ -20,7 +20,11 @@ public class LinkedList {
 		linkedList.display();
 		linkedList.insertElementAtFirst(1);
 		linkedList.display();
-		linkedList.insertElementAtSpecificIndex(4, 555);
+		linkedList.insertElementAtSpecificIndex(3, 555);
+		linkedList.display();
+		linkedList.deleteByKey(22);
+		linkedList.display();
+		linkedList.deleteAtIndex(0);
 		linkedList.display();
 	}
 
@@ -77,12 +81,12 @@ public class LinkedList {
 			} else {
 				Node nodeToInsert = new Node(data);
 				Node currentNode = this.head;
-				for (int i = 0; i < (index - 1); i++) {
+				for (int i = 0; i < (index); i++) {
 					if (currentNode != null) {
 						currentNode = currentNode.next;
 					} else {
-						throw new IllegalStateException(
-								"Can't traverse upto given index : " + index + ", because size of current Linked List : " + this.size);
+						throw new IllegalStateException("Can't traverse upto given index : " + index
+								+ ", because size of current Linked List : " + this.size);
 					}
 				}
 				if (currentNode != null) {
@@ -91,8 +95,8 @@ public class LinkedList {
 					nodeToInsert.next = tempNode;
 					this.size++;
 				} else {
-					throw new IllegalStateException(
-							"Can't traverse upto given index : " + index + ", because size of current Linked List : " + this.size);
+					throw new IllegalStateException("Can't traverse upto given index : " + index
+							+ ", because size of current Linked List : " + this.size);
 				}
 
 			}
@@ -100,4 +104,63 @@ public class LinkedList {
 			throw new IllegalStateException("Index can't be less than 0");
 		}
 	}
+
+	private void deleteByKey(int data) {
+		if (isEmpty() || this.size == 0) {
+			System.out.println("Linked List is Empty");
+		} else {
+			int index = 0;
+			Node currentNode = this.head;
+			while (currentNode != null && currentNode.data != data) {
+				currentNode = currentNode.next;
+				index++;
+			}
+			if (currentNode != null) {
+				System.out.println("Given data is present at index : " + index);
+				// delete currentNode
+				this.head = this.head.next;
+				this.size--;
+			} else {
+				System.out.println("DELETE OPERATION: Given data is NOT present in Linked List");
+			}
+		}
+	}
+
+	private void deleteAtIndex(int index) {
+		if (index >= 0) {
+			if (isEmpty()) {
+				throw new IllegalStateException("Linked List is Empty Can't perform delete operation");
+			} else {
+				// Node nodeToInsert = new Node(data);
+				if(index == 0) {
+					this.head = this.head != null ? this.head.next : null;
+					this.size--;
+					return;
+				}
+				Node currentNode = this.head;
+				for (int i = 0; i < (index - 1); i++) {
+					if (currentNode != null) {
+						currentNode = currentNode.next;
+					} else {
+						throw new IllegalStateException("Can't traverse upto given index : " + index
+								+ ", because size of current Linked List : " + this.size);
+					}
+				}
+				if (currentNode != null) {
+					if (currentNode.next != null) {
+						currentNode.next = currentNode.next.next;
+						this.size--;
+					} else
+						currentNode.next = null;
+				} else {
+					throw new IllegalStateException("Can't traverse upto given index : " + index
+							+ ", because size of current Linked List : " + this.size);
+				}
+
+			}
+		} else {
+			throw new IllegalStateException("Index can't be less than 0");
+		}
+	}
+
 }
