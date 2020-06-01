@@ -40,7 +40,7 @@ public class LinkedList {
 				System.out.print(" -> " + currentNode.data);
 				currentNode = currentNode.next;
 			}
-			System.out.print(" ->  null\n");
+			System.out.print(" -> null\n");
 		}
 	}
 
@@ -53,7 +53,7 @@ public class LinkedList {
 				System.out.print(" -> " + currentNode.data);
 				currentNode = currentNode.next;
 			}
-			System.out.print(" ->  null\n");
+			System.out.print(" -> null\n");
 		} else {
 			System.out.println("Linked List is empty");
 		}
