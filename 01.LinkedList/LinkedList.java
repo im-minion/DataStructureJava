@@ -44,6 +44,21 @@ public class LinkedList {
 		}
 	}
 
+	public void displayFromHead(Node headNode) {
+		if(headNode != null) {
+			Node currentNode = headNode;
+			System.out.print(currentNode.data);
+			currentNode = currentNode.next;
+			while (currentNode != null) {
+				System.out.print(" -> " + currentNode.data);
+				currentNode = currentNode.next;
+			}
+			System.out.print(" ->  null\n");
+		} else {
+			System.out.println("Linked List is empty");
+		}
+	}
+
 	private boolean isEmpty() {
 		return this.head == null;
 	}
