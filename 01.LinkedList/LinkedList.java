@@ -1,6 +1,6 @@
 class Node {
-	int data;
-	Node next;
+	public int data;
+	public Node next;
 
 	public Node(final int data) {
 		this.data = data;
@@ -8,8 +8,8 @@ class Node {
 }
 
 public class LinkedList {
-	private Node head;
-	private int size = 0;
+	public Node head;
+	public int size = 0;
 
 	public static void main(final String args[]) {
 		LinkedList linkedList = new LinkedList();
@@ -28,7 +28,7 @@ public class LinkedList {
 		linkedList.display();
 	}
 
-	private void display() {
+	public void display() {
 		if (isEmpty() || size == 0) {
 			System.out.println("Linked List is empty");
 		} else {
@@ -48,7 +48,7 @@ public class LinkedList {
 		return this.head == null;
 	}
 
-	private void insertElementAtLast(int data) {
+	public void insertElementAtLast(int data) {
 		Node nodeToInsert = new Node(data);
 		if (isEmpty()) {
 			this.head = nodeToInsert;
