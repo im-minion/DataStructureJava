@@ -16,10 +16,10 @@ public class ReverseLinkedList {
     private static Node reverseLinkedList(Node head) {
         Node newHead = null;
         while(head != null) {
-            Node next = head.next;
+            Node nextNode = head.next;
             head.next = newHead;
             newHead = head;
-            head = next;
+            head = nextNode;
         }
         return newHead;
     }
