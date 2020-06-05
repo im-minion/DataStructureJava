@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "RemoveDuplicates",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CycleDetection",
             "request": "launch",
             "mainClass": "CycleDetection",
