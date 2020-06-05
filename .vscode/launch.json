@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CycleDetection",
+            "request": "launch",
+            "mainClass": "CycleDetection",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",
