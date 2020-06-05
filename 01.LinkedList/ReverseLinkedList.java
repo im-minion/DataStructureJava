@@ -13,7 +13,7 @@ public class ReverseLinkedList {
         l1.displayFromHead(resultHead);
     }
 
-    private static Node reverseLinkedList(Node head) {
+    public static Node reverseLinkedList(Node head) {
         Node newHead = null;
         while(head != null) {
             Node nextNode = head.next;
