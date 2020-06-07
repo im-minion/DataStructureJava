@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "SearchInsertPosition",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveSpecificInstance",
+            "request": "launch",
+            "mainClass": "RemoveSpecificInstance",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveDuplicateFromSorted",
+            "request": "launch",
+            "mainClass": "RemoveDuplicateFromSorted",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MaxContainerArea",
             "request": "launch",
             "mainClass": "MaxContainerArea",
