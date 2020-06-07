@@ -21,6 +21,7 @@ public class IntersectionList {
         Node resultHead = getIntersection(l1.head, l2.head);
         // ResultHead will be the intersection node
         //With above data its not possible to create a list with intersections
+        System.out.println(resultHead);
     }
 
     private static Node getIntersection(Node head, Node head2) {
