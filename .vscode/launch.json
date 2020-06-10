@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RotateTranspose",
+            "request": "launch",
+            "mainClass": "RotateTranspose",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SearchInsertPosition",
             "request": "launch",
             "mainClass": "SearchInsertPosition",
