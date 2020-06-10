@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Rotate90Degree",
+            "request": "launch",
+            "mainClass": "Rotate90Degree",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RotateTranspose",
             "request": "launch",
             "mainClass": "RotateTranspose",

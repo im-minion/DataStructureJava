@@ -17,7 +17,7 @@ public class RotateTranspose {
         }
     }
 
-    private static int[][] transpose(int[][] arr) {
+    public static int[][] transpose(int[][] arr) {
         // swap i,j => j,i
         for (int i = 0; i < arr.length; i++) {
             for (int j = i; j < arr[i].length; j++) {
