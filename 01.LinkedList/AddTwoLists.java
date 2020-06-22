@@ -15,6 +15,10 @@ public class AddTwoLists {
 
         LinkedList resultLinkedList = new LinkedList();
 
+        resultLinkedList.insertElementAtLast(88888);
+
+        Node resultHead = resultLinkedList.head;
+
         System.out.println("Adding Above two lists");
         Node l1Current = l1.head;
         Node l2Current = l2.head;
@@ -24,7 +28,6 @@ public class AddTwoLists {
             int currentSum = carry + l1Current.data + l2Current.data;
             carry = currentSum / 10;
             resultLinkedList.insertElementAtLast(currentSum % 10);
-            System.out.print(currentSum % 10);
             l1Current = l1Current != null ? l1Current.next : null;
             l2Current = l2Current != null ? l2Current.next : null;
         }
@@ -32,6 +35,7 @@ public class AddTwoLists {
             resultLinkedList.insertElementAtLast(carry);;
         }
 
-        resultLinkedList.display();
+        // resultLinkedList.display();
+        l1.displayFromHead(resultHead.next);
     }
 }

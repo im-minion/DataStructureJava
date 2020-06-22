@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AddTwoLists",
+            "request": "launch",
+            "mainClass": "AddTwoLists",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Max1s",
             "request": "launch",
             "mainClass": "Max1s",
