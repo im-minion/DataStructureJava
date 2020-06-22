@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Max1s",
+            "request": "launch",
+            "mainClass": "Max1s",
+            "projectName": "DataStructureJava_ddf8e154"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Rotate90Degree",
             "request": "launch",
             "mainClass": "Rotate90Degree",
