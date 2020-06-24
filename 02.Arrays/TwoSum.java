@@ -1,20 +1,27 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSum {
     public static void main(String[] args) {
         int array[] = { 2, 7, 8, 6 };
 
-        List<Integer> result = twoSum(array, 9);
-        System.out.println(result);
+        int result[] = twoSum(array, 9);
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i] + "\t");
+        }
     }
 
-    private static List<Integer> twoSum(int arr[], int target) {
-        List<Integer> result = new ArrayList<Integer>();
+    private static int[] twoSum(int arr[], int target) {
+        Map<Integer, Integer> valToIndexMap = new HashMap<>();
+
+        int[] result = new int[2];
         for (int i = 0; i < arr.length - 1; i++) {
-            if (target == (arr[i] + arr[i + 1])) {
-                result.add(i);
-                result.add(1 + i);
+            Integer existingIndex = valToIndexMap.get(target - arr[i]);
+            if (existingIndex == null) {
+                valToIndexMap.put(arr[i], i);
+            } else {
+                result[0] = existingIndex;
+                result[1] = i;
             }
         }
         return result;

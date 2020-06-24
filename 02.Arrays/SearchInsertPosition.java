@@ -1,7 +1,7 @@
 public class SearchInsertPosition {
     public static void main(String[] args) {
         int array[] = { 1, 2, 3, 5 };
-        int elementToInsert = 4;
+        int elementToInsert = 0;
         int position = getInsertPosition(array, elementToInsert);
         System.out.println(position);
     }
@@ -15,9 +15,9 @@ public class SearchInsertPosition {
             if (array[mid] == elementToInsert) {
                 return mid;
             }
-            if (mid >= elementToInsert) {
+            if (array[mid] >= elementToInsert) {
                 high = mid - 1;
-            } else if (mid < elementToInsert) {
+            } else if (array[mid] < elementToInsert) {
                 low = mid + 1;
             }
         }
