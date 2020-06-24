@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "SearchInsertPosition",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RemoveSpecificInstance",
+            "request": "launch",
+            "mainClass": "RemoveSpecificInstance",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwapNode",
+            "request": "launch",
+            "mainClass": "SwapNode",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateRight",
+            "request": "launch",
+            "mainClass": "RotateRight",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AddTwoLists",
             "request": "launch",
             "mainClass": "AddTwoLists",
