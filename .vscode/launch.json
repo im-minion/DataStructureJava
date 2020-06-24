@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PlusOne",
+            "request": "launch",
+            "mainClass": "PlusOne",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TwoSum",
             "request": "launch",
             "mainClass": "TwoSum",
