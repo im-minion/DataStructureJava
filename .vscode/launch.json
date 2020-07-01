@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RoomsAndKeys",
+            "request": "launch",
+            "mainClass": "RoomsAndKeys",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Majority",
             "request": "launch",
             "mainClass": "Majority",
