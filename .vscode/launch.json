@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HandsOfStraights",
+            "request": "launch",
+            "mainClass": "HandsOfStraights",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SingleNo",
+            "request": "launch",
+            "mainClass": "SingleNo",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RoomsAndKeys",
             "request": "launch",
             "mainClass": "RoomsAndKeys",
