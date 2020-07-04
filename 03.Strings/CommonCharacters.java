@@ -26,7 +26,7 @@ public class CommonCharacters {
     }
 
     private static List<String> findCommonCharacters(String[] A) {
-        List<String> commonChars = new ArrayList();
+        List<String> commonChars = new ArrayList<>();
         int minFrequencies[] = new int[26];
         Arrays.fill(minFrequencies, Integer.MAX_VALUE);
         for (String currentString : A) {
