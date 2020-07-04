@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MiddleOfLinkedList",
+            "request": "launch",
+            "mainClass": "MiddleOfLinkedList",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LinkedList",
             "request": "launch",
             "mainClass": "LinkedList",
