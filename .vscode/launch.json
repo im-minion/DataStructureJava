@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BackspaceStringCompare",
+            "request": "launch",
+            "mainClass": "BackspaceStringCompare",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HandsOfStraights",
             "request": "launch",
             "mainClass": "HandsOfStraights",
