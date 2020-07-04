@@ -6,20 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - ReverseOnlyLettersTwoPointers",
-            "request": "launch",
-            "mainClass": "ReverseOnlyLettersTwoPointers",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ReverseOnlyLetterStackLogic",
-            "request": "launch",
-            "mainClass": "ReverseOnlyLetterStackLogic",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
