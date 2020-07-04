@@ -1,7 +1,8 @@
-public class Reverse {
+public class ReverseUsingTwoPointers {
     public static void main(String[] args) {
-        System.out.println("Reverse string solution using two pointer approach.");
-        String rev = reverse("Testing");
+        String input = "Testing is bad thing";
+        System.out.println("Reverse string solution using Two Pointer Approach. \nInput : \n" + input + "\nOutput :");
+        String rev = reverse(input);
         System.out.println(rev);
     }
 
@@ -10,7 +11,7 @@ public class Reverse {
         int right = input.length() - 1;
         char[] inputArray = input.toCharArray();
         while (left <= right) {
-            // swap char at left to char atright
+            // swap char at left to char at right
             char temp = inputArray[left];
             inputArray[left] = inputArray[right];
             inputArray[right] = temp;
