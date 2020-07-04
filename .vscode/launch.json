@@ -6,226 +6,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - CommonCharacters",
+            "name": "CodeLens (Launch) - LinkedList",
             "request": "launch",
-            "mainClass": "CommonCharacters",
+            "mainClass": "LinkedList",
             "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - BackspaceStringCompare",
-            "request": "launch",
-            "mainClass": "BackspaceStringCompare",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - HandsOfStraights",
-            "request": "launch",
-            "mainClass": "HandsOfStraights",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SingleNo",
-            "request": "launch",
-            "mainClass": "SingleNo",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RoomsAndKeys",
-            "request": "launch",
-            "mainClass": "RoomsAndKeys",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Majority",
-            "request": "launch",
-            "mainClass": "Majority",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - PlusOne",
-            "request": "launch",
-            "mainClass": "PlusOne",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - TwoSum",
-            "request": "launch",
-            "mainClass": "TwoSum",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SearchInsertPosition",
-            "request": "launch",
-            "mainClass": "SearchInsertPosition",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RemoveSpecificInstance",
-            "request": "launch",
-            "mainClass": "RemoveSpecificInstance",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SwapNode",
-            "request": "launch",
-            "mainClass": "SwapNode",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RotateRight",
-            "request": "launch",
-            "mainClass": "RotateRight",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - AddTwoLists",
-            "request": "launch",
-            "mainClass": "AddTwoLists",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Max1s",
-            "request": "launch",
-            "mainClass": "Max1s",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Rotate90Degree",
-            "request": "launch",
-            "mainClass": "Rotate90Degree",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RotateTranspose",
-            "request": "launch",
-            "mainClass": "RotateTranspose",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SearchInsertPosition",
-            "request": "launch",
-            "mainClass": "SearchInsertPosition",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RemoveSpecificInstance",
-            "request": "launch",
-            "mainClass": "RemoveSpecificInstance",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RemoveDuplicateFromSorted",
-            "request": "launch",
-            "mainClass": "RemoveDuplicateFromSorted",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - MaxContainerArea",
-            "request": "launch",
-            "mainClass": "MaxContainerArea",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - TwoSum",
-            "request": "launch",
-            "mainClass": "TwoSum",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - IntersectionList",
-            "request": "launch",
-            "mainClass": "IntersectionList",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RemoveDuplicates",
-            "request": "launch",
-            "mainClass": "RemoveDuplicates",
-            "projectName": "DataStructureJava_ddf8e154"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - CycleDetection",
             "request": "launch",
             "mainClass": "CycleDetection",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Palindrome",
-            "request": "launch",
-            "mainClass": "Palindrome",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - ReverseLinkedList",
-            "request": "launch",
-            "mainClass": "ReverseLinkedList",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - RotateRight",
-            "request": "launch",
-            "mainClass": "RotateRight",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SwapNode",
-            "request": "launch",
-            "mainClass": "SwapNode",
-            "projectName": "DataStructureJava_ddf8e154"
+            "projectName": "DataStructureJava_8a8eb932"
         },
         {
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-AddTwoLists<DataStructureJava_ddf8e154>",
-            "request": "launch",
-            "mainClass": "AddTwoLists",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-LinkedList<DataStructureJava_ddf8e154>",
-            "request": "launch",
-            "mainClass": "LinkedList",
-            "projectName": "DataStructureJava_ddf8e154"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-MergeSortedLinkedLits<DataStructureJava_ddf8e154>",
-            "request": "launch",
-            "mainClass": "MergeSortedLinkedLits",
-            "projectName": "DataStructureJava_ddf8e154"
         }
     ]
 }
