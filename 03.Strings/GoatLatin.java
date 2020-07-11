@@ -43,6 +43,9 @@ public class GoatLatin {
     public static void main(String[] args) {
         String output = goatLatin("I speak Goat Latin");
         System.out.println(output);
+        
+        String output2 = goatLatin("The quick brown fox jumped over the lazy dog");
+        System.out.println(output2);
     }
 
     private static String goatLatin(String input) {
