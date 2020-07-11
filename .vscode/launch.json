@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RotateString",
+            "request": "launch",
+            "mainClass": "RotateString",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GoatLatin",
             "request": "launch",
             "mainClass": "GoatLatin",
