@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - LongPressedName",
-            "request": "launch",
-            "mainClass": "LongPressedName",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
