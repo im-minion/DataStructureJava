@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EvaluateReversePolishNotation",
+            "request": "launch",
+            "mainClass": "EvaluateReversePolishNotation",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SimplifyPath",
             "request": "launch",
             "mainClass": "SimplifyPath",
