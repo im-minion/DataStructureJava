@@ -6,27 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - BasicCalculator",
-            "request": "launch",
-            "mainClass": "BasicCalculator",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - EvaluateReversePolishNotation",
-            "request": "launch",
-            "mainClass": "EvaluateReversePolishNotation",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SimplifyPath",
-            "request": "launch",
-            "mainClass": "SimplifyPath",
-            "projectName": "DataStructureJava_8a8eb932"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
