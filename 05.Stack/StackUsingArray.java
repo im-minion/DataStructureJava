@@ -71,7 +71,6 @@ public class StackUsingArray {
         System.out.println(String.format("Now at top %s", stack.peek()));
         System.out.println(String.format("popping %s", stack.pop()));
         System.out.println(String.format("Now at top %s", stack.peek()));
-
     }
 
 }
