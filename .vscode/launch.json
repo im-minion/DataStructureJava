@@ -6,9 +6,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - StackUsingLinkedList",
+            "name": "CodeLens (Launch) - QueueUsingTwoStacks",
             "request": "launch",
-            "mainClass": "StackUsingLinkedList",
+            "mainClass": "QueueUsingTwoStacks",
             "projectName": "DataStructureJava_8a8eb932"
         },
         {
