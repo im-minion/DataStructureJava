@@ -16,20 +16,20 @@ public class QueueUsingArray {
     }
 
     private int peekNew() {
-        if (size == 0 || this.container.length == 0)
+        if (this.isEmpty())
             throw new IllegalStateException("Queue is Empty!");
 
-        return this.container[this.size -1];
+        return this.container[this.size - 1];
     }
 
     private int peekOld() {
-        if (size == 0 || this.container.length == 0)
+        if (this.isEmpty())
             throw new IllegalStateException("Queue is Empty!");
         return this.container[0];
     }
 
     private int dequeue() {
-        if (size == 0 || this.container.length == 0)
+        if (this.isEmpty())
             throw new IllegalStateException("Queue is Empty!");
 
         int itemToRemove = this.container[0];
@@ -39,6 +39,10 @@ public class QueueUsingArray {
         }
         this.size--;
         return itemToRemove;
+    }
+
+    private boolean isEmpty() {
+        return size == 0 || this.container.length == 0;
     }
 
     private void enqueue(int i) {
