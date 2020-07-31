@@ -1,60 +1,45 @@
-public class QueueUsingArray {
+import java.util.LinkedList;
 
-    private int size;
-    private int capacity;
-    // private int front;
-    // private int rear;
+public class QueueUsingLinkedList {
 
-    private Integer[] container = null;
+    LinkedList<Integer> container = null;
 
-    public QueueUsingArray(int initialCapacity) {
-        this.size = 0;
-        // this.front = -1;
-        // this.rear = -1;
-        this.capacity = initialCapacity;
-        this.container = new Integer[this.capacity];
-    }
-
-    private int peekNew() {
-        if (this.isEmpty())
-            throw new IllegalStateException("Queue is Empty!");
-
-        return this.container[this.size - 1];
+    public QueueUsingLinkedList() {
+        this.container = new LinkedList<>();
     }
 
     private int peekOld() {
-        if (this.isEmpty())
+        if (this.isEmpty()) {
             throw new IllegalStateException("Queue is Empty!");
-        return this.container[0];
+        }
+        return this.container.getFirst();
     }
 
     private int dequeue() {
-        if (this.isEmpty())
+        if (this.isEmpty()) {
             throw new IllegalStateException("Queue is Empty!");
-
-        int itemToRemove = this.container[0];
-        int index = 0;
-        for (int i = 1; i < this.container.length; i++) {
-            this.container[index++] = this.container[i];
         }
-        this.size--;
-        return itemToRemove;
-    }
-
-    private boolean isEmpty() {
-        return size == 0 || this.container.length == 0;
+        return this.container.removeFirst();
     }
 
     private void enqueue(int i) {
-        if (size == capacity) {
-            throw new IllegalStateException("Queue size exceeded!");
+        this.container.add(i);
+    }
+
+    private int peekNew() {
+        if (this.isEmpty()) {
+            throw new IllegalStateException("Queue is Empty!");
         }
-        this.container[this.size++] = i;
+        return this.container.getLast();
+    }
+
+    private boolean isEmpty() {
+        return this.container.isEmpty();
     }
 
     public static void main(String[] args) {
         System.out.println("Creating LinkedList based queue.");
-        QueueUsingArray queue = new QueueUsingArray(4);
+        QueueUsingLinkedList queue = new QueueUsingLinkedList();
         System.out.println("Enqueue elements.");
         queue.enqueue(10);
         System.out.println(String.format("enqueued %s", queue.peekNew()));
@@ -73,7 +58,5 @@ public class QueueUsingArray {
         System.out.println(String.format("Next element to be dequeued %s", queue.peekOld()));
         System.out.println(String.format("dequeued %s", queue.dequeue()));
         System.out.println(String.format("Next element to be dequeued %s", queue.peekOld()));
-        System.out.println(String.format("dequeued %s", queue.dequeue()));
     }
-
 }
