@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - QueueUsingArray",
+            "request": "launch",
+            "mainClass": "QueueUsingArray",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - QueueUsingTwoStacks",
             "request": "launch",
             "mainClass": "QueueUsingTwoStacks",
