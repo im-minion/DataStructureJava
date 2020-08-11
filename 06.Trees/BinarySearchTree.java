@@ -37,6 +37,10 @@ public class BinarySearchTree {
             return null;
         }
 
+        if (isEmpty()) {
+            throw new IllegalStateException("Can't perform Search operation on empty Tree!");
+        }
+
         if (node.data > item) {
 
             node.left = remove(node.left, item);
