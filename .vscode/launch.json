@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SymmetricTree",
+            "request": "launch",
+            "mainClass": "SymmetricTree",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IsSameTree",
             "request": "launch",
             "mainClass": "IsSameTree",
