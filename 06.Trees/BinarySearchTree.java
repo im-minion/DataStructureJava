@@ -1,6 +1,6 @@
 public class BinarySearchTree {
 
-    private BSTNode root;
+    public BSTNode root;
 
     public boolean isEmpty() {
         return this.root == null;
@@ -81,7 +81,7 @@ public class BinarySearchTree {
         return current.data;
     }
 
-    private void insert(int item) {
+    public void insert(int item) {
         if (isEmpty()) {
             this.root = new BSTNode(item);
             return;
