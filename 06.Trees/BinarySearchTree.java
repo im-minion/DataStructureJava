@@ -1,5 +1,3 @@
-import jdk.nashorn.api.tree.Tree;
-
 public class BinarySearchTree {
 
     public BSTNode root;
