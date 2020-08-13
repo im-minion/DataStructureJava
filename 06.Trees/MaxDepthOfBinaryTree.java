@@ -1,4 +1,15 @@
-public class IsSameTree {
+public class MaxDepthOfBinaryTree {
+
+    public static int maxDepth(BSTNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = maxDepth(root.left);
+        int right = maxDepth(root.right);
+
+        return Math.max(left, right) + 1;
+    }
+
     public static void main(String[] args) {
         System.out.println("Creating binary search tree.");
         BinarySearchTree binarySearchTree = new BinarySearchTree();
@@ -27,35 +38,7 @@ public class IsSameTree {
         binarySearchTree.insert(27);
         System.out.println("Inserted " + 27);
 
-
-        System.out.println(isSameTree(binarySearchTree.root, binarySearchTree.root));
-
-
-        BinarySearchTree binarySearchTree2 = new BinarySearchTree();
-
-        System.out.println("Insert into the tree.");
-        binarySearchTree2.insert(50);
-        System.out.println("Inserted " + 50);
-        binarySearchTree2.insert(20);
-        System.out.println("Inserted " + 20);
-        binarySearchTree2.insert(80);
-        System.out.println("Inserted " + 80);
-        System.out.println(isSameTree(binarySearchTree.root, binarySearchTree2.root));
+        System.out.println(maxDepth(binarySearchTree.root));
     }
 
-    private static boolean isSameTree(BSTNode node1, BSTNode node2) {
-        if(node1 == null && node2 == null) {
-            return true;
-        }
-
-        if(node1 == null || node2 == null) {
-            return false;
-        }
-
-        if(node1.data == node2.data) {
-            return isSameTree(node1.left, node2.left) && isSameTree(node1.right, node2.right);
-        } else {
-            return false;
-        }
-    }
 }
