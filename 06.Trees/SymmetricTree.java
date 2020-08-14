@@ -49,25 +49,14 @@ public class SymmetricTree {
         System.out.println("Inserted " + 27);
 
         System.out.println(isSymmetricTree(binarySearchTree.root));
-// THIS PROBLEM IS FOR BINARY TREE NOT FOR BinarySearchTree, so  wont really work in terms for symmetry
-        BTNode binarySearchTree2 = new BTNode();
+        // THIS PROBLEM IS FOR BINARY TREE NOT FOR BinarySearchTree, so wont really work
+        // in terms for symmetry
+        BTNode node = new BTNode(1);
 
-        System.out.println("Insert into the tree.");
-        binarySearchTree2.insert(1);
-        System.out.println("Inserted " + 1);
-        binarySearchTree2.insert(2);
-        System.out.println("Inserted " + 2);
-        binarySearchTree2.insert(2);
-        System.out.println("Inserted " + 2);
-        binarySearchTree2.insert(3);
-        System.out.println("Inserted " + 3);
-        binarySearchTree2.insert(4);
-        System.out.println("Inserted " + 4);
-        binarySearchTree2.insert(4);
-        System.out.println("Inserted " + 4);
-        binarySearchTree2.insert(3);
-        System.out.println("Inserted " + 3);
+        node.left = new BTNode(4);
 
-        System.out.println(isSymmetricTree(binarySearchTree2.root));
+        node.right = new BTNode(4);
+
+        System.out.println(isSymmetricTree(node));
     }
 }

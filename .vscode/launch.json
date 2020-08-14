@@ -1,57 +1,14 @@
-// {
-//     // Use IntelliSense to learn about possible attributes.
-//     // Hover to view descriptions of existing attributes.
-//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-//     "version": "0.2.0",
-//     "configurations": [
-//         {
-//             "name": "CodeLens (Launch) - SymmetricTree",
-//             "request": "launch",
-//         },
-//         {
-//             "name": "CodeLens (Launch) - IsSameTree",
-//             "request": "launch"
-//         },
-//         {
-//             "type": "java",
-//             "name": "CodeLens (Launch) - BinarySearchTree",
-//             "request": "launch",
-//             "mainClass": "BinarySearchTree",
-//             "projectName": "DataStructureJava_8a8eb932"
-//         },
-//         {
-//             "type": "java",
-//             "name": "CodeLens (Launch) - CircularQueueUsingArray",
-//             "request": "launch",
-//             "mainClass": "CircularQueueUsingArray",
-//             "projectName": "DataStructureJava_8a8eb932"
-//         },
-//         {
-//             "type": "java",
-//             "name": "CodeLens (Launch) - QueueUsingLinkedList",
-//             "request": "launch",
-//             "mainClass": "QueueUsingLinkedList",
-//             "projectName": "DataStructureJava_8a8eb932"
-//         },
-//         {
-//             "type": "java",
-//             "name": "CodeLens (Launch) - QueueUsingArray",
-//             "request": "launch",
-//             "mainClass": "QueueUsingArray",
-//             "projectName": "DataStructureJava_8a8eb932"
-//         },
-//         {
-//             "type": "java",
-//             "name": "CodeLens (Launch) - QueueUsingTwoStacks",
-//             "request": "launch",
-//             "mainClass": "QueueUsingTwoStacks",
-//             "projectName": "DataStructureJava_8a8eb932"
-//         },
-//         {
-//             "type": "java",
-//             "name": "Debug (Launch) - Current File",
-//             "request": "launch",
-//             "mainClass": "${file}"
-//         }
-//     ]
-// }
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
