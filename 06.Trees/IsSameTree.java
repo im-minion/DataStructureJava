@@ -43,7 +43,7 @@ public class IsSameTree {
         System.out.println(isSameTree(binarySearchTree.root, binarySearchTree2.root));
     }
 
-    private static boolean isSameTree(BSTNode node1, BSTNode node2) {
+    private static boolean isSameTree(BTNode node1, BTNode node2) {
         if(node1 == null && node2 == null) {
             return true;
         }

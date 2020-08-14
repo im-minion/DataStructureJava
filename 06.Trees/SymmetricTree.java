@@ -1,13 +1,13 @@
 public class SymmetricTree {
 
-    private static boolean isSymmetricTree(BSTNode root) {
+    private static boolean isSymmetricTree(BTNode root) {
         if (root == null) {
             return true;
         }
         return isSymmetricSides(root.left, root.right);
     }
 
-    private static boolean isSymmetricSides(BSTNode left, BSTNode right) {
+    private static boolean isSymmetricSides(BTNode left, BTNode right) {
         if (left == null && right == null) {
             return true;
         }
@@ -50,7 +50,7 @@ public class SymmetricTree {
 
         System.out.println(isSymmetricTree(binarySearchTree.root));
 // THIS PROBLEM IS FOR BINARY TREE NOT FOR BinarySearchTree, so  wont really work in terms for symmetry
-        BinarySearchTree binarySearchTree2 = new BinarySearchTree();
+        BTNode binarySearchTree2 = new BTNode();
 
         System.out.println("Insert into the tree.");
         binarySearchTree2.insert(1);

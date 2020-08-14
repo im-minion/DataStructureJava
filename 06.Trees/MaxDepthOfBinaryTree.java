@@ -1,6 +1,6 @@
 public class MaxDepthOfBinaryTree {
 
-    public static int maxDepth(BSTNode root) {
+    public static int maxDepth(BTNode root) {
         if (root == null) {
             return 0;
         }
