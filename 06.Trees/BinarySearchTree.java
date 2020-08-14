@@ -1,12 +1,12 @@
 public class BinarySearchTree {
 
-    public BSTNode root;
+    public BTNode root;
 
     public boolean isEmpty() {
         return this.root == null;
     }
 
-    private BSTNode search(int item) {
+    private BTNode search(int item) {
         if (isEmpty()) {
             throw new IllegalStateException("Can't perform Search operation on empty Tree!");
         }
@@ -19,7 +19,7 @@ public class BinarySearchTree {
         }
     }
 
-    private BSTNode search(BSTNode node, int item) {
+    private BTNode search(BTNode node, int item) {
         if (node == null) {
             return null;
         }
@@ -32,7 +32,7 @@ public class BinarySearchTree {
         }
     }
 
-    public BSTNode remove(BSTNode node, int item) {
+    public BTNode remove(BTNode node, int item) {
         if (node == null) {
             return null;
         }
@@ -70,9 +70,9 @@ public class BinarySearchTree {
         return node;
     }
 
-    private int digRight(BSTNode right) {
+    private int digRight(BTNode right) {
         // Dig as far left as possible to get the smallest value from the right subtree.
-        BSTNode current = right;
+        BTNode current = right;
         while (current.left != null) {
 
             current = current.left;
@@ -83,7 +83,7 @@ public class BinarySearchTree {
 
     public void insert(int item) {
         if (isEmpty()) {
-            this.root = new BSTNode(item);
+            this.root = new BTNode(item);
             return;
         }
         if (item < this.root.data) {
@@ -93,9 +93,9 @@ public class BinarySearchTree {
         }
     }
 
-    private BSTNode insert(BSTNode node, int item) {
+    private BTNode insert(BTNode node, int item) {
         if (node == null) {
-            return new BSTNode(item);
+            return new BTNode(item);
         } else if (item < node.data) {
             node.left = insert(node.left, item);
         } else {

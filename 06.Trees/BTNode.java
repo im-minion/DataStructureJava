@@ -1,10 +1,10 @@
-public class BSTNode {
+public class BTNode {
     
     int data;
-    BSTNode left;
-    BSTNode right;
+    BTNode left;
+    BTNode right;
 
-    public BSTNode(final int data) {
+    public BTNode(final int data) {
         this.data = data;
         this.left = null;
         this.right = null;
