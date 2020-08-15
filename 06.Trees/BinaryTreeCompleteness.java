@@ -3,13 +3,6 @@ import java.util.Queue;
 
 public class BinaryTreeCompleteness {
     public static void main(String[] args) {
-        
-
-
-
-        
-
-
     }
 
      public static boolean isCompleteTree(BTNode root) {
