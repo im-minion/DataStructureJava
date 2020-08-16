@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BinaryTreeInOrderTraversal {
+public class BinaryPostOrderTraversal {
     public static void main(String[] args) {
         System.out.println("Creating a tree.");
         BTNode root = new BTNode(1);
@@ -13,28 +13,27 @@ public class BinaryTreeInOrderTraversal {
         root.right.right = new BTNode(7);
         System.out.println("Tree constructed.");
 
-        List<BTNode> recursiveOutput = inOrderTraversal(root);
+        List<Integer> recursiveOutput = postorderTraversal(root);
 
         System.out.println("Printing recursive output.");
-        for (BTNode BTNode : recursiveOutput) {
-            System.out.print(BTNode.data + " ");
+        for (Integer i : recursiveOutput) {
+            System.out.print(i + " ");
         }
     }
 
-    private static List<BTNode> inOrderTraversal(BTNode root) {
-        List<BTNode> output = new ArrayList<>();
+    public static List<Integer> postorderTraversal(BTNode root) {
+        List<Integer> output = new ArrayList<>();
         if (root == null)
             return output;
-        getInOrderTraversal(root, output);
+        getPostOrderTraversal(root, output);
         return output;
     }
 
-    private static void getInOrderTraversal(BTNode node, List<BTNode> output) {
+    public static void getPostOrderTraversal(BTNode node, List<Integer> output) {
         if (node == null)
             return;
-        getInOrderTraversal(node.left, output);
-        output.add(node);
-        getInOrderTraversal(node.right, output);
+        getPostOrderTraversal(node.left, output);
+        getPostOrderTraversal(node.right, output);
+        output.add(node.data);
     }
-
 }
