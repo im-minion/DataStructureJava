@@ -1,5 +1,3 @@
-import java.util.List;
-
 /**
  * 
  * We are given the head node root of a binary tree, where additionally every
