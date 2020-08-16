@@ -21,7 +21,7 @@ public class BinaryTreeInOrderTraversal {
         }
     }
 
-    private static List<BTNode> inOrderTraversal(BTNode root) {
+    public static List<BTNode> inOrderTraversal(BTNode root) {
         List<BTNode> output = new ArrayList<>();
         if (root == null)
             return output;
