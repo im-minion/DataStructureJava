@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BottomLeftTreeValue",
+            "request": "launch",
+            "mainClass": "BottomLeftTreeValue",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinaryTreePruning",
             "request": "launch",
             "mainClass": "BinaryTreePruning",
