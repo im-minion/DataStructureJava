@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DistributionOfCoins",
+            "request": "launch",
+            "mainClass": "DistributionOfCoins",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BottomLeftTreeValue",
             "request": "launch",
             "mainClass": "BottomLeftTreeValue",
