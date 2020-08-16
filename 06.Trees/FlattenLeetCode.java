@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Stack;
 
 public class FlattenLeetCode {
@@ -11,7 +12,15 @@ public class FlattenLeetCode {
         root1.right.left = new BTNode(25);
         root1.right.right = new BTNode(40);
         System.out.println("binary tree constructed.");
+        System.out.println("INPUT:");
+        List<BTNode> input = BinaryTreeInOrderTraversal.inOrderTraversal(root1);
+        input.stream().forEach(node -> System.out.print(node.data + " "));
+
+        System.out.println("\n\nOUTPUT:");
+
         flatten(root1);
+        List<BTNode> result = BinaryTreeInOrderTraversal.inOrderTraversal(root1);
+        result.stream().forEach(node -> System.out.print(node.data + " "));
     }
 
     public static void flatten(BTNode root) {

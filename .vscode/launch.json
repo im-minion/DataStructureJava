@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "InvertBinaryTree",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FlattenLeetCode",
             "request": "launch",
             "mainClass": "FlattenLeetCode",
