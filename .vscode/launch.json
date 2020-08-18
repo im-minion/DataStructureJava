@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NAryPostOrderTraversal",
+            "request": "launch",
+            "mainClass": "NAryPostOrderTraversal",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RangeSumBST",
             "request": "launch",
             "mainClass": "RangeSumBST",
