@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class IsUniqueValuedBTree {
+public class IsUniValuedBinaryTree {
     public static void main(String[] args) {
         System.out.println("Construct a binary tree");
         BTNode root1 = new BTNode(1);
@@ -14,7 +14,7 @@ public class IsUniqueValuedBTree {
         System.out.println("INPUT:");
         List<BTNode> input = BinaryTreeInOrderTraversal.inOrderTraversal(root1);
         input.stream().forEach(node -> System.out.print(node.data + " "));
-        boolean outputNode = isUniqueValuedBTree(root1);
+        boolean outputNode = isUniValuedBinaryTree(root1);
         System.out.println("\n\nOUTPUT: " + outputNode);
 
         BTNode root2 = new BTNode(1);
@@ -27,16 +27,16 @@ public class IsUniqueValuedBTree {
         System.out.println("binary tree constructed.");
         System.out.println("INPUT:");
         BinaryTreeInOrderTraversal.inOrderTraversal(root2).stream().forEach(node -> System.out.print(node.data + " "));
-        outputNode = isUniqueValuedBTree(root2);
+        outputNode = isUniValuedBinaryTree(root2);
         System.out.println("\n\nOUTPUT: " + outputNode);
 
     }
 
-    private static boolean isUniqueValuedBTree(BTNode node) {
+    private static boolean isUniValuedBinaryTree(BTNode node) {
         if (node == null)
             return true;
 
-        return node.left == null || node.left.data == node.data && isUniqueValuedBTree(node.left) && node.right == null
-                || node.right.data == node.data && isUniqueValuedBTree(node.right);
+        return (node.left == null || node.left.data == node.data && isUniValuedBinaryTree(node.left))
+                && (node.right == null || node.right.data == node.data && isUniValuedBinaryTree(node.right));
     }
 }
