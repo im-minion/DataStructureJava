@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeTrees",
+            "request": "launch",
+            "mainClass": "MergeTrees",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SumOfLeftLeaf",
             "request": "launch",
             "mainClass": "SumOfLeftLeaf",
