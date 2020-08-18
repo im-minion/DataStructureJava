@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsUniqueValuedBTree",
+            "request": "launch",
+            "mainClass": "IsUniqueValuedBTree",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinaryTreeHasPath",
             "request": "launch",
             "mainClass": "BinaryTreeHasPath",
