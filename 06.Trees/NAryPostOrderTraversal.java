@@ -24,6 +24,7 @@ public class NAryPostOrderTraversal {
     }
 
     private static List<Integer> postOrder(TreeNode root) {
+        // add to results list => always at first
         LinkedList<Integer> result = new LinkedList<>();
         if (root == null)
             return result;
