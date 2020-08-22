@@ -1,3 +1,37 @@
+/**
+ * 
+ * Worst-case analysis:
+ * 
+ * The most unbalanced partition occurs when one of the sub-lists returned by
+ * the partitioning routine is of size n − 1. This may occur if the pivot
+ * happens to be the smallest or largest element in the list, or in some
+ * implementations when all the elements are equal. If this happens repeatedly
+ * in every partition, then each recursive call processes a list of size one
+ * less than the previous list. Consequently, we can make n − 1 nested calls
+ * before we reach a list of size 1. This means that the call tree is a linear
+ * chain of n − 1 nested calls. The ith call does O(n − i) work to do the
+ * partition, and, so in that case Quicksort takes O(n²) time.
+ * 
+ * Best-case analysis:
+ * 
+ * In the most balanced case, each time we perform a partition we divide the
+ * list into two nearly equal pieces. This means each recursive call processes a
+ * list of half the size. Consequently, we can make only log2 n nested calls
+ * before we reach a list of size 1. This means that the depth of the call tree
+ * is log2 n. But no two calls at the same level of the call tree process the
+ * same part of the original list; thus, each level of calls needs only O(n)
+ * time all together (each call has some constant overhead, but since there are
+ * only O(n) calls at each level, this is subsumed in the O(n) factor). The
+ * result is that the algorithm uses only O(n log n) time.
+ * 
+ * Average-case analysis:
+ * 
+ * To sort an array of n distinct elements, quicksort takes O(n log n) time in
+ * expectation, averaged over all n! permutations of n elements with equal
+ * probability. We list here three common proofs to this claim providing
+ * different insights into quick-sort's workings.
+ */
+
 public class QuickSort {
     public static void main(String[] args) {
         int[] inputArray = { 5, 8, 4, 6, 9, 3, 1, 2, 7 };
@@ -66,6 +100,7 @@ public class QuickSort {
                 end--;
             }
             if (start <= end) {
+                // swap inputArray[start] <=> inputArray[end];
                 int temp = inputArray[start];
                 inputArray[start] = inputArray[end];
                 inputArray[end] = temp;
