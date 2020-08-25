@@ -6,55 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Factorial",
-            "request": "launch",
-            "mainClass": "Factorial",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - FibonacciSeries",
-            "request": "launch",
-            "mainClass": "FibonacciSeries",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - MergeSort",
-            "request": "launch",
-            "mainClass": "MergeSort",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - QuickSort",
-            "request": "launch",
-            "mainClass": "QuickSort",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - SelectionSort",
-            "request": "launch",
-            "mainClass": "SelectionSort",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - InsertionSort",
-            "request": "launch",
-            "mainClass": "InsertionSort",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - BubbleSort",
-            "request": "launch",
-            "mainClass": "BubbleSort",
-            "projectName": "DataStructureJava_39562e21"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
