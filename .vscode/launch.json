@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Staircase",
+            "request": "launch",
+            "mainClass": "Staircase",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CycleDetection",
+            "request": "launch",
+            "mainClass": "CycleDetection",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HandsOfStraights",
+            "request": "launch",
+            "mainClass": "HandsOfStraights",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FibonacciSeries",
+            "request": "launch",
+            "mainClass": "FibonacciSeries",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
