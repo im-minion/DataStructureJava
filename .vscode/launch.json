@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StairCase",
+            "request": "launch",
+            "mainClass": "StairCase",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Staircase",
             "request": "launch",
             "mainClass": "Staircase",
