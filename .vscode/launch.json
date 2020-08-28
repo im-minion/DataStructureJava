@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CoinChange",
+            "request": "launch",
+            "mainClass": "CoinChange",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StairCase",
             "request": "launch",
             "mainClass": "StairCase",
