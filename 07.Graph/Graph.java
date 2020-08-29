@@ -1,3 +1,9 @@
+
+/**
+ * DFS :: Time Complexity O(V+E)
+ * 
+ */
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -8,22 +14,26 @@ import java.util.Set;
 
 public class Graph {
 
-    private Map<Integer, Node> nodeLookup = new HashMap<>();
+    public Map<Integer, Node> nodeLookup;
 
-    private void addEdge(int from, int to) {
+    Graph() {
+        this.nodeLookup = new HashMap<>();
+    }
+
+    public void addEdge(int from, int to) {
         Node fromNode = nodeLookup.get(from);
         Node toNode = nodeLookup.get(to);
         fromNode.adjacentNodes.add(toNode);
     }
 
-    private Node getNode(int val) {
+    public Node getNode(int val) {
         if (!this.nodeLookup.containsKey(val)) {
             throw new IllegalStateException("No Node Found!");
         }
         return this.nodeLookup.get(val);
     }
 
-    private boolean hasPathBFS(int source, int destination) {
+    public boolean hasPathBFS(int source, int destination) {
         Node sourceNode = getNode(source);
         Node destinationNode = getNode(destination);
         Set<Integer> visited = new HashSet<>();
