@@ -112,7 +112,11 @@ public class Graph {
             System.out.println("has path : " + graph.hasPathDFS(source, destination));
 
             System.out.println("Doing Breadth first search on graph:");
-            System.out.println("has path " + graph.hasPathBFS(source, destination));
+            System.out.println("Enter the source node:");
+            source = scan.nextInt();
+            System.out.println("Enter the destination node: ");
+            destination = scan.nextInt();
+            System.out.println("has path : " + graph.hasPathBFS(source, destination));
         }
     }
 
