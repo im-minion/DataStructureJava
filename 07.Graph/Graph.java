@@ -4,9 +4,11 @@
  * 
  */
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Scanner;
@@ -37,6 +39,7 @@ public class Graph {
         Node sourceNode = getNode(source);
         Node destinationNode = getNode(destination);
         Set<Integer> visited = new HashSet<>();
+        List<Integer> prev = new ArrayList<>();
         Queue<Node> queue = new LinkedList<>();
 
         queue.add(sourceNode);
@@ -49,7 +52,9 @@ public class Graph {
                 continue;
             }
             visited.add(currNode.id);
+            prev.add(currNode.id);
             if (currNode == destinationNode) {
+                printPath(prev);
                 return true;
             }
             for (Node n : currNode.adjacentNodes) {
@@ -58,6 +63,10 @@ public class Graph {
 
         }
         return false;
+    }
+
+    private void printPath(List<Integer> prev) {
+        prev.stream().forEach(n -> System.out.print(n + " ->"));
     }
 
     private boolean hasPathDFS(int source, int destination) {
