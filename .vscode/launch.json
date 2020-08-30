@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DungeonGrid",
+            "request": "launch",
+            "mainClass": "DungeonGrid",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumberOfComponent",
             "request": "launch",
             "mainClass": "NumberOfComponent",
