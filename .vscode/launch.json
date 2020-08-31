@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TopologicalSort",
+            "request": "launch",
+            "mainClass": "TopologicalSort",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DungeonGame",
             "request": "launch",
             "mainClass": "DungeonGame",
