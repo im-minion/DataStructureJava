@@ -37,19 +37,9 @@ public class TopologicalSort {
         graph2.addEdge(4, 1);
         graph2.addEdge(5, 2);
         graph2.addEdge(5, 0);
-        /**
-         *  1 -> 2  
-         *      |
-         *  4 <- 3
-         *  |
-         *  6 -> 5
-         *
-         */
         topologicalSort = new TopologicalSort();
         sortingOrderList = topologicalSort.getTopologyOrder(graph2);
         sortingOrderList.forEach(x -> System.out.println(x));
-
-
     }
     
 
