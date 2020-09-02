@@ -1,3 +1,14 @@
+/**
+ *  1 - 2  
+ *      |
+ *  4 - 3
+ *  |
+ *  6   5
+ * 
+ * 1st component is => 1-2-3-4-6 
+ * 2nd component is => 5 
+*/
+
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
@@ -41,16 +52,6 @@ public class NumberOfComponent {
         graph.addEdge(2, 3);
         graph.addEdge(3, 4);
         graph.addEdge(4, 6);
-        /**
-         *  1 - 2  
-         *      |
-         *  4 - 3
-         *  |
-         *  6   5
-         * 
-         * 1st component is => 1-2-3-4-6 
-         * 2nd component is => 5 
-         */
 
         System.out.println(getComponentsCount(graph));
     }
