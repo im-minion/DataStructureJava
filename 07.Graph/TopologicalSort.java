@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+import java.util.Stack;
 
 /**
  * FIND TOPOLOGICAL ORDER
@@ -11,22 +13,21 @@ public class TopologicalSort {
         System.err.println("\n\nExample 1 ::");
 
         DirectedGraph graph = new DirectedGraph(6);
+        graph.addEdge(0, 1);
         graph.addEdge(1, 2);
         graph.addEdge(2, 3);
-        graph.addEdge(3, 4);
-        graph.addEdge(4, 6);
-        graph.addEdge(5, 4);
+        graph.addEdge(3, 5);
+        graph.addEdge(4, 3);
         /**
-         *  1 -> 2  
+         *  0 ----> 1  
+         *          |
+         *  4 ->3<- 2
          *      |
-         *  4 <- 3
-         *  |
-         *  6 -> 5
+         *      5 
          */
         TopologicalSort topologicalSort = new TopologicalSort();
         List<Integer> sortingOrderList = topologicalSort.getTopologyOrder(graph);
         sortingOrderList.forEach(x -> System.out.println(x));
-
 
         System.err.println("\n\nExample 2 ::");
 
@@ -41,29 +42,43 @@ public class TopologicalSort {
         sortingOrderList = topologicalSort.getTopologyOrder(graph2);
         sortingOrderList.forEach(x -> System.out.println(x));
     }
-    
 
     private List<Integer> getTopologyOrder(DirectedGraph graph) {
         List<Integer> topologySortOrder = new ArrayList<>();
         Set<Integer> visited = new HashSet<>();
-        for (int i = 0 ; i < graph.V; i++) {
-            if (!visited.contains(i)) {
-                dfs(i, visited, graph, topologySortOrder);
-            }
+        Stack<Integer> stack = new Stack<Integer>();
+
+        // Call the recursive helper function to store Topological Sort starting from
+        // all vertices one by one
+        for (int i = 0; i < graph.V; i++)
+            if (!visited.contains(i))
+                dfs(i, visited, stack, graph);
+
+        // Print contents of stack
+        while (stack.empty() == false) {
+            topologySortOrder.add(stack.pop());
         }
         return topologySortOrder;
     }
 
-    private void dfs(int node, Set<Integer> visited, DirectedGraph graph, List<Integer> topologySortOrder) {
-        if (!visited.contains(node)) {
-            visited.add(node);
-            topologySortOrder.add(node);
-        } else {
-            for (int n : graph.adj.get(node)) {
-                dfs(n, visited, graph, topologySortOrder);
-            }
+    private void dfs(int node, Set<Integer> visited, Stack<Integer> stack, DirectedGraph graph) {
+
+        // Mark the current node as visited.
+        visited.add(node);
+        Integer i;
+
+        // Recur for all the vertices adjacent to this vertex
+        Iterator<Integer> it = graph.adj.get(node).iterator();
+        while (it.hasNext()) {
+            i = it.next();
+            if (!visited.contains(i))
+                dfs(i, visited, stack, graph);
         }
+
+        // Push current vertex to stack which stores result
+        stack.push(node);
     }
+
 }
 
 class DirectedGraph {
