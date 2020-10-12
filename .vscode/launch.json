@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ArrayPartition",
+            "request": "launch",
+            "mainClass": "ArrayPartition",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CoinChange",
             "request": "launch",
             "mainClass": "CoinChange",
