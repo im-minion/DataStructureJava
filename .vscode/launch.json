@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Duplicate",
+            "request": "launch",
+            "mainClass": "Duplicate",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ArrayPartition",
             "request": "launch",
             "mainClass": "ArrayPartition",
