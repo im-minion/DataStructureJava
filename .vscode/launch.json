@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HandOfStraight",
+            "request": "launch",
+            "mainClass": "HandOfStraight",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Duplicate",
             "request": "launch",
             "mainClass": "Duplicate",
