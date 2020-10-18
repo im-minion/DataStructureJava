@@ -28,7 +28,6 @@ public class ThreeSumClosest {
                     // try moving towards bigger values to increase the sum.
                     left++;
                 }
-
                 if (Math.abs(currentSum - target) < Math.abs(result - target)) {
                     result = currentSum;
                 }
