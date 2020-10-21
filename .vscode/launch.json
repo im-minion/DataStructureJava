@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - NextGreaterElement_I",
+            "request": "launch",
+            "mainClass": "NextGreaterElement_I",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ThreeSumClosest",
             "request": "launch",
             "mainClass": "ThreeSumClosest",
