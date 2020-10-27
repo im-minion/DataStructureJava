@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "MergeTwoSortedArrays",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NextGreaterElement_II",
             "request": "launch",
             "mainClass": "NextGreaterElement_II",
