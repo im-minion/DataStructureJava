@@ -19,7 +19,6 @@ public class NextGreaterElement_II {
                 stack.push(i);
             }
         }
-
         return ans;
     }
 
