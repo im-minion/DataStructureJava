@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FindDisappearedNumber",
+            "request": "launch",
+            "mainClass": "FindDisappearedNumber",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MergeTwoSortedArrays",
             "request": "launch",
             "mainClass": "MergeTwoSortedArrays",
