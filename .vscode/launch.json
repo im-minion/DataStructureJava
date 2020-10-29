@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ThirdMax",
+            "request": "launch",
+            "mainClass": "ThirdMax",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FindDisappearedNumber",
             "request": "launch",
             "mainClass": "FindDisappearedNumber",
