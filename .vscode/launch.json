@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RomanToInt",
+            "request": "launch",
+            "mainClass": "RomanToInt",
+            "projectName": "DataStructureJava_8a8eb932"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ThirdMax",
             "request": "launch",
             "mainClass": "ThirdMax",
