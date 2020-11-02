@@ -1,7 +1,10 @@
 public class RomanToInt {
     public static void main(String[] args) {
         int result = convertRomanToIn("LXXXVII");
-        System.out.println(result);   
+        System.out.println(result);
+        
+        int result2 = convertRomanToIn("LXXXVIII");
+        System.out.println(result2);
     }
 
     public static int convertRomanToIn(String s) {
