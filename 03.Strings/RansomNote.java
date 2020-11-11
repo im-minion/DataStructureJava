@@ -5,7 +5,7 @@ public class RansomNote {
         System.out.println(canConstruct("aa", "ab"));
         System.out.println(canConstruct("aa", "aab"));
         System.out.println(canConstruct("abcd", "abcd"));
-        System.out.println(canConstruct("abcd", "aaabcd"));
+        System.out.println(canConstruct("yyyzzz", "zzzyyy"));
     }
 
     private static boolean canConstruct(String ransomString, String magazineString) {
