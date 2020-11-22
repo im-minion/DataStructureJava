@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BestTimeToBuyStock",
+            "request": "launch",
+            "mainClass": "BestTimeToBuyStock",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FizzBuzz",
             "request": "launch",
             "mainClass": "FizzBuzz",
