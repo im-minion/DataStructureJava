@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - BestTimeToBuyStockII",
+            "request": "launch",
+            "mainClass": "BestTimeToBuyStockII",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BestTimeToBuyStock",
             "request": "launch",
             "mainClass": "BestTimeToBuyStock",
