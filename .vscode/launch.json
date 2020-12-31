@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NumberToStringRepresentation",
+            "request": "launch",
+            "mainClass": "NumberToStringRepresentation",
+            "projectName": "DataStructureJava_39562e21"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CountAndSay",
             "request": "launch",
             "mainClass": "CountAndSay",
