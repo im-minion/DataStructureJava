@@ -1,6 +1,7 @@
 public class Duplicate {
     public static int findDuplicate(int[] data) {
-        if(data == null || data.length == 0) return Integer.MIN_VALUE;
+        if(data == null || data.length == 0) 
+           return Integer.MIN_VALUE;
         int slow = data[0];
         int fast = data[0];
         slow = data[slow];
