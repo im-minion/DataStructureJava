@@ -63,7 +63,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MaxSubArray">
+  <component name="RunManager" selected="Application.MaxAbsoluteDiff">
     <configuration name="ArrayPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPartition" />
       <module name="02.Arrays" />
@@ -78,9 +78,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
-      <module name="00.Sorting" />
+    <configuration name="MaxAbsoluteDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxAbsoluteDiff" />
+      <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxAbsoluteDiff" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.PickUpFromBothSides" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.ArrayPartition" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
