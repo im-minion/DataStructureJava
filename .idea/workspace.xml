@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02.Arrays/PickUpFromBothSides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +63,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.PickUpFromBothSides">
+  <component name="RunManager" selected="Application.MaxSubArray">
     <configuration name="ArrayPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPartition" />
       <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
-      <module name="00.Sorting" />
-      <method v="2" />
     </configuration>
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
@@ -90,6 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxSubArray" />
+      <module name="02.Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PickUpFromBothSides" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PickUpFromBothSides" />
       <module name="02.Arrays" />
@@ -99,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.PickUpFromBothSides" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.ArrayPartition" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611498876752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added PickUpFromBothSides">
+      <created>1611499415892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611499415892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -150,7 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made repository inline for IJ " />
-    <option name="LAST_COMMIT_MESSAGE" value="made repository inline for IJ " />
+    <MESSAGE value="added PickUpFromBothSides" />
+    <option name="LAST_COMMIT_MESSAGE" value="added PickUpFromBothSides" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1611498248218">
@@ -169,22 +179,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="299" key="FileChooserDialogImpl/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498813556" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611498845453">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611499362165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611498845453">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611499362165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611498845453">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611499362165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611498845453">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611499362165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
     <state x="646" y="294" key="NewModule_or_Project.wizard" timestamp="1611498823983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,10 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498829069" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611498953053">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611499417882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498953053" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499417882" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611498584795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
