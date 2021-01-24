@@ -13,9 +13,7 @@ public class MaxSubArray {
             if (m < j) {
                 m = j;
             }
-            if (maxSoFar < m) {
-                maxSoFar = m;
-            }
+            maxSoFar = Math.max(maxSoFar, m);
         }
         return maxSoFar;
     }
