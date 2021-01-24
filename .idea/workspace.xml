@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02.Arrays/MaxPlusMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.Arrays/CoverPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +64,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.MaxPlusMin">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factorial" />
-      <module name="08.Recursion" />
+  <component name="RunManager" selected="Application.CoverPoints">
+    <configuration name="CoverPoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoverPoints" />
+      <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoverPoints" />
         <item itemvalue="Application.MaxPlusMin" />
         <item itemvalue="Application.MaxAbsoluteDiff" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.PickUpFromBothSides" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611504768371</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added MaxPlusMin">
+      <created>1611504894983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611504894983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="added PickUpFromBothSides" />
     <MESSAGE value="added MaxSubArray" />
     <MESSAGE value="added MaxAbsoluteDiff" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MaxAbsoluteDiff" />
+    <MESSAGE value="added MaxPlusMin" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MaxPlusMin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1611498248218">
@@ -202,26 +211,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="299" key="FileChooserDialogImpl/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498813556" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1611504753967">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1611504882168">
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504753967" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1611504753967">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504882168" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1611504882167">
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504753967" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1611504753967">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504882167" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1611504882167">
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504753967" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1611504753967">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504882167" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1611504882168">
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499362165" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504753967" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504882168" />
     <state x="646" y="294" key="NewModule_or_Project.wizard" timestamp="1611498823983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -230,11 +239,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498829069" />
-    <state x="683" y="1256" key="Vcs.Push.Dialog.v2" timestamp="1611504771300">
+    <state x="683" y="1256" key="Vcs.Push.Dialog.v2" timestamp="1611504906612">
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499417882" />
-    <state x="683" y="1256" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504771300" />
+    <state x="683" y="1256" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611504906612" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611498584795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
