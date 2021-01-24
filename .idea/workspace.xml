@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructureJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataStructureJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.Arrays/PickUpFromBothSides.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +63,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.PickUpFromBothSides">
     <configuration name="ArrayPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPartition" />
       <module name="02.Arrays" />
@@ -87,8 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PickUpFromBothSides" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PickUpFromBothSides" />
+      <module name="02.Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PickUpFromBothSides" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.ArrayPartition" />
         <item itemvalue="Application.InsertionSort" />
@@ -109,6 +120,14 @@
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
     </task>
+    <task id="LOCAL-00001" summary="made repository inline for IJ 😊">
+      <created>1611498876752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611498876752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -129,6 +148,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made repository inline for IJ " />
+    <option name="LAST_COMMIT_MESSAGE" value="made repository inline for IJ " />
+  </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1611498248218">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -146,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="299" key="FileChooserDialogImpl/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498813556" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611498654497">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1611498845453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498654497" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611498654497">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1611498845453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498654497" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611498654497">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1611498845453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498654497" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611498654497">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1611498845453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498654497" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498845453" />
     <state x="646" y="294" key="NewModule_or_Project.wizard" timestamp="1611498823983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -170,9 +193,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498829069" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1611498953053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498953053" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611498584795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498584795" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1611499339975">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611499339975" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 *.iml
 *.class
-.idea
+*.idea
 production
 *.xml
+.idea/workspace.xml
