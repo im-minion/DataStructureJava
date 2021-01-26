@@ -14,10 +14,10 @@ public class ArrayPartition {
             return false;
         }
 
-        return canPartitionDunction(nums, 0, 0, total);
+        return canPartitionFunction(nums, 0, 0, total);
     }
 
-    public static boolean canPartitionDunction(int nums[], int index, int sum, int total) {
+    public static boolean canPartitionFunction(int[] nums, int index, int sum, int total) {
         if(sum * 2 == total) {
             return true;
         }
@@ -25,6 +25,6 @@ public class ArrayPartition {
             return false;
         }
 
-        return canPartitionDunction(nums, index + 1, sum, total) || canPartitionDunction(nums, index + 1, sum + nums[index], total);
+        return canPartitionFunction(nums, index + 1, sum, total) || canPartitionFunction(nums, index + 1, sum + nums[index], total);
     }
 }
