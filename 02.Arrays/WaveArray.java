@@ -17,7 +17,6 @@ public class WaveArray {
     public static ArrayList<Integer> wave(ArrayList<Integer> A) {
         Collections.sort(A);
         ArrayList<Integer> result = new ArrayList<>();
-        int halfSize = A.size() / 2;
         for (int i = 0; i < A.size() - 1; i++) {
             result.add(A.get(i + 1));
             result.add(A.get(i));
