@@ -13,13 +13,20 @@
  * Maximum value occurs for pair (3, 4).
  * */
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class MaxDistance {
 
     public static void main(String[] args) {
-
+        ArrayList<Integer> input = new ArrayList<>();
+        input.add(3);
+        input.add(5);
+        input.add(4);
+        input.add(2);
+        int res = MaxDistance(input);
+        System.out.println(res);
     }
 
     public static int MaxDistance(final List<Integer> A) {
@@ -35,17 +42,19 @@ public class MaxDistance {
         }
         return res;
     }
+
+    static class Pair implements Comparable<Pair> {
+        int val, idx;
+
+        Pair(int val, int idx) {
+            this.val = val;
+            this.idx = idx;
+        }
+
+        public int compareTo(Pair p) {
+            return this.val - p.val;
+        }
+    }
 }
 
-class Pair implements Comparable<Pair> {
-    int val, idx;
 
-    Pair(int val, int idx) {
-        this.val = val;
-        this.idx = idx;
-    }
-
-    public int compareTo(Pair p) {
-        return this.val - p.val;
-    }
-}

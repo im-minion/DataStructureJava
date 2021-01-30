@@ -74,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HotelBooking">
+  <component name="RunManager" selected="Application.MaxDistance">
     <configuration name="HotelBooking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HotelBooking" />
       <module name="02.Arrays" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinLightsToActivate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MinLightsToActivate" />
+    <configuration name="MaxDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaxDistance" />
       <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxDistance" />
         <item itemvalue="Application.HotelBooking" />
         <item itemvalue="Application.WaveArray" />
         <item itemvalue="Application.SortArrayWithSquares" />
         <item itemvalue="Application.SpiralMatrix" />
-        <item itemvalue="Application.MinLightsToActivate" />
       </list>
     </recent_temporary>
   </component>
