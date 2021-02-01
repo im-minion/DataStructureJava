@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02.Arrays/ExcelTitleToNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxUnsortedSubArray">
+  <component name="RunManager" selected="Application.ExcelTitleToNumber">
+    <configuration name="ExcelTitleToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExcelTitleToNumber" />
+      <module name="02.Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelBooking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HotelBooking" />
       <module name="02.Arrays" />
@@ -93,13 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArrayWithSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortArrayWithSquares" />
-      <module name="02.Arrays" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WaveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WaveArray" />
       <module name="02.Arrays" />
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelTitleToNumber" />
         <item itemvalue="Application.MaxUnsortedSubArray" />
         <item itemvalue="Application.MaxDistance" />
         <item itemvalue="Application.HotelBooking" />
         <item itemvalue="Application.WaveArray" />
-        <item itemvalue="Application.SortArrayWithSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612023513652</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added MaxUnsortedSubArray">
+      <created>1612083550869</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612083550869</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -300,7 +308,8 @@
     <MESSAGE value="added Wave Array" />
     <MESSAGE value="added HotelBooking" />
     <MESSAGE value="added MaxDistance" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MaxDistance" />
+    <MESSAGE value="added MaxUnsortedSubArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MaxUnsortedSubArray" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1611498248218">
@@ -329,30 +338,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="299" key="FileChooserDialogImpl/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498813556" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1612025244019">
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1612198596317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611765897288" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612025244019" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611993821693" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1612025244018">
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612198596317" />
+    <state width="1323" height="105" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612083827535" />
+    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1612198596316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611765897287" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612025244018" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611993821693" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1612025244018">
+    <state width="1877" height="189" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612198596316" />
+    <state width="1323" height="105" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612083827535" />
+    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1612198596316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611765897287" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612025244018" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611993821693" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1612025244019">
+    <state width="1877" height="189" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612198596316" />
+    <state width="1323" height="105" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612083827534" />
+    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1612198596316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611765897288" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612025244019" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611993821693" />
+    <state width="1877" height="189" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612198596316" />
+    <state width="1323" height="105" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612083827535" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1612025244019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -393,12 +402,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612016934739" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1612023516343">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="683" y="1256" key="Vcs.Push.Dialog.v2" timestamp="1612083563925">
+      <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611766147054" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612023516343" />
-    <state x="683" y="1256" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611993841636" />
+    <state x="683" y="1256" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612083563925" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611498584795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
