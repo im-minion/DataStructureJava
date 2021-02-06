@@ -33,10 +33,7 @@ public class NumLenLessThanK {
         int result = 0;
 
         // A = [0, 0, 1, 2, 2, 3] -> A = [0, 1, 2, 3]
-        Set<Integer> aSet = new HashSet<>();
-        for (int d : A) {
-            aSet.add(d);
-        }
+        Set<Integer> aSet = new HashSet<>(A);
         A.clear();
         A.addAll(aSet);
 
@@ -76,7 +73,6 @@ public class NumLenLessThanK {
         // C = 101
         // "101" has 3 digits, which equals with B.
         boolean isFirst = true;
-        int prevCnt = 0;
         for (int digit : cList) {
             int cnt = 0;
             if (isFirst && B > 1) {
