@@ -20,7 +20,7 @@ import java.util.Set;
 
 public class NumLenLessThanK {
     public static void main(String[] args) {
-        ArrayList<Integer> r = new ArrayList<Integer>();
+        ArrayList<Integer> r = new ArrayList<>();
         r.add(0);
         r.add(1);
         r.add(5);
