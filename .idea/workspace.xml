@@ -24,8 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Arrays/BinarySearch_RotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/02.Arrays/BinarySearch_RotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.Arrays/NumLenLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/02.Arrays/NumLenLessThanK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Strings/CountAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/03.Strings/CountAndSay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,17 +72,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchForARange">
-    <configuration name="BinarySearch_FindCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch_FindCount" />
+  <component name="RunManager" selected="Application.CountAndSay">
+    <configuration name="BinarySearch_RotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch_RotatedSortedArray" />
       <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch_RotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch_RotatedSortedArray" />
-      <module name="02.Arrays" />
+    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountAndSay" />
+      <module name="03.Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountAndSay" />
         <item itemvalue="Application.SearchForARange" />
         <item itemvalue="Application.NumLenLessThanK" />
         <item itemvalue="Application.Power" />
         <item itemvalue="Application.BinarySearch_RotatedSortedArray" />
-        <item itemvalue="Application.BinarySearch_FindCount" />
       </list>
     </recent_temporary>
   </component>
@@ -414,11 +413,11 @@
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state x="728" y="1146" key="#xdebugger.evaluate/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611989547588" />
-    <state x="355" y="1144" width="1236" height="600" key="DiffContextDialog" timestamp="1611764488862">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="101" y="108" width="1736" height="856" key="DiffContextDialog" timestamp="1613581513840">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="1144" width="1236" height="600" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1611764488862" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498200639" />
+    <state x="101" y="108" width="1736" height="856" key="DiffContextDialog/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1613581513840" />
     <state x="355" y="1144" width="1236" height="600" key="DiffContextDialog/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611589719156" />
     <state x="761" y="299" key="FileChooserDialogImpl" timestamp="1611498813556">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -507,11 +506,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612542314898" />
-    <state x="623" y="225" width="670" height="58" key="search.everywhere.popup" timestamp="1612966557140">
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup" timestamp="1613584242346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="733" y="1238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708250308" />
-    <state x="623" y="225" width="670" height="58" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612966557140" />
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1613584242346" />
     <state x="733" y="1238" width="672" height="678" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612361834445" />
   </component>
   <component name="XDebuggerManager">

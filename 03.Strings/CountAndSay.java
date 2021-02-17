@@ -1,6 +1,6 @@
 public class CountAndSay {
     public static void main(String[] args) {
-        int test = 1122;
+        int test = 5;
         String output = countAndSay(test);
         System.out.println(output);
     }
