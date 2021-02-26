@@ -9,7 +9,7 @@ public class PrettyJSON {
     }
 
     public static ArrayList<String> prettyJSON(String json) {
-        ArrayList<String> result = new ArrayList<String>();
+        ArrayList<String> result = new ArrayList<>();
         int multiplier = 0;
         int i = 0;
 
@@ -39,10 +39,6 @@ public class PrettyJSON {
     }
 
     private static String getSpaceString(int multiplier) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < multiplier; i++) {
-            sb.append("\t");
-        }
-        return sb.toString();
+        return "\t".repeat(Math.max(0, multiplier));
     }
 }
