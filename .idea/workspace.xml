@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/02.Arrays/DiskSpaceAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.Strings/ReformattingDates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Strings/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/03.Strings/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +73,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayPartition">
+  <component name="RunManager" selected="Application.ReformattingDates">
     <configuration name="ArrayPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPartition" />
+      <module name="02.Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiskSpaceAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiskSpaceAnalysis" />
       <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,15 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOnlyLettersTwoPointers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseOnlyLettersTwoPointers" />
-      <module name="03.Strings" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseSentenceKeepWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseSentenceKeepWords" />
+    <configuration name="ReformattingDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReformattingDates" />
       <module name="03.Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReformattingDates" />
+        <item itemvalue="Application.DiskSpaceAnalysis" />
         <item itemvalue="Application.ArrayPartition" />
         <item itemvalue="Application.PrettyJSON" />
         <item itemvalue="Application.LargestRectangleArea" />
-        <item itemvalue="Application.ReverseSentenceKeepWords" />
-        <item itemvalue="Application.ReverseOnlyLettersTwoPointers" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614331024446</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="modified ArrayPartition and ValidAnagram.java">
+      <created>1614400591944</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1614400591944</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -412,7 +420,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added MaxPlusMin" />
     <MESSAGE value="added CoverPoints" />
     <MESSAGE value="added MaxTriplet" />
     <MESSAGE value="added Min Lights To Activate" />
@@ -437,7 +444,8 @@
     <MESSAGE value="added LargestRectangleArea PrettyJSON" />
     <MESSAGE value="corrected PrettyJSON" />
     <MESSAGE value="refactoreed pretty json" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoreed pretty json" />
+    <MESSAGE value="modified ArrayPartition and ValidAnagram.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified ArrayPartition and ValidAnagram.java" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1611498248218">
@@ -448,10 +456,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1611498480856" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1613569127065">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="834" y="1175" key="#com.intellij.ide.util.MemberChooser" timestamp="1614407216328">
+      <screen x="290" y="1080" width="1366" height="728" />
     </state>
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1613569127065" />
+    <state x="834" y="1175" key="#com.intellij.ide.util.MemberChooser/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1614407216328" />
     <state x="728" y="1146" key="#xdebugger.evaluate" timestamp="1611989547588">
       <screen x="290" y="1080" width="1366" height="728" />
     </state>
@@ -460,47 +469,47 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="404" height="466" key="DebuggerActiveHint/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1613826156921" />
-    <state x="101" y="108" width="1736" height="856" key="DiffContextDialog" timestamp="1613581513840">
+    <state x="101" y="108" width="1736" height="856" key="DiffContextDialog" timestamp="1614421880834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="355" y="1144" width="1236" height="600" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1611764488862" />
-    <state x="101" y="108" width="1736" height="856" key="DiffContextDialog/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1613581513840" />
+    <state x="101" y="108" width="1736" height="856" key="DiffContextDialog/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614421880834" />
     <state x="355" y="1144" width="1236" height="600" key="DiffContextDialog/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1611589719156" />
     <state x="761" y="299" key="FileChooserDialogImpl" timestamp="1614316050161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="299" key="FileChooserDialogImpl/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614316050161" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1614331006437">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="61" key="GridCell.Tab.0.bottom" timestamp="1614411927605">
+      <screen x="290" y="1080" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611765897288" />
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1614400526506" />
     <state width="1323" height="116" key="GridCell.Tab.0.bottom/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708554493" />
     <state width="1877" height="288" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614331006437" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1613804747747" />
+    <state width="1323" height="61" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1614411927605" />
     <state width="1318" height="241" key="GridCell.Tab.0.bottom/290.1080.1366.728/0.0.1920.1080@0.0.1920.1080" timestamp="1613486270391" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1614331006437">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="61" key="GridCell.Tab.0.center" timestamp="1614411927605">
+      <screen x="290" y="1080" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611765897287" />
+    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1614400526506" />
     <state width="1323" height="116" key="GridCell.Tab.0.center/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708554493" />
     <state width="1877" height="288" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614331006437" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1613804747747" />
+    <state width="1323" height="61" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1614411927605" />
     <state width="1318" height="241" key="GridCell.Tab.0.center/290.1080.1366.728/0.0.1920.1080@0.0.1920.1080" timestamp="1613486270390" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1614331006437">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="61" key="GridCell.Tab.0.left" timestamp="1614411927605">
+      <screen x="290" y="1080" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611765897287" />
+    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1614400526506" />
     <state width="1323" height="116" key="GridCell.Tab.0.left/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708554492" />
     <state width="1877" height="288" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614331006437" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1613804747746" />
+    <state width="1323" height="61" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1614411927605" />
     <state width="1318" height="241" key="GridCell.Tab.0.left/290.1080.1366.728/0.0.1920.1080@0.0.1920.1080" timestamp="1613486270389" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1614331006437">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1323" height="61" key="GridCell.Tab.0.right" timestamp="1614411927605">
+      <screen x="290" y="1080" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611765897288" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1614400526506" />
     <state width="1323" height="116" key="GridCell.Tab.0.right/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708554493" />
     <state width="1877" height="288" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614331006437" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1613804747747" />
+    <state width="1323" height="61" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1614411927605" />
     <state width="1318" height="241" key="GridCell.Tab.0.right/290.1080.1366.728/0.0.1920.1080@0.0.1920.1080" timestamp="1613486270391" />
     <state width="1877" height="482" key="GridCell.Tab.1.bottom" timestamp="1613841400588">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -542,10 +551,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="681" y="261" width="540" height="524" key="StructurePopup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1612016934739" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1614331238788">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1614400602888">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1611766147054" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1614400602888" />
     <state x="683" y="1256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708577752" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614331238788" />
     <state x="683" y="1256" key="Vcs.Push.Dialog.v2/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1612718126392" />
@@ -557,12 +566,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614332812560" />
-    <state x="443" y="158" width="672" height="160" key="search.everywhere.popup" timestamp="1614399242482">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup" timestamp="1614421806791">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="443" y="158" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614399242482" />
+    <state x="443" y="158" width="672" height="160" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1614400561203" />
     <state x="733" y="1238" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/290.1080.1366.728@290.1080.1366.728" timestamp="1612708250308" />
-    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1613826881343" />
+    <state x="623" y="225" width="672" height="160" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614421806791" />
     <state x="733" y="1238" width="672" height="678" key="search.everywhere.popup/290.1080.1366.728/0.0.1920.1040@290.1080.1366.728" timestamp="1613820143840" />
   </component>
   <component name="XDebuggerManager">
@@ -592,6 +601,11 @@
           <url>file://$PROJECT_DIR$/05.Stack/LargestRectangleArea.java</url>
           <line>18</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03.Strings/ReformattingDates.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
