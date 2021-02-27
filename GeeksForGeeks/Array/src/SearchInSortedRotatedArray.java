@@ -5,23 +5,23 @@ public class SearchInSortedRotatedArray {
         System.out.println(op);
     }
 
-    private static int searchInArray(int[] arr, int k) {
-        return bSearch(arr, 0, arr.length - 1, k);
+    private static int searchInArray(int[] arr, int toBeSearched) {
+        return bSearch(arr, 0, arr.length - 1, toBeSearched);
     }
 
-    private static int bSearch(int[] arr, int low, int high, int k) {
+    private static int bSearch(int[] arr, int low, int high, int toBeSearched) {
         while (low <= high) {
             int mid = (low + high) / 2;
-            if (arr[mid] == k) {
+            if (arr[mid] == toBeSearched) {
                 return mid;
             } else if (arr[mid] >= arr[low]) {
-                if (k >= arr[low] && k <= arr[mid]) {
+                if (toBeSearched >= arr[low] && toBeSearched <= arr[mid]) {
                     high = mid - 1;
                 } else {
                     low = mid + 1;
                 }
             } else {
-                if (k >= arr[mid] && k <= arr[high]) {
+                if (toBeSearched >= arr[mid] && toBeSearched <= arr[high]) {
                     low = mid + 1;
                 } else {
                     high = mid - 1;
