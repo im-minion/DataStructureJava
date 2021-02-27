@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class RotateArray {
     public static void main(String[] args) {
-        int[] Arr = {1, 2, 3, 4, 5};
+        int[] Arr = {1, 2, 3, 4, 5, 6, 7};
         int[] newArr = rotateArray(Arr, 2);
         Arrays.stream(newArr).boxed().forEach(System.out::println);
     }
