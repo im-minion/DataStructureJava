@@ -45,6 +45,7 @@ public class RearrangeAOfItoI {
         for (int i = 0; i < arr.length; ) {
             // if arr[i]>0 and arr[i] != i then something needs to be done else array is inline
             if (arr[i] >= 0 && arr[i] != i) {
+                // swap arr[i] <=> arr[arr[i]]
                 int ele = arr[arr[i]];
                 arr[arr[i]] = arr[i];
                 arr[i] = ele;
