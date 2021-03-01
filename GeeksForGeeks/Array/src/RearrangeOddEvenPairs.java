@@ -1,13 +1,33 @@
 import java.util.Arrays;
 
+/*
+    Rearrange array such that arr[i] >= arr[j] if i is even and arr[i]<=arr[j] if i is odd and j < i
+    Difficulty Level : Medium
+    https://www.geeksforgeeks.org/rearrange-array-arri-arrj-even-arri/
+
+    Given an array of n elements.
+    Our task is to write a program to rearrange the array such that
+    elements at even positions are greater than all elements before it and elements at odd positions are less than all elements before it.
+
+    Examples:
+
+    Input : arr[] = {1, 2, 3, 4, 5, 6, 7}
+    Output : 4 5 3 6 2 7 1
+
+    Input : arr[] = {1, 2, 1, 4, 5, 6, 8, 8}
+    Output : 4 5 2 6 1 8 1 8
+*/
+
 public class RearrangeOddEvenPairs {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7}; // op => 4 5 3 6 2 7 1
 
-        // 3 4 2 5 1 6 0 => 7 elements
+        int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8}; // op => 4 5 3 6 2 7 1 8
+
+        // 3 4 2 5 1 6 0 => 7 elements Index in op
         // 4 5 3 6 2 7 1
 
-        // 3 4 2 5 1 6 0 7 = > 8 elements
+        // 3 4 2 5 1 6 0 7 => 8 elements Index in op
         // 4 5 3 6 2 7 1 8
 
         int[] out = reArrange(arr);
