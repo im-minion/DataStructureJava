@@ -25,10 +25,10 @@ public class ReorderArray {
         int[] arr = {50, 40, 70, 60, 90};
         int[] indexes = {3, 0, 4, 1, 2};
         reOrder(arr, indexes);
-//        Arrays.stream(arr).forEach(System.out::print);
+        // Arrays.stream(arr).forEach(System.out::print);
     }
 
-    // O(n)
+    // O(n) space and O(n) time
     private static void reOrder(int[] arr, int[] indexes) {
         int n = arr.length;
         int[] newArr = new int[arr.length];
