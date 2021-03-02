@@ -1,3 +1,5 @@
+package rearrange;
+
 import java.util.Arrays;
 
 /*
@@ -17,24 +19,37 @@ import java.util.Arrays;
 public class RearrangePosNeg {
     public static void main(String[] args) {
         int[] arr = {-12, 11, 0, -5, 6, -7, 5, -3, -6};
-        reArrangeWithSingleTraversal(arr);
-        Arrays.stream(arr).boxed().forEach(System.out::print);
+        reArrange(arr);
+        Arrays.stream(arr).forEach(System.out::print);
     }
 
-    // o(n) , single traversal;
-    private static void reArrangeWithSingleTraversal(int[] arr) {
+    private static void reArrange(int[] arr) {
         int n = arr.length;
         int i = 0;
-        int lastNonZeroIndex = -1;
+        int j = 0;
 
-        while (i < n) {
-            if (arr[i] < 0) {
-                lastNonZeroIndex++;
-                int t = arr[lastNonZeroIndex];
-                arr[lastNonZeroIndex] = arr[i];
-                arr[i] = t;
+        while (j < n) {
+            if (arr[j] < 0) {
+                //rotate
+                //increment i
+                rotateRight(arr, i, j);
+                i++;
+            } else if (arr[j] == 0) {
+                // rotate
+                rotateRight(arr, i, j);
             }
-            i++;
+            j++;
+
         }
+    }
+
+    private static void rotateRight(int[] arr, int start, int end) {
+        // 1 2 3 4 => 4 1 2 3
+        int temp = arr[end];
+        int i;
+        for (i = end; i > start; i--) {
+            arr[i] = arr[i - 1];
+        }
+        arr[i] = temp;
     }
 }

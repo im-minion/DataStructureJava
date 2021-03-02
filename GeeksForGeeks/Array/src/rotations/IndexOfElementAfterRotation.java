@@ -1,3 +1,5 @@
+package rotations;
+
 /*
    URL :https://www.geeksforgeeks.org/find-element-given-index-number-rotations/
    An array consisting of N integers is given.

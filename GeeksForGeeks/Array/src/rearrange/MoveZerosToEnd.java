@@ -1,11 +1,13 @@
+package rearrange;
+
 import java.util.Arrays;
 
 public class MoveZerosToEnd {
     public static void main(String[] args) {
-        int[] arr = {1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0};
+        int[] arr = {0, 0, 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0};
         //     op => 1  9  8  4  2  7  6  0  0  0  0
         reArrangeWithSingleTraversal(arr);
-        Arrays.stream(arr).boxed().forEach(System.out::print);
+        Arrays.stream(arr).forEach(System.out::print);
     }
 
     // o(n) , while loop is twice
@@ -34,10 +36,12 @@ public class MoveZerosToEnd {
 
         while (i < n) {
             if (arr[i] != 0) {
-                lastNonZeroIndex++;
-                int t = arr[lastNonZeroIndex];
-                arr[lastNonZeroIndex] = arr[i];
-                arr[i] = t;
+                if(i != lastNonZeroIndex) {
+                    lastNonZeroIndex++;
+                    int t = arr[lastNonZeroIndex];
+                    arr[lastNonZeroIndex] = arr[i];
+                    arr[i] = t;
+                }
             }
             i++;
         }

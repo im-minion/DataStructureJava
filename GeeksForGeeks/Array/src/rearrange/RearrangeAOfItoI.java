@@ -1,3 +1,5 @@
+package rearrange;
+
 import java.util.Arrays;
 
 /*

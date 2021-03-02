@@ -1,3 +1,5 @@
+package rotations;
+
 public class MinInSortedRotated {
     public static void main(String[] args) {
         int[] arr = {5, 6, 7, 8, 0, 1, 2, 3, 4};

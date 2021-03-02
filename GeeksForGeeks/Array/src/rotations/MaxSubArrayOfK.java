@@ -1,3 +1,5 @@
+package rotations;
+
 public class MaxSubArrayOfK {
     public static void main(String[] args) {
         int[] Arr = {1, 12, 3, 4, 10};

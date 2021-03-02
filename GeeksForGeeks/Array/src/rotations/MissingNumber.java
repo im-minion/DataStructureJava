@@ -1,3 +1,4 @@
+package rotations;
 
 public class MissingNumber {
     /*

@@ -1,3 +1,5 @@
+package rotations;
+
 import java.util.HashSet;
 
 public class CountTriplet {
