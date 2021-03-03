@@ -7,8 +7,6 @@ And if the given numbers are {1, 34, 3, 98, 9, 76, 45, 4}, then the arrangement 
 */
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
