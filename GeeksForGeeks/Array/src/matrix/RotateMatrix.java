@@ -71,15 +71,5 @@ public class RotateMatrix {
             colBegin++;
         }
 
-        // Print rotated matrix
-//        for (int i = 0; i < R; i++)
-//        {
-//            for (int j = 0; j < C; j++)
-//                System.out.print( arr[i][j] + " ");
-//            System.out.print("\n");
-//        }
-
-//    }
-
     }
 }

@@ -36,28 +36,76 @@ Rotated the input matrix by
 public class Rotate90ClockAndAntiClock {
     public static void main(String[] args) {
 
-        // AntiClockwise
+        // AntiClockwise - constant space
         int[][] arr = {
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12},
-                {13, 14, 15, 16}
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
         };
 
         rotate90(arr);
         flipEachColumn(arr);
+        System.out.println("Anticlockwise ::::");
         MatrixUtil.printMatrix(arr);
 
-        System.out.println("\n\n");
-
-        // ClockWise
-        int[][] arr2 = {{1, 2, 3},
+        // AntiClockwise - extra space
+        int[][] arr3 = {
+                {1, 2, 3},
                 {4, 5, 6},
-                {7, 8, 9}};
+                {7, 8, 9}
+        };
+
+        int[][] outArr = rotateClockWiseWithExtraSpace(arr3);
+        System.out.println("Anticlockwise with extra space ::::");
+        MatrixUtil.printMatrix(outArr);
+
+        System.out.println("\n");
+
+        // ClockWise - constant space
+        int[][] arr2 = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
 
         rotate90(arr2);
         flipEachRow(arr2);
+        System.out.println("Clockwise ::::");
         MatrixUtil.printMatrix(arr2);
+
+
+        // ClockWise - extra space
+        int[][] arr4 = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+        System.out.println("Clockwise wit extra space ::::");
+        int[][] outArr2 = rotateAntiClockWiseWithExtraSpace(arr4);
+        MatrixUtil.printMatrix(outArr2);
+    }
+
+    private static int[][] rotateAntiClockWiseWithExtraSpace(int[][] arr) {
+        int[][] brr = new int[arr.length][arr[0].length];
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0, k = arr.length - 1; j < arr.length; j++, k--) {
+                brr[i][j] = arr[k][i];
+            }
+        }
+        return brr;
+    }
+
+    private static int[][] rotateClockWiseWithExtraSpace(int[][] arr) {
+        int[][] brr = new int[arr.length][arr[0].length];
+
+        for (int i = 0, k = arr.length - 1; i < arr.length; i++, k--) {
+            for (int j = 0; j < arr.length; j++) {
+                brr[i][j] = arr[j][k];
+            }
+        }
+
+        return brr;
     }
 
 
