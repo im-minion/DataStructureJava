@@ -1,5 +1,35 @@
 package matrix;
 
+/*
+Rotate Matrix Elements
+Difficulty Level : Hard
+Last Updated : 22 Jul, 2019
+Given a matrix, clockwise rotate elements in it.
+Examples:
+
+Input
+1    2    3
+4    5    6
+7    8    9
+
+Output:
+4    1    2
+7    5    3
+8    9    6
+
+For 4*4 matrix
+Input:
+1    2    3    4
+5    6    7    8
+9    10   11   12
+13   14   15   16
+
+Output:
+5    1    2    3
+9    10   6    4
+13   11   7    8
+14   15   16   12
+*/
 public class RotateMatrix {
     public static void main(String[] args) {
         // Test Case 1
@@ -22,6 +52,7 @@ public class RotateMatrix {
 
     }
 
+    // ClockWise
     private static void rotateMatrix(int r, int c, int[][] arr) {
         int rowBegin = 0;
         int rowEnd = r;
@@ -29,7 +60,6 @@ public class RotateMatrix {
         int colEnd = c;
         int prev, curr;
         while (rowBegin <= rowEnd && colBegin <= colEnd) {
-            // 00 => 01
             if (rowBegin + 1 == rowEnd || colBegin + 1 == colEnd)
                 break;
             prev = arr[rowBegin + 1][colBegin];
@@ -51,25 +81,26 @@ public class RotateMatrix {
             colEnd--;
 
             // Move elements of last row from the remaining rows
-            if (rowBegin < rowEnd) {
-                for (int i = colEnd - 1; i >= colBegin; i--) {
-                    curr = arr[rowEnd - 1][i];
-                    arr[rowEnd - 1][i] = prev;
-                    prev = curr;
-                }
+//            if (rowBegin < rowEnd) {
+            for (int i = colEnd - 1; i >= colBegin; i--) {
+                curr = arr[rowEnd - 1][i];
+                arr[rowEnd - 1][i] = prev;
+                prev = curr;
             }
+//            }
             rowEnd--;
 
             // Move elements of first column from the remaining rows
-            if (colBegin < colEnd) {
-                for (int i = rowEnd - 1; i >= rowBegin; i--) {
-                    curr = arr[i][colBegin];
-                    arr[i][colBegin] = prev;
-                    prev = curr;
-                }
+//            if (colBegin < colEnd) {
+            for (int i = rowEnd - 1; i >= rowBegin; i--) {
+                curr = arr[i][colBegin];
+                arr[i][colBegin] = prev;
+                prev = curr;
             }
+//            }
             colBegin++;
         }
-
     }
+
+
 }
