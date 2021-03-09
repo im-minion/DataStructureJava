@@ -40,10 +40,6 @@ public class KthSmallestAbsoluteDifference {
             }
         }
         Collections.sort(diffs);
-//        if (diffs.size() > k - 1)
         return diffs.get(k - 1);
-//        else {
-
-//        }
     }
 }
