@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change beforePath="$PROJECT_DIR$/.idea/DataStructureJava.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/MaxSubArraySumExcludeSomeElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/SearchElementAppearsOnlyOnce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +87,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchArrayAdjDiffK">
-    <configuration name="ArrayTwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.ArrayTwoSum" />
+  <component name="RunManager" selected="Application.MaxSubArraySumExcludeSomeElement">
+    <configuration name="MaxSubArraySumExcludeSomeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.MaxSubArraySumExcludeSomeElement" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
@@ -104,25 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.BinarySearch" />
+    <configuration name="OnlyRepetitiveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.OnlyRepetitiveElement" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxMinWithMinComparisons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orderstatistics.MaxMinWithMinComparisons" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="orderstatistics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,20 +127,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoSum" />
-      <module name="02.Arrays" />
+    <configuration name="SearchElementAppearsOnlyOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.SearchElementAppearsOnlyOnce" />
+      <module name="Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInInfiniteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching.SearchInInfiniteArray" />
+      <module name="Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArraySumExcludeSomeElement" />
+        <item itemvalue="Application.SearchElementAppearsOnlyOnce" />
+        <item itemvalue="Application.OnlyRepetitiveElement" />
+        <item itemvalue="Application.SearchInInfiniteArray" />
         <item itemvalue="Application.SearchArrayAdjDiffK" />
-        <item itemvalue="Application.ArrayTwoSum" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MaxMinWithMinComparisons" />
       </list>
     </recent_temporary>
   </component>
@@ -172,20 +175,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00044" summary="added RearrangeAOfItoI">
-      <created>1614532032466</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1614532032466</updated>
-    </task>
-    <task id="LOCAL-00045" summary="added RearrangeAOfItoI">
-      <created>1614532061084</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1614532061084</updated>
     </task>
     <task id="LOCAL-00046" summary="added ReverseArray">
       <created>1614582138457</created>
@@ -516,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615309898070</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="added Arrays Sort &gt; SearchArrayAdjDiffK">
+      <created>1615311585766</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1615311585766</updated>
+    </task>
+    <task id="LOCAL-00094" summary="added Arrays Search 🔎 &gt; SearchInInfiniteArray, OnlyRepetitiveElement">
+      <created>1615313794928</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1615313794928</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -539,8 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added matrix RotateMatrix" />
-    <MESSAGE value="added matrix Rotate90ClockAndAntiClock RotateMatrix" />
     <MESSAGE value="added matrix RotateMatrix, RotateMatrixAntiClockwise" />
     <MESSAGE value="added matrix RotateImageBy90" />
     <MESSAGE value="added matrix CheckIsRotated" />
@@ -564,7 +565,9 @@
     <MESSAGE value="added MaxMinWithMinComparisons, MaxSumNoAdj" />
     <MESSAGE value="added Search  BinarySearch" />
     <MESSAGE value="added Arrays Sort &gt; ArrayTwoSum" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Arrays Sort &gt; ArrayTwoSum" />
+    <MESSAGE value="added Arrays Sort &gt; SearchArrayAdjDiffK" />
+    <MESSAGE value="added Arrays Search  &gt; SearchInInfiniteArray, OnlyRepetitiveElement" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Arrays Search  &gt; SearchInInfiniteArray, OnlyRepetitiveElement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -888,6 +891,11 @@
           <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/BinarySearch.java</url>
           <line>10</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/OnlyRepetitiveElement.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
