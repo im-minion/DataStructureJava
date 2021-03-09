@@ -4,3 +4,4 @@
 production
 *.xml
 .idea/workspace.xml
+/.idea
