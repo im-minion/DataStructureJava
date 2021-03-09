@@ -18,12 +18,12 @@ Output : 9 6 6 5
 public class KMaxSumsOverlapContiguousSubArray {
     public static void main(String[] args) {
         int[] arr = {4, 1, 1, -1, -3, -5, 6, 2, -6, -2};
-        int sum = 3;
-        List<Integer> op = getResult(arr, sum);
+        int k = 3;
+        List<Integer> op = getResult(arr, k);
         System.out.println(op);
     }
 
-    private static List<Integer> getResult(int[] arr, int sum) {
+    private static List<Integer> getResult(int[] arr, int k) {
         List<Integer> op = new ArrayList<>();
 //        Tried the sliding window but failed
 //        int n = arr.length;
