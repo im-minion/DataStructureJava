@@ -32,6 +32,15 @@ public class MajorityElement {
 
         op = getMajor(a);
         System.out.println(op);
+
+        a = new int[]{1, 2, 2, 2, 3, 3, 10};
+        int isThisMajor = 3;
+        boolean opB = checkMajorityInSorted(a, isThisMajor);
+        System.out.println(opB);
+    }
+
+    private static boolean checkMajorityInSorted(int[] arr, int isThisMajor) {
+        return arr[arr.length / 2] == isThisMajor;
     }
 
     private static int getMajor(int[] arr) {
