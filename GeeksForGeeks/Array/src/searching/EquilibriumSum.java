@@ -20,12 +20,13 @@ Suffix sum of arr[3..7]
 */
 public class EquilibriumSum {
     public static void main(String[] args) {
-        int[] arr = {-2, 5, 3, 1, 2, 6, -4, 2};
+        int[] arr = {1, 2, 3};
         int n = arr.length;
-        System.out.println(findMaxSum(arr, n));
+        System.out.println(findEquilibriumSum(arr, n));
+        System.out.println(findEquilibriumIndex(arr, n));
     }
 
-    private static int findMaxSum(int[] arr, int n) {
+    private static int findEquilibriumSum(int[] arr, int n) {
         int i = 0, j = n - 1;
         int[] firstSum = new int[n];
         int[] secondSum = new int[n];
@@ -42,6 +43,28 @@ public class EquilibriumSum {
         for (int x = 0; x < n; x++) {
             if (firstSum[x] == secondSum[x]) {
                 return firstSum[x];
+            }
+        }
+        return -1;
+    }
+
+    private static int findEquilibriumIndex(int[] arr, int n) {
+        int i = 0, j = n - 1;
+        int[] firstSum = new int[n];
+        int[] secondSum = new int[n];
+        firstSum[i] = arr[i];
+        secondSum[j] = arr[j];
+        i++;
+        j--;
+        while (i < n && j >= 0) {
+            firstSum[i] = firstSum[i - 1] + arr[i];
+            i++;
+            secondSum[j] = secondSum[j + 1] + arr[j];
+            j--;
+        }
+        for (int x = 0; x < n; x++) {
+            if (firstSum[x] == secondSum[x]) {
+                return x;
             }
         }
         return -1;
