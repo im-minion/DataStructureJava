@@ -44,11 +44,9 @@ public class MOsAlgorithm {
     private static List<Integer> getQuerySumsMO(int[] arr, int n, List<Query> q, int m) {
         int block = (int) Math.sqrt(n);
         List<Integer> op = new ArrayList<>();
-        // Sort all queries so that queries of same blocks
-        // are arranged together.
-        // Function used to sort all queries so that all queries
-// of the same block are arranged together and within a block,
-// queries are sorted in increasing order of R values.
+        // Sort all queries so that queries of same blocks are arranged together.
+        // Function used to sort all queries so that all queries of the same block are arranged together and within a block,
+        // queries are sorted in increasing order of R values.
         q.sort((x, y) -> {
 
             // Different blocks, sort by block.
