@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/MaxSubArraySumExcludeSomeElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/SearchElementAppearsOnlyOnce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/SortInWaveForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/SortingWithAbsoluteDiff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,13 +91,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSubArraySumExcludeSomeElement">
-    <configuration name="MaxSubArraySumExcludeSomeElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.MaxSubArraySumExcludeSomeElement" />
+  <component name="RunManager" selected="Application.SortingWithAbsoluteDiff">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.BubbleSort" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnlyRepetitiveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.OnlyRepetitiveElement" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.InsertionSort" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchArrayAdjDiffK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.SearchArrayAdjDiffK" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.QuickSort" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchElementAppearsOnlyOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.SearchElementAppearsOnlyOnce" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.SelectionSort" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInInfiniteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.SearchInInfiniteArray" />
+    <configuration name="SortingWithAbsoluteDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.SortingWithAbsoluteDiff" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxSubArraySumExcludeSomeElement" />
-        <item itemvalue="Application.SearchElementAppearsOnlyOnce" />
-        <item itemvalue="Application.OnlyRepetitiveElement" />
-        <item itemvalue="Application.SearchInInfiniteArray" />
-        <item itemvalue="Application.SearchArrayAdjDiffK" />
+        <item itemvalue="Application.SortingWithAbsoluteDiff" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -175,125 +179,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00046" summary="added ReverseArray">
-      <created>1614582138457</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1614582138457</updated>
-    </task>
-    <task id="LOCAL-00047" summary="added RearrangeOddEvenPairs, RearrangePositiveNegative">
-      <created>1614585100918</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1614585100918</updated>
-    </task>
-    <task id="LOCAL-00048" summary="added MoveZerosToEnd">
-      <created>1614590392820</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1614590392820</updated>
-    </task>
-    <task id="LOCAL-00049" summary="added MinSwapRequired">
-      <created>1614599589214</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1614599589214</updated>
-    </task>
-    <task id="LOCAL-00050" summary="added RearrangeSmallLargeSmallLarge">
-      <created>1614616976392</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1614616976393</updated>
-    </task>
-    <task id="LOCAL-00051" summary="added RearrangePosNeg">
-      <created>1614617701583</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1614617701583</updated>
-    </task>
-    <task id="LOCAL-00052" summary="added and refactored">
-      <created>1614668534898</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1614668534898</updated>
-    </task>
-    <task id="LOCAL-00053" summary="added RearrangePositiveNegativeWithOrder">
-      <created>1614672428669</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1614672428669</updated>
-    </task>
-    <task id="LOCAL-00054" summary="added ReorderArray">
-      <created>1614698508279</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1614698508280</updated>
-    </task>
-    <task id="LOCAL-00055" summary="added ReorderArray">
-      <created>1614705843899</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1614705843899</updated>
-    </task>
-    <task id="LOCAL-00056" summary="added RearrangePositiveOddNegativeEven">
-      <created>1614788104824</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1614788104824</updated>
-    </task>
-    <task id="LOCAL-00057" summary="added RearrangeArrItoJ, RearrangeMaxMinInSortedArray">
-      <created>1614791638373</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1614791638374</updated>
-    </task>
-    <task id="LOCAL-00058" summary="added RearrangeMaxMinInSortedArray">
-      <created>1614795027561</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1614795027561</updated>
-    </task>
-    <task id="LOCAL-00059" summary="added EvenIndexSmallOddIndexBig, MoveNegToStarPosToEnd">
-      <created>1614796993053</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1614796993054</updated>
-    </task>
-    <task id="LOCAL-00060" summary="added ReplaceWithMul SegregateEvenOdd, done with all rearrange">
-      <created>1614798328560</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1614798328560</updated>
-    </task>
-    <task id="LOCAL-00061" summary="added orderstatistics problems">
-      <created>1614882161735</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1614882161736</updated>
-    </task>
-    <task id="LOCAL-00062" summary="added orderstatistics ElementsAtleastHas2GreaterElement">
-      <created>1614883592704</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1614883592704</updated>
     </task>
     <task id="LOCAL-00063" summary="added orderstatistics MeanMedian">
       <created>1614884334945</created>
@@ -519,7 +404,126 @@
       <option name="project" value="LOCAL" />
       <updated>1615313794928</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="added Arrays Search 🔎 &gt; MaxSubArraySumExcludeSomeElement, SearchElementAppearsOnlyOnce">
+      <created>1615315561592</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1615315561592</updated>
+    </task>
+    <task id="LOCAL-00096" summary="added Arrays Search 🔎 &gt; EquilibriumSum">
+      <created>1615386218593</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1615386218593</updated>
+    </task>
+    <task id="LOCAL-00097" summary="added Arrays Search 🔎 &gt; EquilibriumSum">
+      <created>1615386407146</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1615386407146</updated>
+    </task>
+    <task id="LOCAL-00098" summary="added Arrays Search 🔎 &gt; LeadersInArray">
+      <created>1615387161806</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1615387161806</updated>
+    </task>
+    <task id="LOCAL-00099" summary="added Arrays Search 🔎 &gt; FloorCeil">
+      <created>1615397511678</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1615397511678</updated>
+    </task>
+    <task id="LOCAL-00100" summary="added Arrays Search 🔎 &gt; MajorityElement">
+      <created>1615398816047</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1615398816047</updated>
+    </task>
+    <task id="LOCAL-00101" summary="added Arrays Search 🔎 &gt; MajorityElement">
+      <created>1615399202488</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1615399202488</updated>
+    </task>
+    <task id="LOCAL-00102" summary="added Arrays Search 🔎 &gt; PeakElement">
+      <created>1615400244805</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1615400244806</updated>
+    </task>
+    <task id="LOCAL-00103" summary="added Arrays Search 🔎 &gt; MaxTripletSum, SubArrayWithGivenSum">
+      <created>1615447648720</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1615447648720</updated>
+    </task>
+    <task id="LOCAL-00104" summary="added Arrays Search 🔎 &gt; SmallestDiffTriplet, TripletWithGivenSum">
+      <created>1615455776001</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1615455776001</updated>
+    </task>
+    <task id="LOCAL-00105" summary="started Range Queries ⁉ &gt; MOsAlgorithm">
+      <created>1615530798912</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1615530798912</updated>
+    </task>
+    <task id="LOCAL-00106" summary="started Range Queries ⁉ &gt; MOsAlgorithm">
+      <created>1615530854586</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1615530854586</updated>
+    </task>
+    <task id="LOCAL-00107" summary="started Range Queries ⁉ &gt; RangeMinimumQuery, RangeQueriesForFrequencyOfArrayElement, RangeSumUsingSparseTable">
+      <created>1615541231991</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1615541231991</updated>
+    </task>
+    <task id="LOCAL-00108" summary="started Range Queries ⁉ &gt; RangeQueriesAddOperation">
+      <created>1615546641630</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1615546641630</updated>
+    </task>
+    <task id="LOCAL-00109" summary="started Range Queries ⁉ &gt; RangeLCM">
+      <created>1615548721623</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1615548721623</updated>
+    </task>
+    <task id="LOCAL-00110" summary="started Range Queries ⁉ &gt; QueriesBinaryToDecimal, QueriesCountsOfArrayElement">
+      <created>1615558820327</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1615558820327</updated>
+    </task>
+    <task id="LOCAL-00111" summary="started Range Queries 🙋‍ &gt; NumbersOfElementsWithEqualElements">
+      <created>1615559156682</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1615559156683</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -542,20 +546,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added matrix RotateMatrix, RotateMatrixAntiClockwise" />
-    <MESSAGE value="added matrix RotateImageBy90" />
-    <MESSAGE value="added matrix CheckIsRotated" />
-    <MESSAGE value="added matrix SortMatrix" />
-    <MESSAGE value="added matrix MaxNum1sRow" />
-    <MESSAGE value="added matrix MatrixMultiplication, MedianOfMatrix" />
-    <MESSAGE value="added matrix CommonDistinctElementInAllRows, PrintUpperMatrix" />
-    <MESSAGE value="added matrix PrintInSpiral" />
-    <MESSAGE value="added matrix FindUnique, ShiftRowsByK" />
-    <MESSAGE value="added matrix PrintInSpiral, SwapDiagonal" />
-    <MESSAGE value="added matrix SwapDiagonal" />
-    <MESSAGE value="added matrix SquareOfDiagonals" />
-    <MESSAGE value="added matrix MoveMatrixInGivenDirection" />
-    <MESSAGE value="added KMaxSumsOverlapContiguousSubArray" />
     <MESSAGE value="added ActiveFountain" />
     <MESSAGE value="added matrix KMaxSumCombinations" />
     <MESSAGE value="added orderstatistics K stuff problems" />
@@ -567,7 +557,21 @@
     <MESSAGE value="added Arrays Sort &gt; ArrayTwoSum" />
     <MESSAGE value="added Arrays Sort &gt; SearchArrayAdjDiffK" />
     <MESSAGE value="added Arrays Search  &gt; SearchInInfiniteArray, OnlyRepetitiveElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Arrays Search  &gt; SearchInInfiniteArray, OnlyRepetitiveElement" />
+    <MESSAGE value="added Arrays Search  &gt; MaxSubArraySumExcludeSomeElement, SearchElementAppearsOnlyOnce" />
+    <MESSAGE value="added Arrays Search  &gt; EquilibriumSum" />
+    <MESSAGE value="added Arrays Search  &gt; LeadersInArray" />
+    <MESSAGE value="added Arrays Search  &gt; FloorCeil" />
+    <MESSAGE value="added Arrays Search  &gt; MajorityElement" />
+    <MESSAGE value="added Arrays Search  &gt; PeakElement" />
+    <MESSAGE value="added Arrays Search  &gt; MaxTripletSum, SubArrayWithGivenSum" />
+    <MESSAGE value="added Arrays Search  &gt; SmallestDiffTriplet, TripletWithGivenSum" />
+    <MESSAGE value="started Range Queries ⁉ &gt; MOsAlgorithm" />
+    <MESSAGE value="started Range Queries ⁉ &gt; RangeMinimumQuery, RangeQueriesForFrequencyOfArrayElement, RangeSumUsingSparseTable" />
+    <MESSAGE value="started Range Queries ⁉ &gt; RangeQueriesAddOperation" />
+    <MESSAGE value="started Range Queries ⁉ &gt; RangeLCM" />
+    <MESSAGE value="started Range Queries ⁉ &gt; QueriesBinaryToDecimal, QueriesCountsOfArrayElement" />
+    <MESSAGE value="started Range Queries ‍ &gt; NumbersOfElementsWithEqualElements" />
+    <option name="LAST_COMMIT_MESSAGE" value="started Range Queries ‍ &gt; NumbersOfElementsWithEqualElements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -896,6 +900,126 @@
           <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/OnlyRepetitiveElement.java</url>
           <line>30</line>
           <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/EquilibriumSum.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/PeakElement.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/PeakElement.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/searching/SubArrayWithGivenSum.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/MOsAlgorithm.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeSumUsingSparseTable.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeSumUsingSparseTable.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeSumUsingSparseTable.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeSumUsingSparseTable.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeMinimumQuery.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeMinimumQuery.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeMinimumQuery.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeMinimumQuery.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeLCM.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/RangeLCM.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rotations/MaxSubArrayOfK.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/misc/SubArrayWithGivenSum.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/misc/SubArrayWithGivenSum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/misc/SubArrayWithGivenSum.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/InsertionSort.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/BubbleSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
