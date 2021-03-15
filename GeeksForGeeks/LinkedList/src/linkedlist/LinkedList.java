@@ -19,6 +19,13 @@ public class LinkedList {
 
     }
 
+    /* Inserts a new Node at front of the list. */
+    public void push(int newData) {
+        Node newNode = new Node(newData);
+        newNode.next = head;
+        head = newNode;
+    }
+
     static void printLinkedList(Node head) {
         Node n = head;
         while (n != null) {

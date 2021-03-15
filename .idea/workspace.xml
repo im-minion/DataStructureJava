@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Deletion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +87,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Insertion">
-    <configuration name="ConstructArrayFromPairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.ConstructArrayFromPairSum" />
-      <module name="Array" />
+  <component name="RunManager" selected="Application.Deletion">
+    <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Deletion" />
+      <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deletion" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.ProductOfMaxMin" />
         <item itemvalue="Application.MergeTwoSortedArraysNoExtraSpace" />
-        <item itemvalue="Application.ConstructArrayFromPairSum" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +175,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00077" summary="added matrix FindUnique, ShiftRowsByK">
-      <created>1615140228248</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1615140228248</updated>
     </task>
     <task id="LOCAL-00078" summary="added matrix PrintInSpiral, SwapDiagonal">
       <created>1615141766918</created>
@@ -521,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615732982385</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="added LinkedList 📦➡📦➡null &gt; init">
+      <created>1615819862394</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1615819862395</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -544,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Arrays Search  &gt; FloorCeil" />
     <MESSAGE value="added Arrays Search  &gt; MajorityElement" />
     <MESSAGE value="added Arrays Search  &gt; PeakElement" />
     <MESSAGE value="added Arrays Search  &gt; MaxTripletSum, SubArrayWithGivenSum" />
@@ -569,7 +566,8 @@
     <MESSAGE value="Sort  &gt; ConstructArrayFromPairSum, CountAllDistinctPairs" />
     <MESSAGE value="Sort  &gt; MergeTwoSortedArraysNoExtraSpace" />
     <MESSAGE value="Sort  &gt; ProductOfMaxMin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort  &gt; ProductOfMaxMin" />
+    <MESSAGE value="added LinkedList ➡➡null &gt; init" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList ➡➡null &gt; init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
