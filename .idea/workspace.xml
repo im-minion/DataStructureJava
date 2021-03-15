@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/LengthOfLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLinkedList">
+  <component name="RunManager" selected="Application.Searching">
     <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.Deletion" />
       <module name="LinkedList" />
@@ -139,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.ProductOfMaxMin" />
-      <module name="Array" />
+    <configuration name="Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Searching" />
+      <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Searching" />
         <item itemvalue="Application.LengthOfLinkedList" />
         <item itemvalue="Application.Deletion" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.ProductOfMaxMin" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +173,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00080" summary="added matrix SquareOfDiagonals">
-      <created>1615142704032</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1615142704032</updated>
     </task>
     <task id="LOCAL-00081" summary="added matrix MoveMatrixInGivenDirection">
       <created>1615215530816</created>
@@ -518,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615826180996</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="added LinkedList 📦➡📦➡null &gt; LengthOfLinkedList">
+      <created>1615829092521</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1615829092521</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -541,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Arrays Search  &gt; PeakElement" />
     <MESSAGE value="added Arrays Search  &gt; MaxTripletSum, SubArrayWithGivenSum" />
     <MESSAGE value="added Arrays Search  &gt; SmallestDiffTriplet, TripletWithGivenSum" />
     <MESSAGE value="started Range Queries ⁉ &gt; MOsAlgorithm" />
@@ -566,7 +564,8 @@
     <MESSAGE value="Sort  &gt; ProductOfMaxMin" />
     <MESSAGE value="added LinkedList ➡➡null &gt; init" />
     <MESSAGE value="added LinkedList ➡➡null &gt; Deletion" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList ➡➡null &gt; Deletion" />
+    <MESSAGE value="added LinkedList ➡➡null &gt; LengthOfLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList ➡➡null &gt; LengthOfLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
