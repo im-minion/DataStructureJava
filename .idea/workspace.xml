@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/SortInWaveForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/SortingWithAbsoluteDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,9 +89,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingWithAbsoluteDiff">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.BubbleSort" />
+  <component name="RunManager" selected="Application.Insertion">
+    <configuration name="ConstructArrayFromPairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.ConstructArrayFromPairSum" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +103,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.InsertionSort" />
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Insertion" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedArraysNoExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.MergeTwoSortedArraysNoExtraSpace" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
@@ -118,34 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.QuickSort" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.SelectionSort" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortingWithAbsoluteDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.SortingWithAbsoluteDiff" />
+    <configuration name="ProductOfMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.ProductOfMaxMin" />
       <module name="Array" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortingWithAbsoluteDiff" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.ProductOfMaxMin" />
+        <item itemvalue="Application.MergeTwoSortedArraysNoExtraSpace" />
+        <item itemvalue="Application.ConstructArrayFromPairSum" />
       </list>
     </recent_temporary>
   </component>
@@ -179,104 +177,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00063" summary="added orderstatistics MeanMedian">
-      <created>1614884334945</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1614884334946</updated>
-    </task>
-    <task id="LOCAL-00064" summary="added orderstatistics MedianOfStream">
-      <created>1614964628180</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1614964628181</updated>
-    </task>
-    <task id="LOCAL-00065" summary="added orderstatistics KthLargestSumSubArray MinProductOfKInts">
-      <created>1614968946176</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1614968946178</updated>
-    </task>
-    <task id="LOCAL-00066" summary="added matrix MatrixUtil, Rotate90ClockAndAntiClock">
-      <created>1615019258122</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1615019258122</updated>
-    </task>
-    <task id="LOCAL-00067" summary="added matrix RotateMatrix">
-      <created>1615030956668</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1615030956668</updated>
-    </task>
-    <task id="LOCAL-00068" summary="added matrix Rotate90ClockAndAntiClock RotateMatrix">
-      <created>1615035489399</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1615035489399</updated>
-    </task>
-    <task id="LOCAL-00069" summary="added matrix RotateMatrix, RotateMatrixAntiClockwise">
-      <created>1615041665962</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1615041665962</updated>
-    </task>
-    <task id="LOCAL-00070" summary="added matrix RotateImageBy90">
-      <created>1615049458426</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1615049458426</updated>
-    </task>
-    <task id="LOCAL-00071" summary="added matrix CheckIsRotated">
-      <created>1615051943978</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1615051943979</updated>
-    </task>
-    <task id="LOCAL-00072" summary="added matrix SortMatrix">
-      <created>1615052913967</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1615052913967</updated>
-    </task>
-    <task id="LOCAL-00073" summary="added matrix MaxNum1sRow">
-      <created>1615054676422</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1615054676422</updated>
-    </task>
-    <task id="LOCAL-00074" summary="added matrix MatrixMultiplication, MedianOfMatrix">
-      <created>1615112873672</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1615112873672</updated>
-    </task>
-    <task id="LOCAL-00075" summary="added matrix CommonDistinctElementInAllRows, PrintUpperMatrix">
-      <created>1615127212700</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1615127212700</updated>
-    </task>
-    <task id="LOCAL-00076" summary="added matrix PrintInSpiral">
-      <created>1615136552780</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1615136552780</updated>
     </task>
     <task id="LOCAL-00077" summary="added matrix FindUnique, ShiftRowsByK">
       <created>1615140228248</created>
@@ -523,7 +423,105 @@
       <option name="project" value="LOCAL" />
       <updated>1615559156683</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Sort &gt; all">
+      <created>1615658962102</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1615658962103</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Sort 👣 &gt; SortInWaveForm">
+      <created>1615660822413</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1615660822413</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Sort 👣 &gt; MergeTwoSortedArrays">
+      <created>1615663173273</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1615663173273</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Sort 👣 &gt; Sort1toNAdjSwap Sort0sand1sArray">
+      <created>1615696743866</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1615696743866</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Sort 👣 &gt; SortByFrequency">
+      <created>1615708637009</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1615708637009</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Sort 👣 &gt; InversionUsingMergeSort, TwoElementClosestToZero">
+      <created>1615714989371</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1615714989371</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Sort 👣 &gt; MinSwapsRequiredToSort, ShortestUnSortedArray, UnionsAndIntersections">
+      <created>1615716373367</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1615716373367</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Sort 👣 &gt; MinLengthUnsortedSubArray, Sort012">
+      <created>1615718041469</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1615718041469</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Sort 👣 &gt; CountTheNumberOfPossibleTriangles, MedianInStreamOfIntegers">
+      <created>1615721561359</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1615721561359</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Sort 👣 &gt; CountTheNumberOfPossibleTriangles 🔺">
+      <created>1615721965493</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1615721965493</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Sort 👣 &gt; FindPairsPowerConstraint">
+      <created>1615722502165</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1615722502165</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Sort 👣 &gt; ConstructArrayFromPairSum, CountAllDistinctPairs">
+      <created>1615729626331</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1615729626331</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Sort 👣 &gt; MergeTwoSortedArraysNoExtraSpace">
+      <created>1615732316312</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1615732316312</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Sort 👣 &gt; ProductOfMaxMin">
+      <created>1615732982385</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1615732982385</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -546,20 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added ActiveFountain" />
-    <MESSAGE value="added matrix KMaxSumCombinations" />
-    <MESSAGE value="added orderstatistics K stuff problems" />
-    <MESSAGE value="added orderstats KthSmallestAbsoluteDifference" />
-    <MESSAGE value="added KNumsWithMostOccurrence" />
-    <MESSAGE value="added SecondSmallest, SmallestMissingNumber" />
-    <MESSAGE value="added MaxMinWithMinComparisons, MaxSumNoAdj" />
-    <MESSAGE value="added Search  BinarySearch" />
-    <MESSAGE value="added Arrays Sort &gt; ArrayTwoSum" />
-    <MESSAGE value="added Arrays Sort &gt; SearchArrayAdjDiffK" />
-    <MESSAGE value="added Arrays Search  &gt; SearchInInfiniteArray, OnlyRepetitiveElement" />
-    <MESSAGE value="added Arrays Search  &gt; MaxSubArraySumExcludeSomeElement, SearchElementAppearsOnlyOnce" />
-    <MESSAGE value="added Arrays Search  &gt; EquilibriumSum" />
-    <MESSAGE value="added Arrays Search  &gt; LeadersInArray" />
     <MESSAGE value="added Arrays Search  &gt; FloorCeil" />
     <MESSAGE value="added Arrays Search  &gt; MajorityElement" />
     <MESSAGE value="added Arrays Search  &gt; PeakElement" />
@@ -571,7 +555,21 @@
     <MESSAGE value="started Range Queries ⁉ &gt; RangeLCM" />
     <MESSAGE value="started Range Queries ⁉ &gt; QueriesBinaryToDecimal, QueriesCountsOfArrayElement" />
     <MESSAGE value="started Range Queries ‍ &gt; NumbersOfElementsWithEqualElements" />
-    <option name="LAST_COMMIT_MESSAGE" value="started Range Queries ‍ &gt; NumbersOfElementsWithEqualElements" />
+    <MESSAGE value="Sort &gt; all" />
+    <MESSAGE value="Sort  &gt; SortInWaveForm" />
+    <MESSAGE value="Sort  &gt; MergeTwoSortedArrays" />
+    <MESSAGE value="Sort  &gt; Sort1toNAdjSwap Sort0sand1sArray" />
+    <MESSAGE value="Sort  &gt; SortByFrequency" />
+    <MESSAGE value="Sort  &gt; InversionUsingMergeSort, TwoElementClosestToZero" />
+    <MESSAGE value="Sort  &gt; MinSwapsRequiredToSort, ShortestUnSortedArray, UnionsAndIntersections" />
+    <MESSAGE value="Sort  &gt; MinLengthUnsortedSubArray, Sort012" />
+    <MESSAGE value="Sort  &gt; CountTheNumberOfPossibleTriangles, MedianInStreamOfIntegers" />
+    <MESSAGE value="Sort  &gt; CountTheNumberOfPossibleTriangles " />
+    <MESSAGE value="Sort  &gt; FindPairsPowerConstraint" />
+    <MESSAGE value="Sort  &gt; ConstructArrayFromPairSum, CountAllDistinctPairs" />
+    <MESSAGE value="Sort  &gt; MergeTwoSortedArraysNoExtraSpace" />
+    <MESSAGE value="Sort  &gt; ProductOfMaxMin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort  &gt; ProductOfMaxMin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,18 +1006,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/QuickSort.java</url>
           <line>13</line>
           <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArrays.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MinLengthUnsortedSubArray.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArraysNoExtraSpace.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArraysNoExtraSpace.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArraysNoExtraSpace.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArraysNoExtraSpace.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArraysNoExtraSpace.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="154" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
