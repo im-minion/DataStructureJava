@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/LengthOfLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Deletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/linkedlist/Deletion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Deletion">
+  <component name="RunManager" selected="Application.LengthOfLinkedList">
     <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.Deletion" />
       <module name="LinkedList" />
@@ -113,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
+    <configuration name="LengthOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LengthOfLinkedList" />
       <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArraysNoExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.MergeTwoSortedArraysNoExtraSpace" />
-      <module name="Array" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
+      <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.*" />
+          <option name="PATTERN" value="linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLinkedList" />
         <item itemvalue="Application.Deletion" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.ProductOfMaxMin" />
-        <item itemvalue="Application.MergeTwoSortedArraysNoExtraSpace" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +174,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00079" summary="added matrix SwapDiagonal">
-      <created>1615141901164</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1615141901164</updated>
     </task>
     <task id="LOCAL-00080" summary="added matrix SquareOfDiagonals">
       <created>1615142704032</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615821270611</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="added LinkedList 📦➡📦➡null &gt; Deletion">
+      <created>1615826180996</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1615826180996</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
