@@ -11,12 +11,37 @@ public class Deletion {
         System.out.println("Before");
         LinkedList.printLinkedList(llist.head);
 
-        Node h = deleteNode(3, llist.head);
-        System.out.println("After");
+        Node h = deleteNodeAtSpecificIndex(0, llist.head);
+        System.out.println("After deleteNodeAtSpecificIndex");
+        LinkedList.printLinkedList(h);
+
+        h = deleteNodeWithSpecificValue(3, llist.head);
+        System.out.println("After deleteNodeWithSpecificValue");
         LinkedList.printLinkedList(h);
     }
 
-    private static Node deleteNode(int i, Node head) {
+    private static Node deleteNodeAtSpecificIndex(int index, Node head) {
+        Node node = head;
+        if (index == 0) {
+            head = head.next;
+            return head;
+        }
+        int count = 0;
+        while (count != (index - 1)) {
+            if (node != null) {
+                node = node.next;
+                count++;
+            }
+        }
+        if (node == null || node.next == null) {
+            System.out.println("Couldn't Delete");
+            return head;
+        }
+        node.next = node.next.next;
+        return head;
+    }
+
+    private static Node deleteNodeWithSpecificValue(int i, Node head) {
         Node n = head;
 
         if (n == null) {
