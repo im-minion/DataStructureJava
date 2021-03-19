@@ -23,6 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
+      <change afterPath="$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/SparseTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,9 +87,42 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Searching">
-    <configuration name="Deletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Deletion" />
+  <component name="RunManager" selected="Application.Knapsack_0_1">
+    <configuration name="Knapsack_0_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Knapsack_0_1" />
+      <module name="09.DynamicProgramming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KthLargestSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="orderstatistics.KthLargestSumSubArray" />
+      <module name="Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orderstatistics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MOsAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rangequeries.MOsAlgorithm" />
+      <module name="Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rangequeries.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.MiddleOfLinkedList" />
       <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
@@ -99,51 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Insertion" />
-      <module name="LinkedList" />
+    <configuration name="SparseTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rangequeries.SparseTable" />
+      <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LengthOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LengthOfLinkedList" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.LinkedList" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Searching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.Searching" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="rangequeries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Searching" />
-        <item itemvalue="Application.LengthOfLinkedList" />
-        <item itemvalue="Application.Deletion" />
-        <item itemvalue="Application.Insertion" />
-        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.Knapsack_0_1" />
+        <item itemvalue="Application.SparseTable" />
+        <item itemvalue="Application.MOsAlgorithm" />
+        <item itemvalue="Application.MiddleOfLinkedList" />
+        <item itemvalue="Application.KthLargestSumSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -173,20 +169,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00081" summary="added matrix MoveMatrixInGivenDirection">
-      <created>1615215530816</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1615215530816</updated>
-    </task>
-    <task id="LOCAL-00082" summary="added KMaxSumsOverlapContiguousSubArray">
-      <created>1615224185033</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1615224185034</updated>
     </task>
     <task id="LOCAL-00083" summary="added ActiveFountain">
       <created>1615224698631</created>
@@ -517,7 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615829092521</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="added LinkedList 📦➡📦➡null &gt; Searching">
+      <created>1615831141655</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1615831141656</updated>
+    </task>
+    <task id="LOCAL-00131" summary="added Sort 👣  &gt; MergeSort">
+      <created>1615912139688</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1615912139689</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -540,8 +536,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Arrays Search  &gt; MaxTripletSum, SubArrayWithGivenSum" />
-    <MESSAGE value="added Arrays Search  &gt; SmallestDiffTriplet, TripletWithGivenSum" />
     <MESSAGE value="started Range Queries ⁉ &gt; MOsAlgorithm" />
     <MESSAGE value="started Range Queries ⁉ &gt; RangeMinimumQuery, RangeQueriesForFrequencyOfArrayElement, RangeSumUsingSparseTable" />
     <MESSAGE value="started Range Queries ⁉ &gt; RangeQueriesAddOperation" />
@@ -565,7 +559,9 @@
     <MESSAGE value="added LinkedList ➡➡null &gt; init" />
     <MESSAGE value="added LinkedList ➡➡null &gt; Deletion" />
     <MESSAGE value="added LinkedList ➡➡null &gt; LengthOfLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList ➡➡null &gt; LengthOfLinkedList" />
+    <MESSAGE value="added LinkedList ➡➡null &gt; Searching" />
+    <MESSAGE value="added Sort   &gt; MergeSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Sort   &gt; MergeSort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,6 +1035,81 @@
           <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeTwoSortedArraysNoExtraSpace.java</url>
           <line>51</line>
           <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeSort.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeSort.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/MergeSort.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/MOsAlgorithm.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/MOsAlgorithm.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/MOsAlgorithm.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/MOsAlgorithm.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/SparseTable.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/SparseTable.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
