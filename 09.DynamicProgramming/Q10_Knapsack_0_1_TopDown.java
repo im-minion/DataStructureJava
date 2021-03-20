@@ -1,4 +1,4 @@
-public class Knapsack_0_1_TopDown {
+public class Q10_Knapsack_0_1_TopDown {
     static int[][] t; // [n][W]
 
     public static void main(String[] args) {

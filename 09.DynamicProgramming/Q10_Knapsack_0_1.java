@@ -12,7 +12,7 @@ find out the maximum value subset of val[] such that sum of the weights of this 
 either pick the complete item or don’t pick it (0-1 property).
 */
 
-public class Knapsack_0_1 {
+public class Q10_Knapsack_0_1 {
     static int[][] t; // [n][W]
 
     public static void main(String[] args) {

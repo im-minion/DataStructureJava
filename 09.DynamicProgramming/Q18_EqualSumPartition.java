@@ -1,5 +1,5 @@
 /*
-Partition problem | DP-18
+18. Partition problem | DP-18
 Difficulty Level : Medium
 
 Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in
@@ -18,7 +18,7 @@ The array cannot be partitioned into equal sum sets.
 
 import java.util.Arrays;
 
-public class EqualSumPartition {
+public class Q18_EqualSumPartition {
     public static void main(String[] args) {
         int[] arr = {1, 5, 11, 5};
         int n = arr.length;

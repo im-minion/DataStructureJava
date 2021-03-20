@@ -1,5 +1,5 @@
 /*
-Subset Sum Problem | DP-25
+32. Subset Sum Problem | DP-25
 Difficulty Level : Medium
 
 Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum.
@@ -14,7 +14,7 @@ Input: set[] = {3, 34, 4, 12, 5, 2}, sum = 30
 Output: False
 There is no subset that add up to 30.
 */
-public class SubsetSum {
+public class Q32_SubsetSum {
     public static void main(String[] args) {
         int[] arr = {3, 34, 4, 12, 5, 2};
         int sum = 30;
