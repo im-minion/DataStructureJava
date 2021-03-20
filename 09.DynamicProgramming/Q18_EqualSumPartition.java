@@ -19,11 +19,51 @@ The array cannot be partitioned into equal sum sets.
 import java.util.Arrays;
 
 public class Q18_EqualSumPartition {
+    private static boolean[][] t;
+
     public static void main(String[] args) {
         int[] arr = {1, 5, 11, 5};
         int n = arr.length;
-        boolean op = solveByRecursive(arr, n);
-        System.out.println(op);
+
+        System.out.println("solveByRecursive : " + solveByRecursive(arr, n));
+        System.out.println("solveByRecursive : " + solveByRecursiveTopDown(arr, n));
+    }
+
+    private static boolean solveByRecursiveTopDown(int[] arr, int n) {
+        int sum = Arrays.stream(arr).sum();
+        if (sum % 2 != 0) return false;//sum is odd
+        int splitSum = sum / 2;
+        t = new boolean[n + 1][splitSum + 1];
+        return solveByRecursiveTopDown(arr, splitSum, n);
+    }
+
+    private static boolean solveByRecursiveTopDown(int[] arr, int sum, int n) {
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= sum; j++) {
+                if (i == 0)
+                    t[i][j] = false;
+                if (j == 0)
+                    t[i][j] = true;
+            }
+        }
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= sum; j++) {
+                if (arr[i - 1] <= j) {
+                    // may or may not consider
+                    t[i][j] =
+                            //consider
+                            t[i - 1][j - arr[i - 1]] ||
+                                    // not consider
+                                    t[i - 1][j];
+                } else {
+                    // can't consider
+                    t[i][j] = t[i - 1][j];
+                }
+            }
+        }
+
+        return t[n][sum];
     }
 
     private static boolean solveByRecursive(int[] arr, int n) {
