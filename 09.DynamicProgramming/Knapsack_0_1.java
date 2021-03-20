@@ -24,12 +24,33 @@ public class Knapsack_0_1 {
         int[] wt = new int[]{10, 20, 30};
         int W = 50;
         int n = val.length;
-        int maxProfit = solveKnapsack(val, wt, W, n);
-        System.out.println(maxProfit);
+
+        System.out.println("solveKnapsackOnlyRecursive : " + solveKnapsackOnlyRecursive(val, wt, W, n));
+
+        System.out.println("solveKnapsackMemoize : " + solveKnapsackMemoize(val, wt, W, n));
     }
 
-    private static int solveKnapsack(int[] val, int[] wt, int W, int n) {
-        // boundary condition
+
+    private static int solveKnapsackOnlyRecursive(int[] val, int[] wt, int W, int n) {
+        // base condition
+        if (n == 0 || W == 0 || val.length == 0 || wt.length == 0) {
+            return 0;
+        }
+        // choice diagram
+        if (W >= wt[n - 1]) {
+            // can consider we have a choice
+            return Math.max(
+                    // considering
+                    val[n - 1] + solveKnapsackMemoize(val, wt, W - wt[n - 1], n - 1),
+                    // not considering
+                    solveKnapsackMemoize(val, wt, W, n - 1));
+        } else {
+            return solveKnapsackMemoize(val, wt, W, n - 1);
+        }
+    }
+
+    private static int solveKnapsackMemoize(int[] val, int[] wt, int W, int n) {
+        // base condition
         if (n == 0 || W == 0 || val.length == 0 || wt.length == 0) {
             return 0;
         }
@@ -42,9 +63,9 @@ public class Knapsack_0_1 {
         // choice diagram
         if (W >= wt[n - 1]) {
             //consider
-            t[n][W] = Math.max(val[n - 1] + solveKnapsack(val, wt, W - wt[n - 1], n - 1), solveKnapsack(val, wt, W, n - 1));
+            t[n][W] = Math.max(val[n - 1] + solveKnapsackMemoize(val, wt, W - wt[n - 1], n - 1), solveKnapsackMemoize(val, wt, W, n - 1));
         } else {
-            t[n][W] = solveKnapsack(val, wt, W, n - 1);
+            t[n][W] = solveKnapsackMemoize(val, wt, W, n - 1);
         }
         return t[n][W];
     }
