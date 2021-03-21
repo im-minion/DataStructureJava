@@ -26,8 +26,6 @@ We get maximum value with one unit of
 weight 5 and one unit of weight 3.
 */
 
-import java.util.Arrays;
-
 public class UnboundedKnapsack {
 
     public static void main(String[] args) {
