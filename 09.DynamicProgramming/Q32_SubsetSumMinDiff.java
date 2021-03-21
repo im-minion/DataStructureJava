@@ -52,6 +52,13 @@ public class Q32_SubsetSumMinDiff {
             }
         }
 
+        for(int i = 0 ; i < t.length ; i++) {
+            for(int j = 0 ; j < t[i].length ; j++) {
+                System.out.print(t[i][j] + "    ");
+            }
+            System.out.println();
+        }
+
         // TODO: Important Below Thing
         // Initialize difference of two sums.
         int diff = Integer.MAX_VALUE;
@@ -60,7 +67,7 @@ public class Q32_SubsetSumMinDiff {
         // is true where j loops from sum/2 t0 0
         for (int j = sum / 2; j >= 0; j--) {
             // Find the
-            if (t[n][j] == true) {
+            if (t[n][j]) {
                 diff = sum - 2 * j;
                 break;
             }

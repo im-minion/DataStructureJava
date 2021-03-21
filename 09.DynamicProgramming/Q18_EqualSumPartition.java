@@ -26,7 +26,7 @@ public class Q18_EqualSumPartition {
         int n = arr.length;
 
         System.out.println("solveByRecursive : " + solveByRecursive(arr, n));
-        System.out.println("solveByRecursive : " + solveByRecursiveTopDown(arr, n));
+        System.out.println("solveByRecursiveTopDown : " + solveByRecursiveTopDown(arr, n));
     }
 
     private static boolean solveByRecursiveTopDown(int[] arr, int n) {
