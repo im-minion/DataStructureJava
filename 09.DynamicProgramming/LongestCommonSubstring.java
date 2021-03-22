@@ -30,8 +30,8 @@ public class LongestCommonSubstring {
 
         int m = X.length();
         int n = Y.length();
-//        LCSubStrRecursive(X.toCharArray(), Y.toCharArray(), m, n, count, r);
-//        System.out.println("LCSRecursive  :" + count);
+//        TODO: Important Cannot be possible with recursive approach!!
+//        System.out.println("LCSRecursive  :" + LCSubStrRecursive(X.toCharArray(), Y.toCharArray(), m, n));
 //        System.out.println("LCSMemoize  :" + LCSubStrMemoize(X.toCharArray(), Y.toCharArray(), m, n));
         System.out.println("LCSTopDown  :" + LCSubStrTopDown(X.toCharArray(), Y.toCharArray(), m, n));
     }
@@ -63,17 +63,4 @@ public class LongestCommonSubstring {
         return op;
     }
 
-//    private static void LCSubStrRecursive(char[] x, char[] y, int m, int n, int count, int r) {
-//        if (x.length == 0 || y.length == 0 || m == 0 || n == 0) {
-//            r = Math.max(r, count);
-//            return ;
-//        }
-//        if (x[m - 1] == y[n - 1]) {
-//            // consider
-//            1 + LCSubStrRecursive(x, y, m - 1, n - 1);
-//        } else {
-//             r = Math.max(LCSubStrRecursive(x, y, m - 1, n),
-//                    LCSubStrRecursive(x, y, m, n - 1));
-//        }
-//    }
 }
