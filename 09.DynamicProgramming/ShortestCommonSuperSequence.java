@@ -17,7 +17,7 @@ Explanation:
 String "AGXGTXAYB" has both string "AGGTAB" and "GXTXAYB" as subsequences.
 */
 
-public class ShortestSuperSequence {
+public class ShortestCommonSuperSequence {
     public static void main(String[] args) {
         String X = "ABCDGH";
         String Y = "AEDFHR";
