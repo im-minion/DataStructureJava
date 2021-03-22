@@ -26,7 +26,7 @@ public class ShortestSuperSequence {
     }
 
     private static int shortestSuperSequence(char[] x, char[] y, int m, int n) {
-        StringBuilder op = new StringBuilder();
+
         int[][] t = new int[m + 1][n + 1];
         // inz 1st row and 1st col to 0
         // already 0
@@ -41,6 +41,6 @@ public class ShortestSuperSequence {
                 }
             }
         }
-        return x.length + y.length - t[m][n];
+        return m + n - t[m][n];
     }
 }
