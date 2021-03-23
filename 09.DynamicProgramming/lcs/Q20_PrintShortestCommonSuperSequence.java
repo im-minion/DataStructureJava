@@ -1,4 +1,4 @@
-package knapsackunbounded;/*
+package lcs;/*
 Printing Shortest Common Supersequence
 Difficulty Level : Hard
 

@@ -1,4 +1,4 @@
-package knapsackunbounded;
+package lcs;
 
 import java.util.Arrays;
 

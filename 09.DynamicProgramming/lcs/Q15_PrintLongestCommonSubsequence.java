@@ -1,4 +1,4 @@
-package knapsackunbounded;/*
+package lcs;/*
 Printing Longest Common Subsequence
 Difficulty Level : Medium
 

@@ -1,4 +1,4 @@
-package knapsackunbounded;
+package lcs;
 
 /*
 Minimum number of deletions to make a string palindrome

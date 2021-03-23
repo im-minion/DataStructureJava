@@ -1,4 +1,4 @@
-package knapsackunbounded;/*
+package lcs;/*
 Shortest Common Supersequence
 Difficulty Level : Medium
 

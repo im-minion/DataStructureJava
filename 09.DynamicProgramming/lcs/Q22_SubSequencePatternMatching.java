@@ -1,4 +1,4 @@
-package knapsackunbounded;
+package lcs;
 
 public class Q22_SubSequencePatternMatching {
     public static void main(String[] args) {

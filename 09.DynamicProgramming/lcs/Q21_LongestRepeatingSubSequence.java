@@ -1,4 +1,4 @@
-package knapsackunbounded;
+package lcs;
 
 public class Q21_LongestRepeatingSubSequence {
     public static void main(String[] args) {

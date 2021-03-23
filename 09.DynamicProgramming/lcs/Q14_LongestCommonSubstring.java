@@ -1,4 +1,4 @@
-package knapsackunbounded;
+package lcs;
 
 /*
 Longest Common Substring | DP-29

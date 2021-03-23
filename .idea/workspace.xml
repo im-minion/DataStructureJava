@@ -23,34 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q24_MatrixChainMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/ActiveFountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/misc/ActiveFountain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/misc/CoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CoinChange_1_MaxNoOfWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CoinChange_2_MinNumOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CuttingARod.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q10_CuttingARod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q13_LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q14_LongestCommonSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q18_LongestPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestRepeatingSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q21_LongestRepeatingSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/MinDeletionToMakePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q19_MinDeletionToMakePalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/MinNoOfInsertionAndDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q17_MinNoOfInsertionAndDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/MinNoOfInsertionToMakeAStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q23_MinNoOfInsertionToMakeAStringPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/PrintLargestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q15_PrintLongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/PrintShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q20_PrintShortestCommonSuperSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q10_Knapsack_0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q10_Knapsack_0_1_TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q02_Knapsack_0_1_TopDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q18_EqualSumPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q04_EqualSumPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q03_SubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q05_SubsetSumCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSumKDiffCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q07_SubsetSumKDiffCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSumMinDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q06_SubsetSumMinDiff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/ShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q16_ShortestCommonSuperSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/StairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/misc/StairCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/SubSequencePatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q22_SubSequencePatternMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q08_TargetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/UnboundedKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q09_UnboundedKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q13_LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q13_LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q14_LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q14_LongestCommonSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q15_PrintLongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q15_PrintLongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q16_ShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q16_ShortestCommonSuperSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q17_MinNoOfInsertionAndDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q17_MinNoOfInsertionAndDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q18_LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q18_LongestPalindromicSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q19_MinDeletionToMakePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q19_MinDeletionToMakePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q20_PrintShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q20_PrintShortestCommonSuperSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q21_LongestRepeatingSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q21_LongestRepeatingSubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q22_SubSequencePatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q22_SubSequencePatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q23_MinNoOfInsertionToMakeAStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q23_MinNoOfInsertionToMakeAStringPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,30 +97,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q24_MatrixChainMultiplication">
-    <configuration name="Q20_PrintShortestCommonSuperSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q20_PrintShortestCommonSuperSequence" />
-      <module name="09.DynamicProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q25_PalindromicPartition">
     <configuration name="Q21_LongestRepeatingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q21_LongestRepeatingSubSequence" />
+      <option name="MAIN_CLASS_NAME" value="lcs.Q21_LongestRepeatingSubSequence" />
       <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Q22_SubSequencePatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q22_SubSequencePatternMatching" />
+      <option name="MAIN_CLASS_NAME" value="lcs.Q22_SubSequencePatternMatching" />
       <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Q23_MinNoOfInsertionToMakeAStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="lcs.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
       <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q25_PalindromicPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrixchainmultiplication.Q25_PalindromicPartition" />
+      <module name="09.DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matrixchainmultiplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q25_PalindromicPartition" />
         <item itemvalue="Application.Q24_MatrixChainMultiplication" />
         <item itemvalue="Application.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
         <item itemvalue="Application.Q22_SubSequencePatternMatching" />
         <item itemvalue="Application.Q21_LongestRepeatingSubSequence" />
-        <item itemvalue="Application.Q20_PrintShortestCommonSuperSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +161,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00111" summary="started Range Queries 🙋‍ &gt; NumbersOfElementsWithEqualElements">
-      <created>1615559156682</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1615559156683</updated>
     </task>
     <task id="LOCAL-00112" summary="Sort &gt; all">
       <created>1615658962102</created>
@@ -514,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616436077284</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="added Dynamic Programming ♻ &gt; Refactored all programs :)">
+      <created>1616479320479</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1616479320479</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -537,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Knapsack_0_1 and SparseTable" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Knapsack_0_1_TopDown" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Knapsack_0_1" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; SubsetSum" />
@@ -562,7 +552,8 @@
     <MESSAGE value="added Dynamic Programming ♻ &gt; LongestRepeatingSubSequence" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; SubSequencePatternMatching" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Refactored all programs :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Dynamic Programming ♻ &gt; Refactored all programs :)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1123,9 +1114,39 @@
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q15_PrintLongestCommonSubsequence.java</url>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/lcs/Q15_PrintLongestCommonSubsequence.java</url>
           <line>30</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="183" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package knapsackunbounded;
+package lcs;
 
 /*
 Minimum insertions to form a palindrome | DP-28
