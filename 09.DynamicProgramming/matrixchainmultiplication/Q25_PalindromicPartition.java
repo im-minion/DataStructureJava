@@ -35,7 +35,15 @@ public class Q25_PalindromicPartition {
         }
         int min = Integer.MAX_VALUE;
         for (int k = i; k <= j - 1; k++) {
-            int temp = 1 + minPalPartitionMemoize(s, i, k) + minPalPartitionMemoize(s, k + 1, j);
+            int left = t[i][k] != -1 ? t[i][k] : minPalPartitionMemoize(s, i, k);
+            if (t[i][k] == -1) {
+                t[i][k] = left;
+            }
+            int right = t[k + 1][j] != -1 ? t[k + 1][j] : minPalPartitionMemoize(s, k + 1, j);
+            if (t[k + 1][j] == -1) {
+                t[k + 1][j] = right;
+            }
+            int temp = 1 + left + right;
             min = Math.min(min, temp);
         }
         return t[i][j] = min;
