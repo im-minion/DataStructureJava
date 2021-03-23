@@ -1,3 +1,5 @@
+package knapsack01;
+
 import java.util.Arrays;
 
 /*
@@ -24,7 +26,7 @@ Explanation:
 There are 5 ways to assign symbols to make the sum of nums be target 3.
 This problem is same as Q32_SubsetSumMinDiff
 */
-public class TargetSum {
+public class Q08_TargetSum {
     public static void main(String[] args) {
         int[] arr = {1, 1, 1, 1, 1};
         int s = 3;

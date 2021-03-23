@@ -1,6 +1,8 @@
+package knapsack01;
+
 import java.util.Arrays;
 
-public class Q32_SubsetSumCount {
+public class Q05_SubsetSumCount {
     private static int[][] t_memo;
 
     private static int[][] t;

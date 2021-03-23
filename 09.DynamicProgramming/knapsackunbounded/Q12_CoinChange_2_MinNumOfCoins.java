@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 import java.util.Arrays;
 
 /*
@@ -19,7 +21,7 @@ Output: Minimum 2 coins required
 We can use one coin of 6 cents and 1 coin of 5 cents
 
 */
-public class CoinChange_2_MinNumOfCoins {
+public class Q12_CoinChange_2_MinNumOfCoins {
     static int[][] dp;
 
     public static void main(String[] args) {

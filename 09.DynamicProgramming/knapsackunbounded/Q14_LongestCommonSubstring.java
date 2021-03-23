@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 /*
 Longest Common Substring | DP-29
 Difficulty Level : Medium
@@ -21,7 +23,7 @@ Output : 6
 Explanation:
 The longest common substring is “abcdez” and is of length 6.
 */
-public class LongestCommonSubstring {
+public class Q14_LongestCommonSubstring {
     static int r = Integer.MIN_VALUE;
 
     public static void main(String[] args) {

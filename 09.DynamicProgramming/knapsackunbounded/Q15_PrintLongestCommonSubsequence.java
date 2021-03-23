@@ -1,4 +1,4 @@
-/*
+package knapsackunbounded;/*
 Printing Longest Common Subsequence
 Difficulty Level : Medium
 
@@ -8,7 +8,7 @@ LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.
 LCS for input Sequences “AGGTAB” and “GXTXAYB” is “GTAB” of length 4.
 */
 
-public class PrintLargestCommonSubsequence {
+public class Q15_PrintLongestCommonSubsequence {
     public static void main(String[] args) {
         String X = "ABCDGH";
         String Y = "AEDFHR";

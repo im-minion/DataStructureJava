@@ -1,3 +1,5 @@
+package misc;
+
 public class StairCase {
     public static void main(String[] args) {
         // System.out.println(climbStairs(0));

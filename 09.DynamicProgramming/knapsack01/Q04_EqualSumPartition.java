@@ -1,4 +1,4 @@
-/*
+package knapsack01;/*
 18. Partition problem | DP-18
 Difficulty Level : Medium
 
@@ -18,7 +18,7 @@ The array cannot be partitioned into equal sum sets.
 
 import java.util.Arrays;
 
-public class Q18_EqualSumPartition {
+public class Q04_EqualSumPartition {
     private static boolean[][] t;
 
     public static void main(String[] args) {

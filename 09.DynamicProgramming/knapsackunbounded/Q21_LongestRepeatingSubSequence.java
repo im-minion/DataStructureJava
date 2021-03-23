@@ -1,4 +1,6 @@
-public class LongestRepeatingSubSequence {
+package knapsackunbounded;
+
+public class Q21_LongestRepeatingSubSequence {
     public static void main(String[] args) {
         String str = "AABEBCDD";
         System.out.println(longestRepeatedSubSeq(str.toCharArray(), str.toCharArray(), str.length(), str.length()));

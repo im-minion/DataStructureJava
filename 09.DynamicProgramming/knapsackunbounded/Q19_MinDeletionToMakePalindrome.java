@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 /*
 Minimum number of deletions to make a string palindrome
 Difficulty Level : Medium
@@ -17,7 +19,7 @@ which is a palindromic string
 Input : geeksforgeeks
 Output : 8
 */
-public class MinDeletionToMakePalindrome {
+public class Q19_MinDeletionToMakePalindrome {
     public static void main(String[] args) {
         String str = "aebcbda";
         System.out.println("Minimum number of deletions = " + minimumNumberOfDeletions(str));

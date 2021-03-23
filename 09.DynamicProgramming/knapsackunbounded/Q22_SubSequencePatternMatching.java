@@ -1,4 +1,6 @@
-public class SubSequencePatternMatching {
+package knapsackunbounded;
+
+public class Q22_SubSequencePatternMatching {
     public static void main(String[] args) {
         String x = "AXY";
         String y = "ADXCPY";

@@ -1,3 +1,5 @@
+package knapsack01;
+
 /*
 32. Subset Sum Problem | DP-25
 Difficulty Level : Medium
@@ -14,7 +16,7 @@ Input: set[] = {3, 34, 4, 12, 5, 2}, sum = 30
 Output: False
 There is no subset that add up to 30.
 */
-public class Q32_SubsetSum {
+public class Q03_SubsetSum {
     public static void main(String[] args) {
         int[] arr = {3, 34, 4, 12, 5, 2};
         int sum = 30;

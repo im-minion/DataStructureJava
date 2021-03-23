@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 import java.util.Arrays;
 
 /*
@@ -28,7 +30,7 @@ Examples:
 LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.
 LCS for input Sequences “AGGTAB” and “GXTXAYB” is “GTAB” of length 4.
 */
-public class LongestCommonSubsequence {
+public class Q13_LongestCommonSubsequence {
     public static int[][] t_memo;
 
     public static void main(String[] args) {

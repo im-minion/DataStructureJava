@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 /*
 Minimum insertions to form a palindrome | DP-28
 Difficulty Level : Hard
@@ -12,7 +14,7 @@ abcd: Number of insertions required is 3 i.e. dcbabcd
 abcda: Number of insertions required is 2 i.e. adcbcda which is same as number of insertions in the substring bcd(Why?).
 abcde: Number of insertions required is 4 i.e. edcbabcde
 */
-public class MinNoOfInsertionToMakeAStringPalindrome {
+public class Q23_MinNoOfInsertionToMakeAStringPalindrome {
     public static void main(String[] args) {
         String str = "aebcbda";
         String rev = new StringBuilder(str).reverse().toString();

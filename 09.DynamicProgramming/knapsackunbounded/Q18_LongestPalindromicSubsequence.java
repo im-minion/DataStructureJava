@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 import java.util.Arrays;
 
 /*
@@ -14,7 +16,7 @@ This solution is exponential in term of time complexity.
 Let us see how this problem possesses both important properties of a Dynamic Programming (DP) Problem
 and can efficiently be solved using Dynamic Programming.
 */
-public class LongestPalindromicSubsequence {
+public class Q18_LongestPalindromicSubsequence {
     public static void main(String[] args) {
         String seq = "BBABCBCAB";
         System.out.printf("The length of the LPS is %d", lps(seq));

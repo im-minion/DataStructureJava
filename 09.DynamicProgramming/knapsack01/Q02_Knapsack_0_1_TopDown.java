@@ -1,4 +1,6 @@
-public class Q10_Knapsack_0_1_TopDown {
+package knapsack01;
+
+public class Q02_Knapsack_0_1_TopDown {
     static int[][] t; // [n][W]
 
     public static void main(String[] args) {

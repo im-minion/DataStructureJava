@@ -1,3 +1,5 @@
+package knapsackunbounded;
+
 /*
 Minimum number of deletions and insertions to transform one string into another
 Difficulty Level : Medium
@@ -22,7 +24,7 @@ then it is inserted to some other position.
 Thus, p contributes one to the deletion_count
 and one to the insertion_count.
 */
-public class MinNoOfInsertionAndDeletion {
+public class Q17_MinNoOfInsertionAndDeletion {
     public static void main(String[] args) {
         String str1 = "heap";
         String str2 = "pea";

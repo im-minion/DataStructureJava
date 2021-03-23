@@ -1,3 +1,5 @@
+package knapsack01;
+
 import java.util.Arrays;
 
 /*
@@ -15,7 +17,7 @@ Explanation:
 Subset1 = {1, 5, 6}, sum of Subset1 = 12
 Subset2 = {11}, sum of Subset2 = 11
 */
-public class Q32_SubsetSumMinDiff {
+public class Q06_SubsetSumMinDiff {
     public static void main(String[] args) {
         int[] arr = {1, 6, 11, 5};
         int n = arr.length;

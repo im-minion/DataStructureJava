@@ -23,9 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/rangequeries/SparseTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q24_MatrixChainMultiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/ActiveFountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/misc/ActiveFountain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/misc/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CoinChange_1_MaxNoOfWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CoinChange_2_MinNumOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/CuttingARod.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q10_CuttingARod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q13_LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q14_LongestCommonSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q18_LongestPalindromicSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/LongestRepeatingSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q21_LongestRepeatingSubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/MinDeletionToMakePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q19_MinDeletionToMakePalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/MinNoOfInsertionAndDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q17_MinNoOfInsertionAndDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/MinNoOfInsertionToMakeAStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q23_MinNoOfInsertionToMakeAStringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/PrintLargestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q15_PrintLongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/PrintShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q20_PrintShortestCommonSuperSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q10_Knapsack_0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q10_Knapsack_0_1_TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q02_Knapsack_0_1_TopDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q18_EqualSumPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q04_EqualSumPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q03_SubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSumCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q05_SubsetSumCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSumKDiffCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q07_SubsetSumKDiffCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/Q32_SubsetSumMinDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q06_SubsetSumMinDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/ShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q16_ShortestCommonSuperSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/StairCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/misc/StairCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/SubSequencePatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q22_SubSequencePatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q08_TargetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/UnboundedKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q09_UnboundedKnapsack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,73 +112,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Knapsack_0_1">
-    <configuration name="Knapsack_0_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Knapsack_0_1" />
+  <component name="RunManager" selected="Application.Q24_MatrixChainMultiplication">
+    <configuration name="Q20_PrintShortestCommonSuperSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q20_PrintShortestCommonSuperSequence" />
       <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargestSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="orderstatistics.KthLargestSumSubArray" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="orderstatistics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Q21_LongestRepeatingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q21_LongestRepeatingSubSequence" />
+      <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MOsAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rangequeries.MOsAlgorithm" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rangequeries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Q22_SubSequencePatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q22_SubSequencePatternMatching" />
+      <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.MiddleOfLinkedList" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Q23_MinNoOfInsertionToMakeAStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knapsackunbounded.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
+      <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rangequeries.SparseTable" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rangequeries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Q24_MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrixchainmultiplication.Q24_MatrixChainMultiplication" />
+      <module name="09.DynamicProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Knapsack_0_1" />
-        <item itemvalue="Application.SparseTable" />
-        <item itemvalue="Application.MOsAlgorithm" />
-        <item itemvalue="Application.MiddleOfLinkedList" />
-        <item itemvalue="Application.KthLargestSumSubArray" />
+        <item itemvalue="Application.Q24_MatrixChainMultiplication" />
+        <item itemvalue="Application.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
+        <item itemvalue="Application.Q22_SubSequencePatternMatching" />
+        <item itemvalue="Application.Q21_LongestRepeatingSubSequence" />
+        <item itemvalue="Application.Q20_PrintShortestCommonSuperSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -169,202 +170,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00083" summary="added ActiveFountain">
-      <created>1615224698631</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1615224698631</updated>
-    </task>
-    <task id="LOCAL-00084" summary="added matrix KMaxSumCombinations">
-      <created>1615227319795</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1615227319795</updated>
-    </task>
-    <task id="LOCAL-00085" summary="added orderstatistics K stuff problems">
-      <created>1615280774005</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1615280774005</updated>
-    </task>
-    <task id="LOCAL-00086" summary="added orderstats KthSmallestAbsoluteDifference">
-      <created>1615280819626</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1615280819626</updated>
-    </task>
-    <task id="LOCAL-00087" summary="added KNumsWithMostOccurrence">
-      <created>1615286534687</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1615286534687</updated>
-    </task>
-    <task id="LOCAL-00088" summary="added SecondSmallest, SmallestMissingNumber">
-      <created>1615290205457</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1615290205457</updated>
-    </task>
-    <task id="LOCAL-00089" summary="added MaxMinWithMinComparisons, MaxSumNoAdj">
-      <created>1615294521984</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1615294521985</updated>
-    </task>
-    <task id="LOCAL-00090" summary="added Search 🔎 BinarySearch">
-      <created>1615301544895</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1615301544895</updated>
-    </task>
-    <task id="LOCAL-00091" summary="added Search 🔎 BinarySearch">
-      <created>1615301660886</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1615301660886</updated>
-    </task>
-    <task id="LOCAL-00092" summary="added Arrays Sort &gt; ArrayTwoSum">
-      <created>1615309898069</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1615309898070</updated>
-    </task>
-    <task id="LOCAL-00093" summary="added Arrays Sort &gt; SearchArrayAdjDiffK">
-      <created>1615311585766</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1615311585766</updated>
-    </task>
-    <task id="LOCAL-00094" summary="added Arrays Search 🔎 &gt; SearchInInfiniteArray, OnlyRepetitiveElement">
-      <created>1615313794928</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1615313794928</updated>
-    </task>
-    <task id="LOCAL-00095" summary="added Arrays Search 🔎 &gt; MaxSubArraySumExcludeSomeElement, SearchElementAppearsOnlyOnce">
-      <created>1615315561592</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1615315561592</updated>
-    </task>
-    <task id="LOCAL-00096" summary="added Arrays Search 🔎 &gt; EquilibriumSum">
-      <created>1615386218593</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1615386218593</updated>
-    </task>
-    <task id="LOCAL-00097" summary="added Arrays Search 🔎 &gt; EquilibriumSum">
-      <created>1615386407146</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1615386407146</updated>
-    </task>
-    <task id="LOCAL-00098" summary="added Arrays Search 🔎 &gt; LeadersInArray">
-      <created>1615387161806</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1615387161806</updated>
-    </task>
-    <task id="LOCAL-00099" summary="added Arrays Search 🔎 &gt; FloorCeil">
-      <created>1615397511678</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1615397511678</updated>
-    </task>
-    <task id="LOCAL-00100" summary="added Arrays Search 🔎 &gt; MajorityElement">
-      <created>1615398816047</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1615398816047</updated>
-    </task>
-    <task id="LOCAL-00101" summary="added Arrays Search 🔎 &gt; MajorityElement">
-      <created>1615399202488</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1615399202488</updated>
-    </task>
-    <task id="LOCAL-00102" summary="added Arrays Search 🔎 &gt; PeakElement">
-      <created>1615400244805</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1615400244806</updated>
-    </task>
-    <task id="LOCAL-00103" summary="added Arrays Search 🔎 &gt; MaxTripletSum, SubArrayWithGivenSum">
-      <created>1615447648720</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1615447648720</updated>
-    </task>
-    <task id="LOCAL-00104" summary="added Arrays Search 🔎 &gt; SmallestDiffTriplet, TripletWithGivenSum">
-      <created>1615455776001</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1615455776001</updated>
-    </task>
-    <task id="LOCAL-00105" summary="started Range Queries ⁉ &gt; MOsAlgorithm">
-      <created>1615530798912</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1615530798912</updated>
-    </task>
-    <task id="LOCAL-00106" summary="started Range Queries ⁉ &gt; MOsAlgorithm">
-      <created>1615530854586</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1615530854586</updated>
-    </task>
-    <task id="LOCAL-00107" summary="started Range Queries ⁉ &gt; RangeMinimumQuery, RangeQueriesForFrequencyOfArrayElement, RangeSumUsingSparseTable">
-      <created>1615541231991</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1615541231991</updated>
-    </task>
-    <task id="LOCAL-00108" summary="started Range Queries ⁉ &gt; RangeQueriesAddOperation">
-      <created>1615546641630</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1615546641630</updated>
-    </task>
-    <task id="LOCAL-00109" summary="started Range Queries ⁉ &gt; RangeLCM">
-      <created>1615548721623</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1615548721623</updated>
-    </task>
-    <task id="LOCAL-00110" summary="started Range Queries ⁉ &gt; QueriesBinaryToDecimal, QueriesCountsOfArrayElement">
-      <created>1615558820327</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1615558820327</updated>
     </task>
     <task id="LOCAL-00111" summary="started Range Queries 🙋‍ &gt; NumbersOfElementsWithEqualElements">
       <created>1615559156682</created>
@@ -513,7 +318,203 @@
       <option name="project" value="LOCAL" />
       <updated>1615912139689</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="added Knapsack_0_1 and SparseTable">
+      <created>1616174603854</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1616174603854</updated>
+    </task>
+    <task id="LOCAL-00133" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1">
+      <created>1616175056440</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1616175056440</updated>
+    </task>
+    <task id="LOCAL-00134" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1_TopDown">
+      <created>1616225020969</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1616225020969</updated>
+    </task>
+    <task id="LOCAL-00135" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1_TopDown">
+      <created>1616225214535</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1616225214535</updated>
+    </task>
+    <task id="LOCAL-00136" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1">
+      <created>1616228334484</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1616228334484</updated>
+    </task>
+    <task id="LOCAL-00137" summary="added Dynamic Programming ♻ &gt; SubsetSum">
+      <created>1616234481606</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1616234481606</updated>
+    </task>
+    <task id="LOCAL-00138" summary="added Dynamic Programming ♻ &gt; EqualSumPartition">
+      <created>1616237130549</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237130549</updated>
+    </task>
+    <task id="LOCAL-00139" summary="added Dynamic Programming ♻ &gt; all Refactoring">
+      <created>1616237311597</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237311598</updated>
+    </task>
+    <task id="LOCAL-00140" summary="added Dynamic Programming ♻ &gt; Q18_EqualSumPartition.java">
+      <created>1616237960293</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237960294</updated>
+    </task>
+    <task id="LOCAL-00141" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumCount">
+      <created>1616240418705</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1616240418705</updated>
+    </task>
+    <task id="LOCAL-00142" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumMinDiff">
+      <created>1616263630121</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1616263630121</updated>
+    </task>
+    <task id="LOCAL-00143" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumKDiffCount">
+      <created>1616265822617</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1616265822618</updated>
+    </task>
+    <task id="LOCAL-00144" summary="added Dynamic Programming ♻ &gt; TargetSum">
+      <created>1616266518302</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1616266518302</updated>
+    </task>
+    <task id="LOCAL-00145" summary="added Dynamic Programming ♻ added Dynamic Programming ♻ &gt; UnboundedKnapsack">
+      <created>1616307759148</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1616307759148</updated>
+    </task>
+    <task id="LOCAL-00146" summary="added Dynamic Programming ♻ &gt; CuttingARod &amp; UnboundedKnapsack">
+      <created>1616312536844</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1616312536844</updated>
+    </task>
+    <task id="LOCAL-00147" summary="added Dynamic Programming ♻ &gt; CoinChange_1_MaxNoOfWays">
+      <created>1616313965550</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1616313965550</updated>
+    </task>
+    <task id="LOCAL-00148" summary="added Dynamic Programming ♻ &gt; Refactoring">
+      <created>1616348873246</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1616348873247</updated>
+    </task>
+    <task id="LOCAL-00149" summary="added Dynamic Programming ♻ &gt; Refactoring">
+      <created>1616348905679</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1616348905679</updated>
+    </task>
+    <task id="LOCAL-00150" summary="added Dynamic Programming ♻ &gt; LongestCommonSubsequence">
+      <created>1616351639149</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1616351639149</updated>
+    </task>
+    <task id="LOCAL-00151" summary="added Dynamic Programming ♻ &gt; LongestCommonSubstring">
+      <created>1616353465360</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1616353465360</updated>
+    </task>
+    <task id="LOCAL-00152" summary="added Dynamic Programming ♻ &gt; LongestCommonSubstring">
+      <created>1616385707067</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1616385707067</updated>
+    </task>
+    <task id="LOCAL-00153" summary="added Dynamic Programming ♻ &gt; PrintLargestCommonSubsequence, ShortestSuperSequence">
+      <created>1616420837142</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1616420837142</updated>
+    </task>
+    <task id="LOCAL-00154" summary="added Dynamic Programming ♻ &gt; LongestPalindromicSubsequence, MinDeletionToMakePalindrome, MinNoOfInsertionAndDeletion, ShortestSuperSequence">
+      <created>1616427792862</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1616427792863</updated>
+    </task>
+    <task id="LOCAL-00155" summary="added Dynamic Programming ♻ &gt; ShortestCommonSuperSequence">
+      <created>1616428042255</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1616428042255</updated>
+    </task>
+    <task id="LOCAL-00156" summary="added Dynamic Programming ♻ &gt; PrintShortestCommonSuperSequence">
+      <created>1616430837928</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1616430837928</updated>
+    </task>
+    <task id="LOCAL-00157" summary="added Dynamic Programming ♻ &gt; LongestRepeatingSubSequence">
+      <created>1616433329716</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1616433329716</updated>
+    </task>
+    <task id="LOCAL-00158" summary="added Dynamic Programming ♻ &gt; SubSequencePatternMatching">
+      <created>1616434252254</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1616434252255</updated>
+    </task>
+    <task id="LOCAL-00159" summary="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome">
+      <created>1616436077284</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1616436077284</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -536,32 +537,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="started Range Queries ⁉ &gt; MOsAlgorithm" />
-    <MESSAGE value="started Range Queries ⁉ &gt; RangeMinimumQuery, RangeQueriesForFrequencyOfArrayElement, RangeSumUsingSparseTable" />
-    <MESSAGE value="started Range Queries ⁉ &gt; RangeQueriesAddOperation" />
-    <MESSAGE value="started Range Queries ⁉ &gt; RangeLCM" />
-    <MESSAGE value="started Range Queries ⁉ &gt; QueriesBinaryToDecimal, QueriesCountsOfArrayElement" />
-    <MESSAGE value="started Range Queries ‍ &gt; NumbersOfElementsWithEqualElements" />
-    <MESSAGE value="Sort &gt; all" />
-    <MESSAGE value="Sort  &gt; SortInWaveForm" />
-    <MESSAGE value="Sort  &gt; MergeTwoSortedArrays" />
-    <MESSAGE value="Sort  &gt; Sort1toNAdjSwap Sort0sand1sArray" />
-    <MESSAGE value="Sort  &gt; SortByFrequency" />
-    <MESSAGE value="Sort  &gt; InversionUsingMergeSort, TwoElementClosestToZero" />
-    <MESSAGE value="Sort  &gt; MinSwapsRequiredToSort, ShortestUnSortedArray, UnionsAndIntersections" />
-    <MESSAGE value="Sort  &gt; MinLengthUnsortedSubArray, Sort012" />
-    <MESSAGE value="Sort  &gt; CountTheNumberOfPossibleTriangles, MedianInStreamOfIntegers" />
-    <MESSAGE value="Sort  &gt; CountTheNumberOfPossibleTriangles " />
-    <MESSAGE value="Sort  &gt; FindPairsPowerConstraint" />
-    <MESSAGE value="Sort  &gt; ConstructArrayFromPairSum, CountAllDistinctPairs" />
-    <MESSAGE value="Sort  &gt; MergeTwoSortedArraysNoExtraSpace" />
-    <MESSAGE value="Sort  &gt; ProductOfMaxMin" />
-    <MESSAGE value="added LinkedList ➡➡null &gt; init" />
-    <MESSAGE value="added LinkedList ➡➡null &gt; Deletion" />
-    <MESSAGE value="added LinkedList ➡➡null &gt; LengthOfLinkedList" />
-    <MESSAGE value="added LinkedList ➡➡null &gt; Searching" />
-    <MESSAGE value="added Sort   &gt; MergeSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Sort   &gt; MergeSort" />
+    <MESSAGE value="added Knapsack_0_1 and SparseTable" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Knapsack_0_1_TopDown" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Knapsack_0_1" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; SubsetSum" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; EqualSumPartition" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; all Refactoring" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q18_EqualSumPartition.java" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q32_SubsetSumCount" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q32_SubsetSumMinDiff" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q32_SubsetSumKDiffCount" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; TargetSum" />
+    <MESSAGE value="added Dynamic Programming ♻ added Dynamic Programming ♻ &gt; UnboundedKnapsack" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; CuttingARod &amp; UnboundedKnapsack" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; CoinChange_1_MaxNoOfWays" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; CoinChange_2_MinNumOfCoins" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Refactoring" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; LongestCommonSubsequence" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; LongestCommonSubstring" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; PrintLargestCommonSubsequence, ShortestSuperSequence" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; LongestPalindromicSubsequence, MinDeletionToMakePalindrome, MinNoOfInsertionAndDeletion, ShortestSuperSequence" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; ShortestCommonSuperSequence" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; PrintShortestCommonSuperSequence" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; LongestRepeatingSubSequence" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; SubSequencePatternMatching" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -787,17 +788,17 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/ActiveFountain.java</url>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/misc/ActiveFountain.java</url>
           <line>27</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/ActiveFountain.java</url>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/misc/ActiveFountain.java</url>
           <line>24</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/ActiveFountain.java</url>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/misc/ActiveFountain.java</url>
           <line>22</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
@@ -1082,34 +1083,49 @@
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java</url>
+          <line>29</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java</url>
+          <line>63</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java</url>
+          <line>65</line>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java</url>
+          <line>67</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/09.DynamicProgramming/Knapsack_0_1.java</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java</url>
+          <line>54</line>
           <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q04_EqualSumPartition.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q10_CuttingARod.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q15_PrintLongestCommonSubsequence.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

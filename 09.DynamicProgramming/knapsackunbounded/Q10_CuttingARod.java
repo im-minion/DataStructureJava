@@ -1,4 +1,4 @@
-/*
+package knapsackunbounded;/*
 Cutting a Rod | DP-13
 Difficulty Level : Medium
 
@@ -22,7 +22,7 @@ price    | 3   5   8   9  10  17  17  20
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class CuttingARod {
+public class Q10_CuttingARod {
     static int[][] t_memo;
 
     public static void main(String[] args) {

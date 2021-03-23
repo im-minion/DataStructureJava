@@ -1,6 +1,8 @@
+package knapsack01;
+
 import java.util.Arrays;
 
-public class Q32_SubsetSumKDiffCount {
+public class Q07_SubsetSumKDiffCount {
     public static void main(String[] args) {
         int[] arr = {1, 1, 2, 3};
         int diff = 1;

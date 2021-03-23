@@ -1,4 +1,4 @@
-/*
+package knapsackunbounded;/*
 Unbounded Knapsack (Repetition of items allowed)
 Difficulty Level : Medium
 
@@ -26,7 +26,7 @@ We get maximum value with one unit of
 weight 5 and one unit of weight 3.
 */
 
-public class UnboundedKnapsack {
+public class Q09_UnboundedKnapsack {
 
     public static void main(String[] args) {
         int W = 100;

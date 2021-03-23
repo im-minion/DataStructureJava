@@ -1,4 +1,4 @@
-/*
+package knapsackunbounded;/*
 Printing Shortest Common Supersequence
 Difficulty Level : Hard
 
@@ -17,7 +17,7 @@ Input: X = "HELLO",  Y = "GEEK"
 Output: "GEHEKLLO" OR "GHEEKLLO" OR Any string that represents shortest supersequence of X and Y
 */
 
-public class PrintShortestCommonSuperSequence {
+public class Q20_PrintShortestCommonSuperSequence {
     public static void main(String[] args) {
         String X = "AGGTAB";
         String Y = "GXTXAYB";

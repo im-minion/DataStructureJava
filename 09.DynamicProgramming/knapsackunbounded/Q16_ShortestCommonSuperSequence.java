@@ -1,4 +1,4 @@
-/*
+package knapsackunbounded;/*
 Shortest Common Supersequence
 Difficulty Level : Medium
 
@@ -17,7 +17,7 @@ Explanation:
 String "AGXGTXAYB" has both string "AGGTAB" and "GXTXAYB" as subsequences.
 */
 
-public class ShortestCommonSuperSequence {
+public class Q16_ShortestCommonSuperSequence {
     public static void main(String[] args) {
         String X = "ABCDGH";
         String Y = "AEDFHR";
