@@ -66,7 +66,7 @@ Note: Dropping from 3rd and 4th floor is same as dropping from 2nd and 1st floor
 that subcases A and B just gets swapped.
 */
 public class Q28_EggDropping {
-    static int t[][];
+    static int[][] t;
 
     public static void main(String[] args) {
         int e = 2;
