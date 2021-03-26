@@ -7,7 +7,8 @@ public class MiddleOfLinkedList {
             llist.push(i);
             LinkedList.printLinkedList(llist.head);
             Node mid = printMiddle(llist.head);
-            System.out.println("Middle" + mid.data);
+            System.out.println("Middle : " + mid.data);
+            System.out.println();
         }
     }
 
@@ -15,12 +16,9 @@ public class MiddleOfLinkedList {
         Node slowPointer = head;
         Node fastPointer = head;
 
-        while (fastPointer != null && fastPointer.next != null && fastPointer.next.next != null) {
+        while (fastPointer != null && fastPointer.next != null) {
             slowPointer = slowPointer.next;
             fastPointer = fastPointer.next.next;
-        }
-        if(fastPointer != null && fastPointer.next == null && slowPointer.next != null) {
-            return slowPointer.next;
         }
 
         return slowPointer;
