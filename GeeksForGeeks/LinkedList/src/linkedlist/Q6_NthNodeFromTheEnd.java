@@ -1,13 +1,13 @@
 package linkedlist;
 
-public class NthNodeFromTheEnd {
+public class Q6_NthNodeFromTheEnd {
     public static void main(String[] args) {
-        LinkedList llist = new LinkedList();
+        Q1_LinkedList llist = new Q1_LinkedList();
         llist.push(20);
         llist.push(4);
         llist.push(15);
         llist.push(35);
-        LinkedList.printLinkedList(llist.head);
+        Q1_LinkedList.printLinkedList(llist.head);
         int r = nthFromLast(1, llist.head);
         System.out.println(r);
     }

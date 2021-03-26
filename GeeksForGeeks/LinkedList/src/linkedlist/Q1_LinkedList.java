@@ -1,12 +1,12 @@
 package linkedlist;
 
-public class LinkedList {
+public class Q1_LinkedList {
     Node head; // head of list
 
     /* Linked list Node. This inner class is made static so that main() can access it */
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        Q1_LinkedList list = new Q1_LinkedList();
 
         list.head = new Node(1);
         Node second = new Node(2);

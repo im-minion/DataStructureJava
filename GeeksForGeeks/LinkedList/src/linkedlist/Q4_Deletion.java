@@ -1,23 +1,23 @@
 package linkedlist;
 
-public class Deletion {
+public class Q4_Deletion {
     public static void main(String[] args) {
-        LinkedList llist = new LinkedList();
+        Q1_LinkedList llist = new Q1_LinkedList();
         llist.push(7);
         llist.push(1);
         llist.push(3);
         llist.push(2);
 
         System.out.println("Before");
-        LinkedList.printLinkedList(llist.head);
+        Q1_LinkedList.printLinkedList(llist.head);
 
         Node h = deleteNodeAtSpecificIndex(0, llist.head);
         System.out.println("After deleteNodeAtSpecificIndex");
-        LinkedList.printLinkedList(h);
+        Q1_LinkedList.printLinkedList(h);
 
         h = deleteNodeWithSpecificValue(3, llist.head);
         System.out.println("After deleteNodeWithSpecificValue");
-        LinkedList.printLinkedList(h);
+        Q1_LinkedList.printLinkedList(h);
     }
 
     private static Node deleteNodeAtSpecificIndex(int index, Node head) {

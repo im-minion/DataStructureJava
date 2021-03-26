@@ -23,19 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q13_LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q13_LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q14_LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q14_LongestCommonSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q15_PrintLongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q15_PrintLongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q16_ShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q16_ShortestCommonSuperSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q17_MinNoOfInsertionAndDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q17_MinNoOfInsertionAndDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q18_LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q18_LongestPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q19_MinDeletionToMakePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q19_MinDeletionToMakePalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q20_PrintShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q20_PrintShortestCommonSuperSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q21_LongestRepeatingSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q21_LongestRepeatingSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q22_SubSequencePatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q22_SubSequencePatternMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.DynamicProgramming/knapsackunbounded/Q23_MinNoOfInsertionToMakeAStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.DynamicProgramming/lcs/Q23_MinNoOfInsertionToMakeAStringPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -97,24 +85,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q25_PalindromicPartition">
-    <configuration name="Q21_LongestRepeatingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lcs.Q21_LongestRepeatingSubSequence" />
-      <module name="09.DynamicProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q22_SubSequencePatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lcs.Q22_SubSequencePatternMatching" />
-      <module name="09.DynamicProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q23_MinNoOfInsertionToMakeAStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lcs.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
-      <module name="09.DynamicProgramming" />
+  <component name="RunManager" selected="Application.Q11_MiddleOfLinkedList">
+    <configuration name="Q11_MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Q11_MiddleOfLinkedList" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,13 +119,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q26_EvaluateExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrixchainmultiplication.Q26_EvaluateExpression" />
+      <module name="09.DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matrixchainmultiplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q28_EggDropping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="matrixchainmultiplication.Q28_EggDropping" />
+      <module name="09.DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matrixchainmultiplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q11_MiddleOfLinkedList" />
+        <item itemvalue="Application.Q28_EggDropping" />
+        <item itemvalue="Application.Q26_EvaluateExpression" />
         <item itemvalue="Application.Q25_PalindromicPartition" />
         <item itemvalue="Application.Q24_MatrixChainMultiplication" />
-        <item itemvalue="Application.Q23_MinNoOfInsertionToMakeAStringPalindrome" />
-        <item itemvalue="Application.Q22_SubSequencePatternMatching" />
-        <item itemvalue="Application.Q21_LongestRepeatingSubSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -161,48 +167,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00112" summary="Sort &gt; all">
-      <created>1615658962102</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1615658962103</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Sort 👣 &gt; SortInWaveForm">
-      <created>1615660822413</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1615660822413</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Sort 👣 &gt; MergeTwoSortedArrays">
-      <created>1615663173273</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1615663173273</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Sort 👣 &gt; Sort1toNAdjSwap Sort0sand1sArray">
-      <created>1615696743866</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1615696743866</updated>
-    </task>
-    <task id="LOCAL-00116" summary="Sort 👣 &gt; SortByFrequency">
-      <created>1615708637009</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1615708637009</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Sort 👣 &gt; InversionUsingMergeSort, TwoElementClosestToZero">
-      <created>1615714989371</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1615714989371</updated>
     </task>
     <task id="LOCAL-00118" summary="Sort 👣 &gt; MinSwapsRequiredToSort, ShortestUnSortedArray, UnionsAndIntersections">
       <created>1615716373367</created>
@@ -505,7 +469,49 @@
       <option name="project" value="LOCAL" />
       <updated>1616479320479</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="added Dynamic Programming ♻ &gt; all Refactoring">
+      <created>1616521056435</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1616521056436</updated>
+    </task>
+    <task id="LOCAL-00162" summary="added Dynamic Programming ♻ &gt; Q25_PalindromicPartition">
+      <created>1616524622287</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1616524622287</updated>
+    </task>
+    <task id="LOCAL-00163" summary="added Dynamic Programming ♻ &gt; Q26_EvaluateExpression">
+      <created>1616589943617</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1616589943617</updated>
+    </task>
+    <task id="LOCAL-00164" summary="added Dynamic Programming ♻ &gt; Q27_ScrambledString, Q28_EggDropping">
+      <created>1616612160916</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1616612160916</updated>
+    </task>
+    <task id="LOCAL-00165" summary="added Dynamic Programming ♻ &gt; Q28_EggDropping">
+      <created>1616612195695</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1616612195695</updated>
+    </task>
+    <task id="LOCAL-00166" summary="added LinkedList 📦➡📦➡null &gt; MiddleOfLinkedList">
+      <created>1616737266256</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1616737266257</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -528,12 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Knapsack_0_1_TopDown" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Knapsack_0_1" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; SubsetSum" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; EqualSumPartition" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; all Refactoring" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Q18_EqualSumPartition.java" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q32_SubsetSumCount" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q32_SubsetSumMinDiff" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q32_SubsetSumKDiffCount" />
@@ -553,7 +553,13 @@
     <MESSAGE value="added Dynamic Programming ♻ &gt; SubSequencePatternMatching" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Refactored all programs :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Dynamic Programming ♻ &gt; Refactored all programs :)" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; all Refactoring" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q25_PalindromicPartition" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q26_EvaluateExpression" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q27_ScrambledString, Q28_EggDropping" />
+    <MESSAGE value="added Dynamic Programming ♻ &gt; Q28_EggDropping" />
+    <MESSAGE value="added LinkedList ➡➡null &gt; MiddleOfLinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LinkedList ➡➡null &gt; MiddleOfLinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1120,33 +1126,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
-          <line>63</line>
+          <line>71</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
-          <line>56</line>
+          <line>64</line>
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
-          <line>44</line>
+          <line>52</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
-          <line>45</line>
+          <line>53</line>
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
-          <line>46</line>
+          <line>54</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q25_PalindromicPartition.java</url>
           <line>19</line>
           <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q26_EvaluateExpression.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/09.DynamicProgramming/matrixchainmultiplication/Q28_EggDropping.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="185" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

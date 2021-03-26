@@ -1,11 +1,11 @@
 package linkedlist;
 
-public class MiddleOfLinkedList {
+public class Q11_MiddleOfLinkedList {
     public static void main(String[] args) {
-        LinkedList llist = new LinkedList();
+        Q1_LinkedList llist = new Q1_LinkedList();
         for (int i = 5; i > 0; --i) {
             llist.push(i);
-            LinkedList.printLinkedList(llist.head);
+            Q1_LinkedList.printLinkedList(llist.head);
             Node mid = printMiddle(llist.head);
             System.out.println("Middle : " + mid.data);
             System.out.println();

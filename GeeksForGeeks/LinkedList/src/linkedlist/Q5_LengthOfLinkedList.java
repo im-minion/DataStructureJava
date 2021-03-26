@@ -1,9 +1,9 @@
 package linkedlist;
 
-public class LengthOfLinkedList {
+public class Q5_LengthOfLinkedList {
     public static void main(String[] args) {
         /* Start with the empty list */
-        LinkedList llist = new LinkedList();
+        Q1_LinkedList llist = new Q1_LinkedList();
         llist.push(1);
         llist.push(3);
         llist.push(1);

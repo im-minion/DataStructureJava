@@ -1,8 +1,8 @@
 package linkedlist;
 
-public class Searching {
+public class Q3_Searching {
     public static void main(String[] args) {
-        LinkedList llist = new LinkedList();
+        Q1_LinkedList llist = new Q1_LinkedList();
 
         /*Use push() to construct below list
         14->21->11->30->10  */

@@ -1,26 +1,26 @@
 package linkedlist;
 
-public class Insertion {
+public class Q2_Insertion {
     public static void main(String[] args) {
-        LinkedList l = new LinkedList();
+        Q1_LinkedList l = new Q1_LinkedList();
         l.head = new Node(1);
         l.head.next = new Node(2);
         l.head.next.next = new Node(3);
 
         System.out.println("Original :");
-        LinkedList.printLinkedList(l.head);
+        Q1_LinkedList.printLinkedList(l.head);
 
         System.out.println("insertAtTheFront :");
         l.head = insertAtTheFront(new Node(5), l.head);
-        LinkedList.printLinkedList(l.head);
+        Q1_LinkedList.printLinkedList(l.head);
 
         System.out.println("insertAfter :");
         insertAfter(l.head.next, new Node(99));
-        LinkedList.printLinkedList(l.head);
+        Q1_LinkedList.printLinkedList(l.head);
 
         System.out.println("insertAtTheEnd :");
         insertAtTheEnd(new Node(9), l.head);
-        LinkedList.printLinkedList(l.head);
+        Q1_LinkedList.printLinkedList(l.head);
 
     }
 
