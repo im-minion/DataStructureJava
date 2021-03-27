@@ -19,7 +19,7 @@ For example, if the linked list is 1->2->3->4->5 then
 the function should change it to 2->1->4->3->5, and if the linked list is then the function should change it to .
 */
 
-public class Q_19_PairwiseSwap {
+public class Q19_PairwiseSwap {
     public static void main(String[] args) {
         Q1_LinkedList llist = new Q1_LinkedList();
 
