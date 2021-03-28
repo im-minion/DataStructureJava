@@ -142,12 +142,12 @@ public class Q1_DoublyLinkedList {
             last = node;
             node = node.next;
         }
-        System.out.println();
-        System.out.println("Traversal in reverse direction");
-        while (last != null) {
-            System.out.print(last.data + " ");
-            last = last.prev;
-        }
+//        System.out.println();
+//        System.out.println("Traversal in reverse direction");
+//        while (last != null) {
+//            System.out.print(last.data + " ");
+//            last = last.prev;
+//        }
     }
 
 
