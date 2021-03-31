@@ -3,15 +3,15 @@ import java.util.Map;
 
 public class TwoSum {
     public static void main(String[] args) {
-        int array[] = { 2, 7, 8, 6 };
+        int[] array = { 2, 7, 8, 6 };
 
-        int result[] = twoSum(array, 9);
+        int[] result = twoSum(array, 9);
         for (int i = 0; i < result.length; i++) {
             System.out.print(result[i] + "\t");
         }
     }
 
-    private static int[] twoSum(int arr[], int target) {
+    private static int[] twoSum(int[] arr, int target) {
         Map<Integer, Integer> valToIndexMap = new HashMap<>();
 
         int[] result = new int[2];

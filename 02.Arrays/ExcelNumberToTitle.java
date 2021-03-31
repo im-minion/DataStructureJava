@@ -7,9 +7,9 @@ public class ExcelNumberToTitle {
     public static String convertToTitle(int A) {
         StringBuilder result = new StringBuilder("");
         while (A > 0) {
-            int r = ((A - 1) % 26) + 65;
-            A = (A - 1) / 26;
-            result.append((char) r);
+            int r = ((A - 1) % 26) + 65; // grab last digit
+            A = (A - 1) / 26; // remove last digit
+            result.append((char) r); // get the char of last digit
         }
         return result.toString().length() > 0 ? result.reverse().toString() : "";
     }
