@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/mics/MatrixToLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/mics/MatrixToLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,20 @@
       <recent name="linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeHasPath">
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.BinaryTree" />
+      <module name="BinaryTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinaryTreeHasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTreeHasPath" />
       <module name="06.Trees" />
@@ -116,19 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7_SwapKthFromBeginningAndEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doublylinkedlist.Q7_SwapKthFromBeginningAndEnd" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doublylinkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
       <module name="01.LinkedList" />
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.BinaryTreeHasPath" />
         <item itemvalue="Application.ExcelTitleToNumber" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.MatrixToLL" />
-        <item itemvalue="Application.Q7_SwapKthFromBeginningAndEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -158,13 +159,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00132" summary="added Knapsack_0_1 and SparseTable">
-      <created>1616174603854</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1616174603854</updated>
     </task>
     <task id="LOCAL-00133" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1">
       <created>1616175056440</created>
@@ -502,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617199578283</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="refactored">
+      <created>1617295768914</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1617295768914</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1214,6 +1215,21 @@
           <url>file://$PROJECT_DIR$/09.DynamicProgramming/knapsack01/Q01_Knapsack_0_1.java</url>
           <line>60</line>
           <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/mics/MatrixToLL.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/mics/MatrixToLL.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/mics/MatrixToLL.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="209" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
