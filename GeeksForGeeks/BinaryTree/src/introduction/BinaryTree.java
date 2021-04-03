@@ -31,6 +31,86 @@ public class BinaryTree {
 
         System.out.println("\nPostOrder :: ");
         printPostOrderTraversal(op);
+
+        int dataToDelete = 6;
+        deleteAndReplaceWithBottomMost(op, dataToDelete);
+        System.out.println("\nInOrder After Deleting => " + dataToDelete + " :: ");
+        printInorderTraversal(op);
+    }
+
+    private static void deleteAndReplaceWithBottomMost(Node root, int key) {
+        if (root == null)
+            return;
+
+        if (root.left == null &&
+                root.right == null) {
+            if (root.key == key) {
+                root = null;
+                return;
+            } else
+                return;
+        }
+
+        Queue<Node> q = new LinkedList<Node>();
+        q.add(root);
+        Node temp = null; // lastNode
+        Node nodeToBeDeleted = null; // nodeToBeDeleted
+
+        // Do level order traversal until we find key and last node.
+        while (!q.isEmpty()) {
+            temp = q.peek();
+            q.remove();
+
+            if (temp.key == key)
+                nodeToBeDeleted = temp;
+
+            if (temp.left != null)
+                q.add(temp.left);
+
+            if (temp.right != null)
+                q.add(temp.right);
+        }
+
+        if (nodeToBeDeleted != null) {
+            int lastNodeKey = temp.key;
+            deleteDeepest(root, temp);
+            nodeToBeDeleted.key = lastNodeKey;
+        }
+    }
+
+    private static void deleteDeepest(Node root, Node delNode) {
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        Node temp = null;
+
+        // Do level order traversal until last node
+        while (!q.isEmpty()) {
+            temp = q.peek();
+            q.remove();
+
+            if (temp == delNode) {
+                temp = null;
+                return;
+
+            }
+            if (temp.right != null) {
+                if (temp.right == delNode) {
+                    temp.right = null;
+                    return;
+                } else
+                    q.add(temp.right);
+            }
+
+            if (temp.left != null) {
+                if (temp.left == delNode) {
+                    temp.left = null;
+                    return;
+                } else
+                    q.add(temp.left);
+            }
+        }
+
     }
 
     private static void printPostOrderTraversal(Node root) {
