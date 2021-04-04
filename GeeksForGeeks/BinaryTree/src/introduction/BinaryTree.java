@@ -162,13 +162,23 @@ public class BinaryTree {
         }
     }
 
-    private static void printInorderTraversal(Node root) {
+    public static void printInorderTraversal(Node root) {
         if (root.left != null) {
             printInorderTraversal(root.left);
         }
         System.out.print(root.key + " ");
         if (root.right != null) {
             printInorderTraversal(root.right);
+        }
+    }
+
+    public static void printCharInorderTraversal(Node root) {
+        if (root.left != null) {
+            printCharInorderTraversal(root.left);
+        }
+        System.out.print((char)root.key + " ");
+        if (root.right != null) {
+            printCharInorderTraversal(root.right);
         }
     }
 
