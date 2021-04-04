@@ -17,25 +17,53 @@ public class BinaryTree {
 
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree(5);
+
+        /*Node Insertion*/
         Node op = insertAtFirstAvailablePosition(binaryTree.root, 6);
         op = insertAtFirstAvailablePosition(op, 7);
         op = insertAtFirstAvailablePosition(op, 8);
         op = insertAtFirstAvailablePosition(op, 9);
         op = insertAtFirstAvailablePosition(op, 10);
         op = insertAtFirstAvailablePosition(op, 3);
-        System.out.println("InOrder :: ");
+
+        /*BFS Traversal*/
+        System.out.println("BFS Traversal");
+        printBFS(op);
+
+        /*DFS Traversals*/
+        System.out.println("\nDFS InOrder :: ");
         printInorderTraversal(op);
 
-        System.out.println("\nPreOrder :: ");
+        System.out.println("\nDFS PreOrder :: ");
         printPreOrderTraversal(op);
 
-        System.out.println("\nPostOrder :: ");
+        System.out.println("\nDFS PostOrder :: ");
         printPostOrderTraversal(op);
 
+        /*Node Deletion*/
         int dataToDelete = 6;
         deleteAndReplaceWithBottomMost(op, dataToDelete);
         System.out.println("\nInOrder After Deleting => " + dataToDelete + " :: ");
         printInorderTraversal(op);
+    }
+
+    private static void printBFS(Node root) {
+        Queue<Node> queue = new LinkedList<Node>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            Node tempNode = queue.poll();
+            System.out.print(tempNode.key + " ");
+
+            /*Enqueue left child */
+            if (tempNode.left != null) {
+                queue.add(tempNode.left);
+            }
+
+            /*Enqueue right child */
+            if (tempNode.right != null) {
+                queue.add(tempNode.right);
+            }
+        }
     }
 
     private static void deleteAndReplaceWithBottomMost(Node root, int key) {
