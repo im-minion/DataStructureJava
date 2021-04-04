@@ -23,6 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/SymmetricTreeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/InorderTraversalWithoutRecursionUsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/BinaryTree.java" afterDir="false" />
     </list>
@@ -81,6 +83,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="introduction" />
       <recent name="orderstatistics" />
       <recent name="misc" />
       <recent name="" />
@@ -89,13 +92,13 @@
       <recent name="linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.BinaryTree" />
+  <component name="RunManager">
+    <configuration name="ConstructExpressionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.ConstructExpressionTree" />
       <module name="BinaryTree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="introduction.*" />
+          <option name="PATTERN" value="traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,26 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeHasPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeHasPath" />
-      <module name="06.Trees" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelTitleToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExcelTitleToNumber" />
-      <module name="02.Arrays" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrixToLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mics.MatrixToLL" />
-      <module name="LinkedList" />
+    <configuration name="EvaluateExpressionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.EvaluateExpressionTree" />
+      <module name="BinaryTree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mics.*" />
+          <option name="PATTERN" value="traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,20 +119,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveDuplicates" />
-      <module name="01.LinkedList" />
+    <configuration name="FoldableTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.FoldableTree" />
+      <module name="BinaryTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InorderTraversalWithoutRecursionUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traversal.InorderTraversalWithoutRecursionUsingStack" />
+      <module name="BinaryTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymmetricTreeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.SymmetricTreeCheck" />
+      <module name="BinaryTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.BinaryTreeHasPath" />
-        <item itemvalue="Application.ExcelTitleToNumber" />
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.MatrixToLL" />
+        <item itemvalue="Application.InorderTraversalWithoutRecursionUsingStack" />
+        <item itemvalue="Application.SymmetricTreeCheck" />
+        <item itemvalue="Application.EvaluateExpressionTree" />
+        <item itemvalue="Application.ConstructExpressionTree" />
+        <item itemvalue="Application.FoldableTree" />
       </list>
     </recent_temporary>
   </component>
@@ -159,48 +180,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00135" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1_TopDown">
-      <created>1616225214535</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1616225214535</updated>
-    </task>
-    <task id="LOCAL-00136" summary="added Dynamic Programming ♻ &gt; Knapsack_0_1">
-      <created>1616228334484</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1616228334484</updated>
-    </task>
-    <task id="LOCAL-00137" summary="added Dynamic Programming ♻ &gt; SubsetSum">
-      <created>1616234481606</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1616234481606</updated>
-    </task>
-    <task id="LOCAL-00138" summary="added Dynamic Programming ♻ &gt; EqualSumPartition">
-      <created>1616237130549</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1616237130549</updated>
-    </task>
-    <task id="LOCAL-00139" summary="added Dynamic Programming ♻ &gt; all Refactoring">
-      <created>1616237311597</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1616237311598</updated>
-    </task>
-    <task id="LOCAL-00140" summary="added Dynamic Programming ♻ &gt; Q18_EqualSumPartition.java">
-      <created>1616237960293</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1616237960294</updated>
     </task>
     <task id="LOCAL-00141" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumCount">
       <created>1616240418705</created>
@@ -503,7 +482,49 @@
       <option name="project" value="LOCAL" />
       <updated>1617467569017</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="added BinaryTree 🌳 &gt; BinaryTree.java">
+      <created>1617507859017</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1617507859018</updated>
+    </task>
+    <task id="LOCAL-00185" summary="added BinaryTree 🌳 &gt; BinaryTreeUsingArray">
+      <created>1617508816185</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1617508816185</updated>
+    </task>
+    <task id="LOCAL-00186" summary="added BinaryTree 🌳 &gt; ContinuousTree">
+      <created>1617515263567</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1617515263567</updated>
+    </task>
+    <task id="LOCAL-00187" summary="added BinaryTree 🌳 &gt; FoldableTree">
+      <created>1617517368064</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1617517368064</updated>
+    </task>
+    <task id="LOCAL-00188" summary="added BinaryTree 🌳 &gt; ConstructExpressionTree">
+      <created>1617521202052</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1617521202052</updated>
+    </task>
+    <task id="LOCAL-00189" summary="added BinaryTree 🌳 &gt; EvaluateExpressionTree">
+      <created>1617528400062</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1617528400062</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -526,11 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; LongestRepeatingSubSequence" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; SubSequencePatternMatching" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; MinNoOfInsertionToMakeAStringPalindrome" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Refactored all programs :)" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; all Refactoring" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q25_PalindromicPartition" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q26_EvaluateExpression" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q27_ScrambledString, Q28_EggDropping" />
@@ -551,7 +567,12 @@
     <MESSAGE value="added LinkedList ➡➡null &gt; Q17_SortBiotonicDLL" />
     <MESSAGE value="refactored" />
     <MESSAGE value="added BinaryTree  &gt; BinaryTree.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added BinaryTree  &gt; BinaryTree.java" />
+    <MESSAGE value="added BinaryTree  &gt; BinaryTreeUsingArray" />
+    <MESSAGE value="added BinaryTree  &gt; ContinuousTree" />
+    <MESSAGE value="added BinaryTree  &gt; FoldableTree" />
+    <MESSAGE value="added BinaryTree  &gt; ConstructExpressionTree" />
+    <MESSAGE value="added BinaryTree  &gt; EvaluateExpressionTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="added BinaryTree  &gt; EvaluateExpressionTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1230,6 +1251,11 @@
           <url>file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/src/mics/MatrixToLL.java</url>
           <line>44</line>
           <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/ContinuousTree.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="210" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

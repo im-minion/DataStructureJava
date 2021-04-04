@@ -11,7 +11,7 @@ public class BinaryTree {
         this.root = new Node(data);
     }
 
-    BinaryTree() {
+    public BinaryTree() {
         this.root = null;
     }
 
