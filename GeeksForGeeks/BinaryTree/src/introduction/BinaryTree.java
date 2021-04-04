@@ -47,7 +47,7 @@ public class BinaryTree {
         printInorderTraversal(op);
     }
 
-    private static void printBFS(Node root) {
+    public static void printBFS(Node root) {
         Queue<Node> queue = new LinkedList<Node>();
         queue.add(root);
         while (!queue.isEmpty()) {
@@ -64,6 +64,7 @@ public class BinaryTree {
                 queue.add(tempNode.right);
             }
         }
+        System.out.println();
     }
 
     private static void deleteAndReplaceWithBottomMost(Node root, int key) {
