@@ -23,10 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/SymmetricTreeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/InorderTraversalWithoutRecursionUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.Strings/AreTwoStringEqualWithCond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/AllPossibleTreesFromInorder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/PrintPostorderFromInorderAndPreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/PrintPostorderFromInorderAndPreOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +92,9 @@
       <recent name="linkedlist" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ConstructExpressionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.ConstructExpressionTree" />
+  <component name="RunManager" selected="Application.AllPossibleTreesFromInorder">
+    <configuration name="AllPossibleTreesFromInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traversal.AllPossibleTreesFromInorder" />
       <module name="BinaryTree" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvaluateExpressionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.EvaluateExpressionTree" />
-      <module name="BinaryTree" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.BubbleSort" />
+      <module name="Array" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="traversal.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,15 +119,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FoldableTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.FoldableTree" />
-      <module name="BinaryTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="traversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="GCDorHCF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GCDorHCF" />
+      <module name="02.Arrays" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTreeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.SymmetricTreeCheck" />
+    <configuration name="PrintPostorderFromInorderAndPreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traversal.PrintPostorderFromInorderAndPreOrder" />
       <module name="BinaryTree" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllPossibleTreesFromInorder" />
+        <item itemvalue="Application.GCDorHCF" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.PrintPostorderFromInorderAndPreOrder" />
         <item itemvalue="Application.InorderTraversalWithoutRecursionUsingStack" />
-        <item itemvalue="Application.SymmetricTreeCheck" />
-        <item itemvalue="Application.EvaluateExpressionTree" />
-        <item itemvalue="Application.ConstructExpressionTree" />
-        <item itemvalue="Application.FoldableTree" />
       </list>
     </recent_temporary>
   </component>
@@ -180,20 +174,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00141" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumCount">
-      <created>1616240418705</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1616240418705</updated>
-    </task>
-    <task id="LOCAL-00142" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumMinDiff">
-      <created>1616263630121</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1616263630121</updated>
     </task>
     <task id="LOCAL-00143" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumKDiffCount">
       <created>1616265822617</created>
@@ -524,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617528400062</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="added BinaryTree 🌳 &gt; SymmetricTreeCheck, InorderTraversalWithoutRecursionUsingStack">
+      <created>1617533522152</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1617533522152</updated>
+    </task>
+    <task id="LOCAL-00191" summary="added BinaryTree 🌳 &gt; PrintPostorderFromInorderAndPreOrder">
+      <created>1617549072845</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1617549072845</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -547,8 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Q25_PalindromicPartition" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Q26_EvaluateExpression" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q27_ScrambledString, Q28_EggDropping" />
     <MESSAGE value="added Dynamic Programming ♻ &gt; Q28_EggDropping" />
     <MESSAGE value="added LinkedList ➡➡null &gt; MiddleOfLinkedList" />
@@ -572,7 +564,9 @@
     <MESSAGE value="added BinaryTree  &gt; FoldableTree" />
     <MESSAGE value="added BinaryTree  &gt; ConstructExpressionTree" />
     <MESSAGE value="added BinaryTree  &gt; EvaluateExpressionTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="added BinaryTree  &gt; EvaluateExpressionTree" />
+    <MESSAGE value="added BinaryTree  &gt; SymmetricTreeCheck, InorderTraversalWithoutRecursionUsingStack" />
+    <MESSAGE value="added BinaryTree  &gt; PrintPostorderFromInorderAndPreOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="added BinaryTree  &gt; PrintPostorderFromInorderAndPreOrder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,11 +990,6 @@
           <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/misc/SubArrayWithGivenSum.java</url>
           <line>16</line>
           <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/InsertionSort.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/GeeksForGeeks/Array/src/sorting/BubbleSort.java</url>

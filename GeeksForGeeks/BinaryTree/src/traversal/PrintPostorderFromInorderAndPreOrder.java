@@ -13,7 +13,7 @@ public class PrintPostorderFromInorderAndPreOrder {
 
     private static void printPostOrder(int[] inorder, int[] preorder, int n) {
         int rootIndexPre = 0;
-        int rootIndexInorder = getElementIndex(inorder, preorder[0], n);
+        int rootIndexInorder = getElementIndex(inorder, preorder[rootIndexPre], n);
 
         if (rootIndexInorder != 0) {
             // left subtree exists
