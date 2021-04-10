@@ -5,7 +5,7 @@ import introduction.Node;
 
 import java.util.Stack;
 
-public class InorderTraversalWithoutRecursionUsingStack {
+public class Q03_InorderTraversalWithoutRecursionUsingStack {
     public static void main(String[] args) {
 
         /*Node Insertion*/

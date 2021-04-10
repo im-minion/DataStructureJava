@@ -2,7 +2,7 @@ package traversal;
 
 import java.util.Arrays;
 
-public class PrintPostorderFromInorderAndPreOrder {
+public class Q04_PrintPostorderFromInorderAndPreOrder {
     public static void main(String[] args) {
         int[] in1 = {4, 2, 5, 1, 3, 6};
         int[] pre = {1, 2, 4, 5, 3, 6};

@@ -23,10 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
-      <change afterPath="$PROJECT_DIR$/03.Strings/AreTwoStringEqualWithCond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/AllPossibleTreesFromInorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/Array/src/misc/ReverseAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/Q05_PostOrderTraversalOfBSTFromPreOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/Q07_ReplaceNodeWithSumOfInorderPReAndSucc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/PrintPostorderFromInorderAndPreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/PrintPostorderFromInorderAndPreOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/AllPossibleTreesFromInorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/Q06_AllPossibleTreesFromInorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/InorderTraversalWithoutRecursionUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/Q03_InorderTraversalWithoutRecursionUsingStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/PrintPostorderFromInorderAndPreOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/Q04_PrintPostorderFromInorderAndPreOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,29 +95,10 @@
       <recent name="linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AllPossibleTreesFromInorder">
-    <configuration name="AllPossibleTreesFromInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="traversal.AllPossibleTreesFromInorder" />
-      <module name="BinaryTree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="traversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.BubbleSort" />
-      <module name="Array" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Q05_PostOrderTraversalOfBSTFromPreOrder">
+    <configuration name="BuddyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BuddyStrings" />
+      <module name="03.Strings" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InorderTraversalWithoutRecursionUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="traversal.InorderTraversalWithoutRecursionUsingStack" />
+    <configuration name="Q05_PostOrderTraversalOfBSTFromPreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traversal.Q05_PostOrderTraversalOfBSTFromPreOrder" />
       <module name="BinaryTree" />
       <extension name="coverage">
         <pattern>
@@ -139,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPostorderFromInorderAndPreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="traversal.PrintPostorderFromInorderAndPreOrder" />
+    <configuration name="Q06_AllPossibleTreesFromInorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traversal.Q06_AllPossibleTreesFromInorder" />
       <module name="BinaryTree" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.ReverseAdd" />
+      <module name="Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AllPossibleTreesFromInorder" />
+        <item itemvalue="Application.Q05_PostOrderTraversalOfBSTFromPreOrder" />
+        <item itemvalue="Application.BuddyStrings" />
+        <item itemvalue="Application.ReverseAdd" />
+        <item itemvalue="Application.Q06_AllPossibleTreesFromInorder" />
         <item itemvalue="Application.GCDorHCF" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.PrintPostorderFromInorderAndPreOrder" />
-        <item itemvalue="Application.InorderTraversalWithoutRecursionUsingStack" />
       </list>
     </recent_temporary>
   </component>
@@ -174,20 +171,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00143" summary="added Dynamic Programming ♻ &gt; Q32_SubsetSumKDiffCount">
-      <created>1616265822617</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1616265822618</updated>
-    </task>
-    <task id="LOCAL-00144" summary="added Dynamic Programming ♻ &gt; TargetSum">
-      <created>1616266518302</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1616266518302</updated>
     </task>
     <task id="LOCAL-00145" summary="added Dynamic Programming ♻ added Dynamic Programming ♻ &gt; UnboundedKnapsack">
       <created>1616307759148</created>
@@ -518,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617549072845</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="added BinaryTree  &gt; SymmetricTreeCheck, AllPossibleTreesFromInorder, PrintPostorderFromInorderAndPreOrder">
+      <created>1617899223129</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1617899223129</updated>
+    </task>
+    <task id="LOCAL-00193" summary="added AreTwoStringEqualWithCond">
+      <created>1617949930728</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1617949930732</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -541,8 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Q27_ScrambledString, Q28_EggDropping" />
-    <MESSAGE value="added Dynamic Programming ♻ &gt; Q28_EggDropping" />
     <MESSAGE value="added LinkedList ➡➡null &gt; MiddleOfLinkedList" />
     <MESSAGE value="added LinkedList ➡➡null &gt; added q's before" />
     <MESSAGE value="added LinkedList ➡➡null &gt; added Q12_Count.java" />
@@ -566,7 +561,9 @@
     <MESSAGE value="added BinaryTree  &gt; EvaluateExpressionTree" />
     <MESSAGE value="added BinaryTree  &gt; SymmetricTreeCheck, InorderTraversalWithoutRecursionUsingStack" />
     <MESSAGE value="added BinaryTree  &gt; PrintPostorderFromInorderAndPreOrder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added BinaryTree  &gt; PrintPostorderFromInorderAndPreOrder" />
+    <MESSAGE value="added BinaryTree  &gt; SymmetricTreeCheck, AllPossibleTreesFromInorder, PrintPostorderFromInorderAndPreOrder" />
+    <MESSAGE value="added AreTwoStringEqualWithCond" />
+    <option name="LAST_COMMIT_MESSAGE" value="added AreTwoStringEqualWithCond" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1245,6 +1242,21 @@
           <url>file://$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/introduction/ContinuousTree.java</url>
           <line>26</line>
           <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/traversal/Q06_AllPossibleTreesFromInorder.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03.Strings/BuddyStrings.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03.Strings/BuddyStrings.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="214" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

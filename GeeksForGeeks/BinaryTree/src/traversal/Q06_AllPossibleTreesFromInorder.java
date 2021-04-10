@@ -6,7 +6,7 @@ import introduction.Node;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AllPossibleTreesFromInorder {
+public class Q06_AllPossibleTreesFromInorder {
     public static void main(String[] args) {
         int[] in = {4, 5, 7};
         int n = in.length;
