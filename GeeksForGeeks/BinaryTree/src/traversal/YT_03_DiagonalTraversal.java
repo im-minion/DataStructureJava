@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class DiagonalTraversal {
+public class YT_03_DiagonalTraversal {
     public static void main(String[] args) {
         /*Node Insertion*/
         BinaryTree tree = new BinaryTree();

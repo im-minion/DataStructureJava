@@ -3,7 +3,7 @@ package height;
 import introduction.BinaryTree;
 import introduction.Node;
 
-public class HeightOfBinaryTree {
+public class YT_01_HeightOfBinaryTree {
     public static void main(String[] args) {
         /*Node Insertion*/
         BinaryTree tree = new BinaryTree();
@@ -23,7 +23,7 @@ public class HeightOfBinaryTree {
         System.out.println(op);
     }
 
-    private static int getHeightOfBinaryTree(Node root) {
+    public static int getHeightOfBinaryTree(Node root) {
         if (root == null) return 0;
         return 1 + Math.max(getHeightOfBinaryTree(root.left), getHeightOfBinaryTree(root.right));
     }

@@ -5,7 +5,7 @@ import introduction.Node;
 
 import java.util.Stack;
 
-public class ZigZagTraversal {
+public class YT01_ZigZagTraversal {
     public static void main(String[] args) {
         /*Node Insertion*/
         BinaryTree tree = new BinaryTree();

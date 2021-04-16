@@ -29,7 +29,7 @@ Input:
   /   \     \
  4     5     6
 Output: 4 2 1 5 3 6*/
-public class VerticalTraversal {
+public class YT_02_VerticalTraversal {
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         tree.root = new Node(1);
