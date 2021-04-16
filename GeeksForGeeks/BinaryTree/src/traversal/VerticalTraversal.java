@@ -78,6 +78,8 @@ public class VerticalTraversal {
             }
         }
 
+        System.out.println(m);
+
         for (Map.Entry<Integer, ArrayList<Integer>> entry : m.entrySet()) {
             ArrayList<Integer> al = entry.getValue();
             for (Integer i : al)
