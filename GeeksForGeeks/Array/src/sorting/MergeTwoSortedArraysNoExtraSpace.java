@@ -30,8 +30,8 @@ ar2[] = {10, 13, 15, 20}
 */
 public class MergeTwoSortedArraysNoExtraSpace {
     public static void main(String[] args) {
-        int[] arr1 = new int[]{1, 5, 9, 10, 15, 20};
-        int[] arr2 = new int[]{2, 3, 8, 13};
+        int[] arr1 = new int[]{1, 5, 9, 10, 15, 20}; // m
+        int[] arr2 = new int[]{2, 3, 8, 13}; // n
         merge(arr1, arr2);
         Arrays.stream(arr1).forEach(a -> System.out.print(a + " "));
         Arrays.stream(arr2).forEach(a -> System.out.print(a + " "));
@@ -44,10 +44,14 @@ public class MergeTwoSortedArraysNoExtraSpace {
         for (int i = n - 1; i >= 0; i--) {
             /* Find the smallest element greater than ar2[i].
             Move all elements one position ahead till the smallest greater element is not found */
-            int j, last = arr1[m - 1];
-            for (j = m - 2; j >= 0 && arr1[j] > arr2[i]; j--) {
-                arr1[j + 1] = arr1[j];
+            int j;
+            for (j = m - 2; j >= 0; j--) {
+                if (arr1[j] > arr2[i])
+                    arr1[j + 1] = arr1[j];
+                else
+                    break;
             }
+            int last = arr1[m - 1];
             // If there was a greater element
             if (j != m - 2 || last > arr2[i]) {
                 arr1[j + 1] = arr2[i];
