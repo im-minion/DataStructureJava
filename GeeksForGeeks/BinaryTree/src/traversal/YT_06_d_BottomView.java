@@ -35,7 +35,7 @@ public class YT_06_d_BottomView {
 
         while (!queue.isEmpty()) {
             YT_06_c_TopView.MyClass t = queue.poll();
-            map.put(t.hd, t.n);
+            map.put(t.hd, t.n); // override the values
             if (t.n.left != null) queue.add(new YT_06_c_TopView.MyClass(t.n.left, t.hd - 1));
             if (t.n.right != null) queue.add(new YT_06_c_TopView.MyClass(t.n.right, t.hd + 1));
         }

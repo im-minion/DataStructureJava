@@ -9,7 +9,8 @@ import java.util.*;
 Vertical Traversal of Binary Tree
 
 Given a Binary Tree, find the vertical traversal of it starting from the leftmost level to the rightmost level.
-If there are multiple nodes passing through a vertical line, then they should be printed as they appear in level order traversal of the tree.
+If there are multiple nodes passing through a vertical line, then
+they should be printed as they appear in level order traversal of the tree.
 
 Example 1:
 Input:

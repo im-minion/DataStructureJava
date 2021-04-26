@@ -39,7 +39,7 @@ public class YT_06_c_TopView {
 
             if (map.containsKey(t.hd)) {
                 // don't do anything
-            } else {
+            } else { // only put first value next time ignore
                 map.put(t.hd, t.n);
             }
 
@@ -48,7 +48,7 @@ public class YT_06_c_TopView {
         }
 
         for (Map.Entry<Integer, Node> m : map.entrySet()) {
-            System.out.println(m.getValue().key);
+            System.out.print(m.getValue().key + " ");
         }
     }
 

@@ -10,10 +10,15 @@ public class YT01_ZigZagTraversal {
         /*Node Insertion*/
         BinaryTree tree = new BinaryTree();
         tree.root = new Node(1);
+
         tree.root.left = new Node(2);
         tree.root.right = new Node(3);
+
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
+
+        tree.root.right.left = new Node(6);
+        tree.root.right.right = new Node(7);
 
         printZigZagTraversal(tree.root);
     }
@@ -27,15 +32,15 @@ public class YT01_ZigZagTraversal {
         while (!s1.isEmpty() || !s2.isEmpty()) {
             while (!s1.isEmpty()) {
                 Node n = s1.pop();
-                System.out.println(n.key);
+                System.out.print(n.key + " ");
                 if (n.left != null) s2.add(n.left);
                 if (n.right != null) s2.add(n.right);
             }
             while (!s2.empty()) {
                 Node n = s2.pop();
-                System.out.println(n.key);
-                if (n.right != null) s2.add(n.right);
-                if (n.left != null) s2.add(n.left);
+                System.out.print(n.key + " ");
+                if (n.right != null) s1.add(n.right);
+                if (n.left != null) s1.add(n.left);
             }
         }
 
