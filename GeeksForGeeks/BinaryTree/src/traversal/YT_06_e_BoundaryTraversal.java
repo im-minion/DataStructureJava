@@ -67,7 +67,7 @@ public class YT_06_e_BoundaryTraversal {
         }
     }
 
-    private static void getLeafBoundary(Node n, List<Integer> op) {
+    private static void getLeafBoundary(Node n, List<Integer> op) { // inorder but printing only if node is leaf
         if (n == null) return;
 
         getLeafBoundary(n.left, op);
