@@ -10,9 +10,9 @@ public class Q07_SubsetSumKDiffCount {
         System.out.println(getCountOfSubsetsWithDiff(arr, n, diff));
     }
 
-    private static int getCountOfSubsetsWithDiff(int[] arr, int n, int diff) {
+    private static int getCountOfSubsetsWithDiff(int[] arr, int n, int k) {
         int sum = Arrays.stream(arr).sum();
-        int subSetSum = (sum + diff) / 2;
+        int subSetSum = (sum + k) / 2;
 
         return getSubsetSumCount(arr, n, subSetSum);
     }
