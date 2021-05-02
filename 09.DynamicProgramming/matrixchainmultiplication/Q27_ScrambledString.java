@@ -1,7 +1,7 @@
 package matrixchainmultiplication;
 
 /*
-TODO: Too Difficult
+TODO: Too Difficult UnSolved
 Scramble String
 
         Given a string A, we may represent it as a binary tree by partitioning it to two non-empty substrings recursively.
