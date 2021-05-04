@@ -28,6 +28,8 @@ nqrftpysfrzrmzlygfveul
 GSGSEKFREKEOE
 
 */
+
+// VERIFIED
 public class ZigZagPrint {
     public static void main(String[] args) {
         System.out.println(convert("GEEKSFORGEEKS", 3
