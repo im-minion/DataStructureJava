@@ -37,22 +37,22 @@ public class BinarySearch_RotatedSortedArray {
         System.out.println(result);
     }
 
-    public static int search(final List<Integer> a, int b) {
+    public static int search(final List<Integer> a, int key) {
         int low = 0;
         int high = a.size() - 1;
 
         while (low <= high) {
             int mid = (low + high) / 2;
 
-            if (a.get(mid) == b)
+            if (a.get(mid) == key)
                 return mid;
             if (a.get(mid) >= a.get(low)) {
-                if (b >= a.get(low) && b < a.get(mid))
+                if (key >= a.get(low) && key < a.get(mid))
                     high = mid - 1;
                 else
                     low = mid + 1;
             } else {
-                if (b > a.get(mid) && b <= a.get(high))
+                if (key > a.get(mid) && key <= a.get(high))
                     low = mid + 1;
                 else
                     high = mid - 1;
