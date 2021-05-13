@@ -52,6 +52,7 @@ public class YT_3_e_MergeTwoBST {
         BinaryTree.printInorderTraversal(tree2.root);
 
         List<Integer> op = solve(tree.root, tree2.root);
+
         System.out.println(op);
     }
 
