@@ -6,6 +6,7 @@ import introduction.Node;
 import java.util.ArrayList;
 import java.util.List;
 
+// Verified both solutions
 public class YT_6_a_CheckIfBST {
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
@@ -27,7 +28,20 @@ public class YT_6_a_CheckIfBST {
 
         System.out.println();
 
-        System.out.println(op);
+        System.out.println("solution 1 : " + op);
+
+        op = solution2(binaryTree.root);
+
+        System.out.println();
+
+        System.out.println("solution 2 : " + op);
+    }
+
+    static boolean solution2(Node root) {
+        int min = Integer.MIN_VALUE;
+        int max = Integer.MAX_VALUE;
+
+        return check(root, min, max);
     }
 
     static boolean isBST(Node root) {
@@ -53,6 +67,15 @@ public class YT_6_a_CheckIfBST {
         op.add(root.key);
 
         inorder(root.right, op);
+
+    }
+
+    private static boolean check(Node root, int min, int max) {
+        if (root == null) return true;
+
+        if (root.key < min || root.key > max) return false;
+
+        return check(root.left, min, root.key - 1) && check(root.right, root.key + 1, max);
 
     }
 }
