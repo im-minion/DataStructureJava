@@ -3,6 +3,7 @@ package binarysearchtree;
 import introduction.BinaryTree;
 import introduction.Node;
 
+// Verified
 public class YT_4_a_KthSmallestElementInBST {
     public static void main(String[] args) {
         BinaryTree binaryTree = new BinaryTree();
@@ -21,10 +22,33 @@ public class YT_4_a_KthSmallestElementInBST {
         BinaryTree.printInorderTraversal(binaryTree.root);
 
         int kthSmallest = solve(binaryTree.root, 3);
+
+        System.out.println();
+
+        System.out.println(kthSmallest);
     }
 
     private static int solve(Node root, int k) {
+        MyKlass myKlass = new MyKlass();
+        myKlass.k = k;
+        inorder(root, myKlass);
+        return myKlass.val;
+    }
 
-        return 0;
+    private static void inorder(Node root, MyKlass myKlass) {
+        if (root == null) return;
+        if (myKlass.k <= 0) return;
+        inorder(root.left, myKlass);
+        myKlass.k--;
+        if (myKlass.k == 0) {
+            myKlass.val = root.key;
+            return;
+        }
+        inorder(root.right, myKlass);
+    }
+
+    public static class MyKlass {
+        int val = -1;
+        int k;
     }
 }
