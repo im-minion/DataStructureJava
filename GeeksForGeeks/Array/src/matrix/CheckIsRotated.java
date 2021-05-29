@@ -17,10 +17,10 @@ public class CheckIsRotated {
         for (int i = 0; i < arr.length; i++) {
             a.append(arr[0][i]);
         }
-        for (int i = 0; i < arr.length; i++) {
+        for (int[] ints : arr) {
             StringBuilder x = new StringBuilder();
-            for (int j = 0; j < arr[i].length; j++) {
-                x.append(arr[i][j]);
+            for (int j = 0; j < ints.length; j++) {
+                x.append(ints[j]);
             }
             if (!(x.toString() + x.toString()).contains(a.toString())) {
                 return false;
