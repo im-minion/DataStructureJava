@@ -53,12 +53,12 @@ public class MergeSortedLinkedLits {
             if (n1 == null) {
                 result.insertElementAtLast(n2.data);
                 n2 = n2.next;
-                break;
+                continue;
             }
             if (n2 == null) {
                 result.insertElementAtLast(n1.data);
                 n1 = n1.next;
-                break;
+                continue;
             }
             if (n1.data <= n2.data) {
                 result.insertElementAtLast(n1.data);
