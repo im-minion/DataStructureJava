@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/LeetCode/Easy/Easy.iml" filepath="$PROJECT_DIR$/LeetCode/Easy/Easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/GeeksForGeeks.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/GeeksForGeeks.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/Medium/Medium.iml" filepath="$PROJECT_DIR$/LeetCode/Medium/Medium.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/String/String.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/String/String.iml" />
     </modules>
   </component>
