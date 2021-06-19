@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f5a8df04-adf1-4d78-bb36-2bf89217ba80" name="Default Changelist" comment="added matrix MatrixUtil, Rota">
       <change afterPath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/src/binarysearchtree/YT_11_a_BSTConstructionFromPreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Medium/src/Q_015_ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Medium/src/Q_016_ThreeSumCloset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Medium/src/Q_017_LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Medium/src/Q_018_FourSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,31 +103,10 @@
       <recent name="linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q_015_ThreeSum">
-    <configuration name="MergeSortedLinkedLits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSortedLinkedLits" />
-      <module name="01.LinkedList" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_006_ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_006_ZigZagConversion" />
-      <module name="Medium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q_018_FourSum">
     <configuration name="Q_008_StringToInteger_ATOI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q_008_StringToInteger_ATOI" />
       <module name="Medium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_014_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_014_LongestCommonPrefix" />
-      <module name="Easy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,13 +118,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q_016_ThreeSumCloset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_016_ThreeSumCloset" />
+      <module name="Medium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_017_LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_017_LetterCombinationsOfAPhoneNumber" />
+      <module name="Medium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_018_FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_018_FourSum" />
+      <module name="Medium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q_018_FourSum" />
+        <item itemvalue="Application.Q_016_ThreeSumCloset" />
+        <item itemvalue="Application.Q_017_LetterCombinationsOfAPhoneNumber" />
         <item itemvalue="Application.Q_015_ThreeSum" />
         <item itemvalue="Application.Q_008_StringToInteger_ATOI" />
-        <item itemvalue="Application.Q_006_ZigZagConversion" />
-        <item itemvalue="Application.MergeSortedLinkedLits" />
-        <item itemvalue="Application.Q_014_LongestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -160,13 +161,6 @@
       <option name="presentableId" value="Default" />
       <updated>1599388221002</updated>
       <workItem from="1599388222597" duration="29000" />
-    </task>
-    <task id="LOCAL-00213" summary="added BinaryTree &gt; YT_08_b_IsSubTree">
-      <created>1618849325250</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1618849325250</updated>
     </task>
     <task id="LOCAL-00214" summary="added BinaryTree &gt; YT_08_c_IsMirror YT_08_d_IsSymmetric YT_08_e_Invert">
       <created>1618893650148</created>
@@ -504,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624029065388</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="added LeetCode 💻 &gt;ThreeSum 19th June">
+      <created>1624093189391</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1624093189392</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1416,6 +1417,16 @@
           <url>file://$PROJECT_DIR$/LeetCode/Medium/src/Q_006_ZigZagConversion.java</url>
           <line>41</line>
           <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/Medium/src/Q_016_ThreeSumCloset.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/Medium/src/Q_018_FourSum.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="299" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
