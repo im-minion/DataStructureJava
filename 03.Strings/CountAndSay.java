@@ -33,7 +33,7 @@ public class CountAndSay {
     private static String countAndSayIDidIt(int n) {
         if(n == 1) return "1";
         if(n == 2) return "11";
-        String prev = "1";
+        String prev;
 
         StringBuilder result = new StringBuilder("11");
         for(int i = 3 ; i <= n; i++) {
