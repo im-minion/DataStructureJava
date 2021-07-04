@@ -18,13 +18,22 @@ public class Q_190_ReversBits {
         System.out.println(n);
     }
 
-    public static int reverseBits(int n) {
-        int res = 0;
-        for (int i = 0; i < 32; i++) {
-            res <<= 1;
-            res = res | (n & 1);
-            n >>= 1;
+//    public static int reverseBits(int n) {
+//        int res = 0;
+//        for (int i = 0; i < 32; i++) {
+//            res <<= 1;
+//            res = res | (n & 1);
+//            n >>= 1;
+//        }
+//        return res;
+//    }
+
+    public static int reverseBits(int input) {
+        int output = 0;
+        for(int i=0; i<32; i++) {
+            output = (output << 1) | (input & 1);
+            input = input >> 1;
         }
-        return res;
+        return output;
     }
 }
