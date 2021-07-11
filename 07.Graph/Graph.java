@@ -16,36 +16,36 @@ import java.util.Set;
 
 public class Graph {
 
-    public Map<Integer, Node> nodeLookup;
+    public Map<Integer, GraphNode> nodeLookup;
 
     Graph() {
         this.nodeLookup = new HashMap<>();
     }
 
     public void addEdge(int from, int to) {
-        Node fromNode = nodeLookup.get(from);
-        Node toNode = nodeLookup.get(to);
+        GraphNode fromNode = nodeLookup.get(from);
+        GraphNode toNode = nodeLookup.get(to);
         fromNode.adjacentNodes.add(toNode);
     }
 
-    public Node getNode(int val) {
+    public GraphNode getNode(int val) {
         if (!this.nodeLookup.containsKey(val)) {
-            throw new IllegalStateException("No Node Found!");
+            throw new IllegalStateException("No GraphNode Found!");
         }
         return this.nodeLookup.get(val);
     }
 
     public boolean hasPathBFS(int source, int destination) {
-        Node sourceNode = getNode(source);
-        Node destinationNode = getNode(destination);
+        GraphNode sourceNode = getNode(source);
+        GraphNode destinationNode = getNode(destination);
         Set<Integer> visited = new HashSet<>();
         List<Integer> prev = new ArrayList<>();
-        Queue<Node> queue = new LinkedList<>();
+        Queue<GraphNode> queue = new LinkedList<>();
 
         queue.add(sourceNode);
 
         while (!queue.isEmpty()) {
-            Node currNode = queue.poll();
+            GraphNode currNode = queue.poll();
             // visited contains the contains the currentNide means we have already added all
             // its adj to the queue
             if (visited.contains(currNode.id)) {
@@ -57,7 +57,7 @@ public class Graph {
                 printPath(prev);
                 return true;
             }
-            for (Node n : currNode.adjacentNodes) {
+            for (GraphNode n : currNode.adjacentNodes) {
                 queue.add(n);
             }
 
@@ -74,7 +74,7 @@ public class Graph {
         return hasPathDFS(getNode(source), getNode(destination), new HashSet<>());
     }
 
-    private boolean hasPathDFS(Node source, Node destination, Set<Integer> visited) {
+    private boolean hasPathDFS(GraphNode source, GraphNode destination, Set<Integer> visited) {
         if (visited.contains(source.id)) {
             return true;
         }
@@ -84,7 +84,7 @@ public class Graph {
             return true;
         }
 
-        for (Node adj : source.adjacentNodes) {
+        for (GraphNode adj : source.adjacentNodes) {
             return hasPathDFS(adj, destination, visited);
         }
         return false;
@@ -102,7 +102,7 @@ public class Graph {
 
                 System.out.println("Enter the node id:");
                 int nodeId = scan.nextInt();
-                graph.nodeLookup.put(nodeId, new Node(nodeId));
+                graph.nodeLookup.put(nodeId, new GraphNode(nodeId));
                 i++;
             }
             System.out.println("Add edges :");
@@ -141,12 +141,12 @@ public class Graph {
 
 }
 
-class Node {
+class GraphNode {
 
     int id;
-    LinkedList<Node> adjacentNodes = new LinkedList<>();
+    LinkedList<GraphNode> adjacentNodes = new LinkedList<>();
 
-    public Node(int id) {
+    public GraphNode(int id) {
 
         this.id = id;
     }

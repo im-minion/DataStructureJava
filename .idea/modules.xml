@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/00.Sorting/00.Sorting.iml" filepath="$PROJECT_DIR$/00.Sorting/00.Sorting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/01.LinkedList/01.LinkedList.iml" filepath="$PROJECT_DIR$/01.LinkedList/01.LinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02.Arrays/02.Arrays.iml" filepath="$PROJECT_DIR$/02.Arrays/02.Arrays.iml" />
-      <module fileurl="file://$PROJECT_DIR$/03.Strings/03.Strings.iml" filepath="$PROJECT_DIR$/03.Strings/03.Strings.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04.Queue/04.Queue.iml" filepath="$PROJECT_DIR$/04.Queue/04.Queue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05.Stack/05.Stack.iml" filepath="$PROJECT_DIR$/05.Stack/05.Stack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06.Trees/06.Trees.iml" filepath="$PROJECT_DIR$/06.Trees/06.Trees.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07.Graph/07.Graph.iml" filepath="$PROJECT_DIR$/07.Graph/07.Graph.iml" />
-      <module fileurl="file://$PROJECT_DIR$/08.Recursion/08.Recursion.iml" filepath="$PROJECT_DIR$/08.Recursion/08.Recursion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09.DynamicProgramming/09.DynamicProgramming.iml" filepath="$PROJECT_DIR$/09.DynamicProgramming/09.DynamicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/Array/Array.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/BinaryTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructureJava.iml" filepath="$PROJECT_DIR$/DataStructureJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/Easy/Easy.iml" filepath="$PROJECT_DIR$/LeetCode/Easy/Easy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/GeeksForGeeks.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/GeeksForGeeks.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/LinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/Medium/Medium.iml" filepath="$PROJECT_DIR$/LeetCode/Medium/Medium.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/String/String.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/String/String.iml" />
