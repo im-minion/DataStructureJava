@@ -20,24 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/CycleDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/CycleDetection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/IntersectionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/IntersectionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/MergeSortedLinkedLits.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/MergeSortedLinkedLits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/RotateRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/RotateRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.LinkedList/SwapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.LinkedList/SwapNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/07.Graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.Graph/NumberOfComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/07.Graph/NumberOfComponent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +46,9 @@
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1v9p8t3olYsra1UBxqrR4UOXIuU" />
   <component name="ProjectViewState">
@@ -61,7 +62,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.AddTwoLists">
+  <component name="RunManager" selected="Application.Q_204_CountPrimes">
     <configuration name="AddTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoLists" />
       <module name="DataStructureJava" />
@@ -76,8 +77,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q_191_NumberOf1Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_191_NumberOf1Bits" />
+      <module name="Easy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_202_HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_202_HappyNumber" />
+      <module name="Easy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_204_CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_204_CountPrimes" />
+      <module name="Easy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q_204_CountPrimes" />
+        <item itemvalue="Application.Q_202_HappyNumber" />
+        <item itemvalue="Application.Q_191_NumberOf1Bits" />
         <item itemvalue="Application.AddTwoLists" />
         <item itemvalue="Application.BubbleSort" />
       </list>
@@ -92,6 +117,14 @@
       <option name="presentableId" value="Default" />
       <updated>1625984004682</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactored and imported the code on local machine">
+      <created>1625984591238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625984591238</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,11 +137,93 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored and imported the code on local machine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored and imported the code on local machine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="272" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1625984174506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="272" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1625984174506" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1625985780937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1625985780937" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1626331190284">
+      <screen x="-1366" y="471" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/-1366.471.1366.728/0.0.1920.1040@-1366.471.1366.728" timestamp="1626331190284" />
+    <state width="1323" height="292" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625995249027" />
+    <state width="1323" height="292" key="GridCell.Tab.0.bottom/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909575" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1626331190284">
+      <screen x="-1366" y="471" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/-1366.471.1366.728/0.0.1920.1040@-1366.471.1366.728" timestamp="1626331190284" />
+    <state width="1323" height="292" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625995249027" />
+    <state width="1323" height="292" key="GridCell.Tab.0.center/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909574" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1626331190284">
+      <screen x="-1366" y="471" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/-1366.471.1366.728/0.0.1920.1040@-1366.471.1366.728" timestamp="1626331190284" />
+    <state width="1323" height="292" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625995249027" />
+    <state width="1323" height="292" key="GridCell.Tab.0.left/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909574" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1626331190284">
+      <screen x="-1366" y="471" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/-1366.471.1366.728/0.0.1920.1040@-1366.471.1366.728" timestamp="1626331190284" />
+    <state width="1323" height="292" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625995249027" />
+    <state width="1323" height="292" key="GridCell.Tab.0.right/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909574" />
+    <state width="1323" height="292" key="GridCell.Tab.1.bottom" timestamp="1626083909575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625995249028" />
+    <state width="1323" height="292" key="GridCell.Tab.1.bottom/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909575" />
+    <state width="1323" height="292" key="GridCell.Tab.1.center" timestamp="1626083909575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1625995249028" />
+    <state width="1323" height="292" key="GridCell.Tab.1.center/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909575" />
+    <state width="1323" height="292" key="GridCell.Tab.1.left" timestamp="1626083909575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1625995249027" />
+    <state width="1323" height="292" key="GridCell.Tab.1.left/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909575" />
+    <state width="1323" height="292" key="GridCell.Tab.1.right" timestamp="1626083909575">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="292" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1625995249028" />
+    <state width="1323" height="292" key="GridCell.Tab.1.right/1920.313.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1626083909575" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1625984593285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625984593285" />
+    <state x="-1020" y="520" width="672" height="678" key="search.everywhere.popup" timestamp="1626266790417">
+      <screen x="-1366" y="471" width="1366" height="728" />
+    </state>
+    <state x="-1020" y="520" width="672" height="678" key="search.everywhere.popup/-1366.471.1366.728/0.0.1920.1040@-1366.471.1366.728" timestamp="1626266790417" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/Easy/src/Q_202_HappyNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/Easy/src/Q_202_HappyNumber.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/Easy/src/Q_202_HappyNumber.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

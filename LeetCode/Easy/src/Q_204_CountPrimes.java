@@ -22,7 +22,7 @@ import java.util.Arrays;
 
 public class Q_204_CountPrimes {
     public static void main(String[] args) {
-        System.out.println(countPrimes(10));
+        System.out.println(countPrimes(15));
     }
 
     public static int countPrimes(int n) {
