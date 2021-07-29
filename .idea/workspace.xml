@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/Easy/src/Q_205_Isomorphic_Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,6 +201,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1625984593285" />
+    <state x="-977" y="471" width="587" height="728" key="find.popup" timestamp="1627752943712">
+      <screen x="-1366" y="471" width="1366" height="728" />
+    </state>
+    <state x="-977" y="471" width="587" height="728" key="find.popup/-1366.471.1366.728/0.0.1920.1040@-1366.471.1366.728" timestamp="1627752943712" />
     <state x="-1020" y="520" width="672" height="678" key="search.everywhere.popup" timestamp="1626266790417">
       <screen x="-1366" y="471" width="1366" height="728" />
     </state>
