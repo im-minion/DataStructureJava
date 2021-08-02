@@ -12,5 +12,7 @@ public class Q_231_PowerOfTwo {
             }
         }
         return false;
+        //other one liner solution
+//        return n > 0 && (n & (n - 1)) == 0;
     }
 }
