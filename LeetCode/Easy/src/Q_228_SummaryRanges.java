@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Q_228_SummaryRanges {
 
     public List<String> summaryRanges(int[] nums) {
