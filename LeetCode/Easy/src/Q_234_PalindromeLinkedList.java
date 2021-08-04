@@ -3,8 +3,14 @@ import java.util.Stack;
 public class Q_234_PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         if(head == null) return true;
-        if(head.next == null) return false;
-
+        if(head.next == null) return true;
+        if(head.next.next == null) {
+            if(head.val == head.next.val) {
+                return true;
+            }else {
+                return false;
+            }
+        }
         ListNode actualHead = head;
         ListNode slow = head;
         ListNode fast = head;
@@ -15,16 +21,34 @@ public class Q_234_PalindromeLinkedList {
             fast = fast.next.next;
         }
 
-        if(fast.next == null ) {
-            s.pop(); // actual center
+        if(fast.next == null ) {//odd
+            if(!s.isEmpty()) {
+                s.pop();
+                slow = slow.next;
+                while(!s.isEmpty() && slow != null) {
+                    if(slow.val != s.peek()){
+                        return false;
+                    }
+                    slow = slow.next;
+                    s.pop();
+                }
+            }
+            // actual center
 
 
-        }else {
-
+        }else {//even
+            if(!s.isEmpty()) {
+                // s.pop();
+                slow = slow.next;
+                while(!s.isEmpty() && slow != null) {
+                    if(slow.val != s.peek()){
+                        return false;
+                    }
+                    slow = slow.next;
+                    s.pop();
+                }
+            }
         }
-//        while(){
-//
-//        }
         return true;
 
     }
