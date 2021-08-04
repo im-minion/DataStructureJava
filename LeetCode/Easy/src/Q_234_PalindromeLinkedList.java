@@ -1,6 +1,7 @@
 import java.util.Stack;
 
 public class Q_234_PalindromeLinkedList {
+    //not working
     public boolean isPalindrome(ListNode head) {
         if(head == null) return true;
         if(head.next == null) return true;
