@@ -3,10 +3,11 @@ package misc;
 public class TotalDecodeMessages_DecodeWays {
 
     public static void main(String[] args) {
-
+        System.out.println(countWays("2112"));
+        System.out.println(countWays("2101"));
     }
 
-    public int countWays(String s) {
+    public static int countWays(String s) {
         int n = s.length();
         int[] dp = new int[n + 1];
         dp[0] = 1;
