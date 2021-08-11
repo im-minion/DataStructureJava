@@ -25,7 +25,6 @@ public class Q_112_HasPathSum {
         solve(root.right, m, targetSum);
 
         m.currSum -= root.val;
-        ;
 
     }
 
