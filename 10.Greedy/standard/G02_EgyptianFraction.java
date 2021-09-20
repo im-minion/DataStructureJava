@@ -1,3 +1,5 @@
+package standard;
+
 public class G02_EgyptianFraction {
     public static void main(String[] args) {
         int nr = 6, dr = 14;

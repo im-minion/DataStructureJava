@@ -1,3 +1,5 @@
+package standard;
+
 import java.util.ArrayList;
 
 public class G03_JobSequencing {
