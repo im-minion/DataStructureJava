@@ -11,6 +11,7 @@ public class G07_HuffmanCoding {
         solveHuffmanCoding(charArray, charFreq);
     }
 
+    // O(nlogn)
     private static void solveHuffmanCoding(char[] charArray, int[] charFreq) {
         int n = charArray.length;
         // min heap
