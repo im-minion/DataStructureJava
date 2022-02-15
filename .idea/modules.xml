@@ -5,9 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/Array/Array.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/BinaryTree/BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructureJava.iml" filepath="$PROJECT_DIR$/DataStructureJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode/Easy/Easy.iml" filepath="$PROJECT_DIR$/LeetCode/Easy/Easy.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/LinkedList/LinkedList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode/Medium/Medium.iml" filepath="$PROJECT_DIR$/LeetCode/Medium/Medium.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeeksForGeeks/String/String.iml" filepath="$PROJECT_DIR$/GeeksForGeeks/String/String.iml" />
     </modules>
   </component>
