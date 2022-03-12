@@ -7,7 +7,7 @@ import java.util.Queue;
 /**
  * @author vaibhav.miniyar
  */
-public class YT_02_b_BFSGraph {
+public class YT_02_a_BFSGraph {
     public static void main(String[] args) {
         // make visited true when you add an element inside a queue
     }
