@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added YT_02_a_BFSGraph">
-      <change afterPath="$PROJECT_DIR$/Graph/src/yt/YT_02_b_DFSGraph.java" afterDir="false" />
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added YT_02_b_DFSGraph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/yt/YT_02_a_BFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/yt/YT_02_a_BFSGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/yt/YT_02_b_DFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/yt/YT_02_b_DFSGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647104242016</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added YT_02_b_DFSGraph">
+      <created>1647104786285</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647104786285</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,7 +284,8 @@
     <MESSAGE value="done with the representation of graph!" />
     <MESSAGE value="added YT_02_b_BFSGraph" />
     <MESSAGE value="added YT_02_a_BFSGraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added YT_02_a_BFSGraph" />
+    <MESSAGE value="added YT_02_b_DFSGraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="added YT_02_b_DFSGraph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

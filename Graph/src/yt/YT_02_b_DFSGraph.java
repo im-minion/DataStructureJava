@@ -31,6 +31,7 @@ public class YT_02_b_DFSGraph {
                 helper(adj, neighbor, vis, op);
             }
         }
-
     }
+    // Time  - O(V + E)
+    // Space - O(V + E)
 }
