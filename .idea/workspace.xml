@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="started with graph problems">
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="done with the representation of graph!">
+      <change afterPath="$PROJECT_DIR$/Graph/src/yt/YT_02_b_BFSGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/yt/YT_01_b_RepresentationOfGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/yt/YT_01_b_RepresentationOfGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644941036993</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done with the representation of graph!">
+      <created>1647091478855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647091478855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,7 +252,8 @@
     <MESSAGE value="Refactored and imported the code on local machine" />
     <MESSAGE value="Refactored the queues" />
     <MESSAGE value="started with graph problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="started with graph problems" />
+    <MESSAGE value="done with the representation of graph!" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with the representation of graph!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
