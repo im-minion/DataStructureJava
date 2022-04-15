@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added YT_02_b_DFSGraph">
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added complexities BFS DFS">
+      <change afterPath="$PROJECT_DIR$/Graph/src/yt/YT_03_a_DetectCycleInUndirected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/yt/YT_02_a_BFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/yt/YT_02_a_BFSGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/src/yt/YT_02_b_DFSGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/yt/YT_02_b_DFSGraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647104786285</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added complexities BFS DFS">
+      <created>1647105947156</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647105947156</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +291,8 @@
     <MESSAGE value="added YT_02_b_BFSGraph" />
     <MESSAGE value="added YT_02_a_BFSGraph" />
     <MESSAGE value="added YT_02_b_DFSGraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added YT_02_b_DFSGraph" />
+    <MESSAGE value="added complexities BFS DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="added complexities BFS DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
