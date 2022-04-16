@@ -29,7 +29,7 @@ public class YT_03_a_DetectCycleInUndirected {
                 if (dfsDetectCycle(adj, N, vis, node, start)) {
                     return true;
                 }
-            }else if (node != parent) {
+            } else if (node != parent) {
                 return true;
             }
         }
