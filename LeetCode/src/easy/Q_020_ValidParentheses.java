@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.Stack;
 
 public class Q_020_ValidParentheses {

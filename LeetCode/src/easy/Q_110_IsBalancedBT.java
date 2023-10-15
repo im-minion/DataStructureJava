@@ -1,4 +1,4 @@
-/*
+package easy;/*
 110. Balanced Binary Tree
 
 Given a binary tree, determine if it is height-balanced.

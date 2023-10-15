@@ -1,3 +1,5 @@
+package easy;
+
 /*
 7. Reverse Integer
 Easy

@@ -1,5 +1,7 @@
 package medium;
 
+import util.ListNode;
+
 public class Q_024_SwapNodesInPairs {
     public static void main(String[] args) {
     }

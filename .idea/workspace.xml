@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added YT_03_b_DetectCycleInDirectedGraph">
-      <change afterPath="$PROJECT_DIR$/Graph/src/yt/YT_04_a_TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/util/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/FirstNonRepeatingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/FirstNonRepeatingElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_001_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_001_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_007_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_007_ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_009_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_009_PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_013_RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_013_RomanToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_020_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_020_ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_094_BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_094_BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_100_IsSameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_100_IsSameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_101_isSymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_101_isSymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_104_MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_104_MaxDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_108_ConvertSortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_108_ConvertSortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_110_IsBalancedBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_110_IsBalancedBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_111_MinimumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_111_MinimumDepthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_112_HasPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_112_HasPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_144_BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_144_BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_145_BinaryTreePostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_145_BinaryTreePostOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_226_InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_226_InvertBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_235_LowestCommomAncestorBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_235_LowestCommomAncestorBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_257_BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_257_BinaryTreePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/medium/Q_002_AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_002_AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/medium/Q_019_RemoveNthFromLastInLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_019_RemoveNthFromLastInLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/medium/Q_024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_024_SwapNodesInPairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,22 +90,28 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1v9p8t3olYsra1UBxqrR4UOXIuU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3862069" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.16920471",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LeetCode/src/medium" />
@@ -87,23 +121,10 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Graph">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.misc.CoinChange" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.Graph" />
-      <module name="Graph" />
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.BinarySearchTree" />
+      <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="misc.*" />
@@ -114,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Path" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.Path" />
-      <module name="Graph" />
+    <configuration name="Q01_Knapsack_0_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsack01.Q01_Knapsack_0_1" />
+      <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.*" />
+          <option name="PATTERN" value="dp.knapsack01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,9 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q09_UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Q09_UnboundedKnapsack (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q09_UnboundedKnapsack" />
-      <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dp.knapsackunbounded.*" />
@@ -140,12 +160,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.TopologicalSort" />
-      <module name="Graph" />
+    <configuration name="Q_001_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q_001_TwoSum" />
+      <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.*" />
+          <option name="PATTERN" value="easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_002_AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q_002_AddTwoNumbers" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Graph" />
-        <item itemvalue="Application.Path" />
-        <item itemvalue="Application.TopologicalSort" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.Q09_UnboundedKnapsack" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.Q_002_AddTwoNumbers" />
+        <item itemvalue="Application.Q_001_TwoSum" />
+        <item itemvalue="Application.Q01_Knapsack_0_1" />
+        <item itemvalue="Application.Q09_UnboundedKnapsack (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -334,6 +367,11 @@
           <url>file://$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Graph/src/misc/DungeonGame.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,3 +1,5 @@
+package easy;
+
 public class Q_100_IsSameTree {
     public static void main(String[] args) {
 

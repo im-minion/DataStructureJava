@@ -1,3 +1,7 @@
+package easy;
+
+import util.TreeNode;
+
 public class Q_111_MinimumDepthOfBinaryTree {
     public static void main(String[] args) {
 

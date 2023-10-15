@@ -1,5 +1,7 @@
 package medium;
 
+import util.ListNode;
+
 public class Q_019_RemoveNthFromLastInLL {
     public static void main(String[] args) {
 

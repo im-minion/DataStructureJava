@@ -1,3 +1,7 @@
+package easy;
+
+import util.TreeNode;
+
 public class Q_101_isSymmetricTree {
     public static void main(String[] args) {
 
