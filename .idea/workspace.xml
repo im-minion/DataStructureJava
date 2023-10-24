@@ -22,35 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added YT_03_b_DetectCycleInDirectedGraph">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/util/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/util/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/FirstNonRepeatingElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/FirstNonRepeatingElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_001_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_001_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_007_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_007_ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_009_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_009_PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_013_RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_013_RomanToInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_020_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_020_ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_094_BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_094_BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_100_IsSameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_100_IsSameTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_101_isSymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_101_isSymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_104_MaxDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_104_MaxDepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_108_ConvertSortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_108_ConvertSortedArrayToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_110_IsBalancedBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_110_IsBalancedBT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_111_MinimumDepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_111_MinimumDepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_112_HasPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_112_HasPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_144_BinaryTreePreorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_144_BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_145_BinaryTreePostOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_145_BinaryTreePostOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_226_InvertBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_226_InvertBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_235_LowestCommomAncestorBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_235_LowestCommomAncestorBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_257_BinaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_257_BinaryTreePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/medium/Q_002_AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_002_AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/medium/Q_019_RemoveNthFromLastInLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_019_RemoveNthFromLastInLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/medium/Q_024_SwapNodesInPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_024_SwapNodesInPairs.java" afterDir="false" />
-    </list>
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="setup on mac" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +93,20 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.BST">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfg.binarysearchtree.BST" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfg.binarysearchtree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="misc.BinarySearchTree" />
       <module name="DataStructureJava" />
@@ -141,18 +126,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dp.knapsack01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q09_UnboundedKnapsack (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q09_UnboundedKnapsack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.knapsackunbounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BST" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.Q_002_AddTwoNumbers" />
         <item itemvalue="Application.Q_001_TwoSum" />
         <item itemvalue="Application.Q01_Knapsack_0_1" />
-        <item itemvalue="Application.Q09_UnboundedKnapsack (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1650089695772</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="setup on mac">
+      <option name="closed" value="true" />
+      <created>1697355136086</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1697355136086</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +329,8 @@
     <MESSAGE value="added complexities BFS DFS" />
     <MESSAGE value="added YT_03_a_DetectCycleInUndirected" />
     <MESSAGE value="added YT_03_b_DetectCycleInDirectedGraph" />
-    <option name="LAST_COMMIT_MESSAGE" value="added YT_03_b_DetectCycleInDirectedGraph" />
+    <MESSAGE value="setup on mac" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup on mac" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

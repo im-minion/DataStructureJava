@@ -27,7 +27,7 @@ public class BST {
 
         if (root.key == key) return true;
 
-        if (root.key < key) {
+        if (root.key > key) {
             return search(root.left, key);
         } else {
             return search(root.right, key);
