@@ -1,18 +1,13 @@
 package misc;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * FIND TOPOLOGICAL ORDER
  */
 public class TopologicalSort {
     public static void main(String[] args) {
-        System.err.println("\n\nExample 1 ::");
+        System.out.println("\n\nExample 1 ::");
 
         DirectedGraph graph = new DirectedGraph(6);
         graph.addEdge(0, 1);
@@ -20,18 +15,18 @@ public class TopologicalSort {
         graph.addEdge(2, 3);
         graph.addEdge(3, 5);
         graph.addEdge(4, 3);
-        /**
-         *  0 ----> 1  
+        /*
+         *  0 ----> 1
          *          |
          *  4 ->3<- 2
          *      |
-         *      5 
+         *      5
          */
         TopologicalSort topologicalSort = new TopologicalSort();
         List<Integer> sortingOrderList = topologicalSort.getTopologyOrder(graph);
-        sortingOrderList.forEach(x -> System.out.println(x));
+        sortingOrderList.forEach(System.out::println);
 
-        System.err.println("\n\nExample 2 ::");
+        System.out.println("\n\nExample 2 ::");
 
         DirectedGraph graph2 = new DirectedGraph(6);
         graph2.addEdge(2, 3);
@@ -42,13 +37,13 @@ public class TopologicalSort {
         graph2.addEdge(5, 0);
         topologicalSort = new TopologicalSort();
         sortingOrderList = topologicalSort.getTopologyOrder(graph2);
-        sortingOrderList.forEach(x -> System.out.println(x));
+        sortingOrderList.forEach(System.out::println);
     }
 
     private List<Integer> getTopologyOrder(DirectedGraph graph) {
         List<Integer> topologySortOrder = new ArrayList<>();
         Set<Integer> visited = new HashSet<>();
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
 
         // Call the recursive helper function to store Topological Sort starting from
         // all vertices one by one
@@ -57,7 +52,7 @@ public class TopologicalSort {
                 dfs(i, visited, stack, graph);
 
         // Print contents of stack
-        while (stack.empty() == false) {
+        while (!stack.empty()) {
             topologySortOrder.add(stack.pop());
         }
         return topologySortOrder;
@@ -93,9 +88,9 @@ class DirectedGraph {
     // Constructor
     DirectedGraph(int v) {
         V = v;
-        adj = new ArrayList<ArrayList<Integer>>(v);
+        adj = new ArrayList<>(v);
         for (int i = 0; i < v; ++i)
-            adj.add(new ArrayList<Integer>());
+            adj.add(new ArrayList<>());
     }
 
     // Function to add an edge into the graph
