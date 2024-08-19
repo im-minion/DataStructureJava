@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added 2 medium probs">
-      <change afterPath="$PROJECT_DIR$/Algorithms/src/backtracking/YT_02a_AllSubset.java" afterDir="false" />
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="started with backtracking">
+      <change afterPath="$PROJECT_DIR$/Algorithms/src/backtracking/YT_03a_PermutationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/src/backtracking/YT_03bPermutationWithSpaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -111,33 +112,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YT_02a_AllSubset">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gfg.binarysearchtree.BST" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gfg.binarysearchtree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.BinarySearchTree" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="misc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.YT_03bPermutationWithSpaces">
     <configuration name="NextBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="misc.NextBigNumber" />
       <module name="DataStructureJava" />
@@ -177,6 +152,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YT_03a_PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.YT_03a_PermutationOfString" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YT_03bPermutationWithSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.YT_03bPermutationWithSpaces" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DataStructureJava" />
       <method v="2">
@@ -192,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YT_03bPermutationWithSpaces" />
+        <item itemvalue="Application.YT_03a_PermutationOfString" />
         <item itemvalue="Application.YT_02a_AllSubset" />
         <item itemvalue="Application.TopologicalSort" />
         <item itemvalue="Application.NextBigNumber" />
-        <item itemvalue="Application.BST" />
-        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708363642521</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="started with backtracking">
+      <option name="closed" value="true" />
+      <created>1724081258122</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724081258122</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,7 +383,8 @@
     <MESSAGE value="setup on mac" />
     <MESSAGE value="corrected the bst search" />
     <MESSAGE value="added 2 medium probs" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 2 medium probs" />
+    <MESSAGE value="started with backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="started with backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
