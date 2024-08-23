@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="permutation">
-      <change afterPath="$PROJECT_DIR$/Algorithms/src/backtracking/YT_04a_RatMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/src/backtracking/YT_06a_Sudoku.java" afterDir="false" />
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added few more">
+      <change afterPath="$PROJECT_DIR$/Graph/src/misc/FindGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,9 +111,9 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.YT_03bPermutationWithSpaces">
-    <configuration name="NextBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.NextBigNumber" />
+  <component name="RunManager" selected="Application.FindGroups">
+    <configuration name="FindGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.FindGroups" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindGroups" />
         <item itemvalue="Application.YT_03bPermutationWithSpaces" />
         <item itemvalue="Application.YT_03a_PermutationOfString" />
         <item itemvalue="Application.YT_02a_AllSubset" />
         <item itemvalue="Application.TopologicalSort" />
-        <item itemvalue="Application.NextBigNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724089839182</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added few more">
+      <option name="closed" value="true" />
+      <created>1724426930456</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1724426930456</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -393,7 +400,8 @@
     <MESSAGE value="added 2 medium probs" />
     <MESSAGE value="started with backtracking" />
     <MESSAGE value="permutation" />
-    <option name="LAST_COMMIT_MESSAGE" value="permutation" />
+    <MESSAGE value="added few more" />
+    <option name="LAST_COMMIT_MESSAGE" value="added few more" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
