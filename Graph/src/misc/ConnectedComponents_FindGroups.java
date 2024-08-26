@@ -3,7 +3,10 @@ package misc;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class FindGroups {
+/**
+ * Connected components
+ */
+public class ConnectedComponents_FindGroups {
     public static void main(String[] args) {
         int n = 7;
         List<int[]> friendships = Arrays.asList(

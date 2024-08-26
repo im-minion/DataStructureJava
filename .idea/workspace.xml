@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added few more">
-      <change afterPath="$PROJECT_DIR$/Graph/src/misc/FindGroups.java" afterDir="false" />
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added connected graph problem">
+      <change afterPath="$PROJECT_DIR$/Trees/src/trie/TrieNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/src/misc/FindGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/src/misc/ConnectedComponents_FindGroups.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,9 +112,9 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindGroups">
-    <configuration name="FindGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.FindGroups" />
+  <component name="RunManager" selected="Application.Trie">
+    <configuration name="ConnectedComponents_FindGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.ConnectedComponents_FindGroups" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.TopologicalSort" />
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trie.Trie" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.*" />
+          <option name="PATTERN" value="trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YT_02a_AllSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.YT_02a_AllSubset" />
+    <configuration name="TrieNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trie.TrieNode" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindGroups" />
+        <item itemvalue="Application.Trie" />
+        <item itemvalue="Application.TrieNode" />
+        <item itemvalue="Application.ConnectedComponents_FindGroups" />
         <item itemvalue="Application.YT_03bPermutationWithSpaces" />
         <item itemvalue="Application.YT_03a_PermutationOfString" />
-        <item itemvalue="Application.YT_02a_AllSubset" />
-        <item itemvalue="Application.TopologicalSort" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724426930456</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added connected graph problem">
+      <option name="closed" value="true" />
+      <created>1724430632501</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1724430632501</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +410,8 @@
     <MESSAGE value="started with backtracking" />
     <MESSAGE value="permutation" />
     <MESSAGE value="added few more" />
-    <option name="LAST_COMMIT_MESSAGE" value="added few more" />
+    <MESSAGE value="added connected graph problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="added connected graph problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,6 +435,11 @@
           <url>file://$PROJECT_DIR$/Graph/src/misc/DungeonGame.java</url>
           <line>2</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Trees/src/trie/TrieNode.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
