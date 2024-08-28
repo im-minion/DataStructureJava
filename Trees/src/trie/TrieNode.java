@@ -1,9 +1,9 @@
 package trie;
 
 public class TrieNode {
-    TrieNode[] children;
+    public TrieNode[] children;
 
-    boolean isEndOfWord;
+   public boolean isEndOfWord;
 
     public TrieNode() {
         children = new TrieNode[26];

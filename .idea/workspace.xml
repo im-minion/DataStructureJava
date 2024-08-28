@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added connected graph problem">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_733_FloodFill.java" afterDir="false" />
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added floodFill">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/src/trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/trie/TrieNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +112,26 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Trie">
+  <component name="RunManager" selected="Application.Q_014_LongestCommonPrefix">
     <configuration name="ConnectedComponents_FindGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="misc.ConnectedComponents_FindGroups" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="misc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_014_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q_014_LongestCommonPrefix" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +158,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YT_03a_PermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.YT_03a_PermutationOfString" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q_014_LongestCommonPrefix" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.TrieNode" />
         <item itemvalue="Application.ConnectedComponents_FindGroups" />
         <item itemvalue="Application.YT_03bPermutationWithSpaces" />
-        <item itemvalue="Application.YT_03a_PermutationOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724693164467</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added floodFill">
+      <option name="closed" value="true" />
+      <created>1724770819003</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724770819003</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +427,8 @@
     <MESSAGE value="permutation" />
     <MESSAGE value="added few more" />
     <MESSAGE value="added connected graph problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="added connected graph problem" />
+    <MESSAGE value="added floodFill" />
+    <option name="LAST_COMMIT_MESSAGE" value="added floodFill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
