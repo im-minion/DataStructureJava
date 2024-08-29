@@ -36,6 +36,13 @@ public class Q02_Knapsack_0_1_TopDown {
                 }
             }
         }
+
+        for (int i = 0 ; i <= n ; i ++) {
+            for (int j = 0 ; j <= W ; j++) {
+                System.out.print(t[i][j] + "  ");
+            }
+            System.out.println();
+        }
         return t[n][W];
     }
 }

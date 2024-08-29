@@ -12,12 +12,40 @@ For N = 10 and S = {2, 5, 3, 6}, there are five solutions: {2,2,2,2,2}, {2,2,3,3
 
 public class Q11_CoinChange_1_MaxNoOfWays {
 
+    static int t[][];
+
     public static void main(String[] args) {
         int[] coin = {1, 2, 3};
         int n = coin.length;
         int sum = 4;
-
+        t = new int[n + 1][sum + 1];
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= sum; j++) {
+                t[i][j] = -1;
+            }
+        }
         System.out.println("solveByTopDown : " + solveByTopDown(coin, sum, n));
+        System.out.println("solveByRecursiveMemo : " + solveByRecursiveMemo(coin, sum, n));
+    }
+
+    private static int solveByRecursiveMemo(int[] coin, int sum, int n) {
+        if (n == 0 && sum > 0) return 0;
+        if (n == 0 && sum == 0) return 1;
+        if (n > 0 && sum == 0) return 1;
+
+        if (t[n][sum] != -1) {
+            return t[n][sum];
+        }
+
+        if (coin[n - 1] <= sum) {
+            t[n][sum] = solveByRecursiveMemo(coin, sum - coin[n - 1], n) +
+                    solveByRecursiveMemo(coin, sum, n - 1);
+        } else {
+            t[n][sum] = solveByRecursiveMemo(coin, sum, n - 1);
+        }
+
+        return t[n][sum];
+
     }
 
     private static int solveByTopDown(int[] coin, int sum, int n) {

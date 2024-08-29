@@ -80,9 +80,11 @@ public class Q12_CoinChange_2_MinNumOfCoins {
         if (dp[target][n] != -1) return dp[target][n];
 
         if (target >= a[n - 1]) { // may or may not consider
-            return dp[target][n] = Math.min(solveByRecursive(a, target - a[n - 1], n, count + 1),
+            dp[target][n] = Math.min(solveByRecursive(a, target - a[n - 1], n, count + 1),
                     solveByRecursive(a, target, n - 1, count));
+        } else {
+            dp[target][n] = solveByRecursive(a, target, n - 1, count);
         }
-        return dp[target][n] = solveByRecursive(a, target, n - 1, count);
+        return dp[target][n];
     }
 }

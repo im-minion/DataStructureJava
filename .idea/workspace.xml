@@ -22,8 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added trienode">
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added description to a question">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsack01/Q02_Knapsack_0_1_TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsack01/Q02_Knapsack_0_1_TopDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q09_UnboundedKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q09_UnboundedKnapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +114,13 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q_016_ThreeSumCloset">
-    <configuration name="Q_014_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q_014_LongestCommonPrefix" />
+  <component name="RunManager" selected="Application.Q12_CoinChange_2_MinNumOfCoins">
+    <configuration name="Q02_Knapsack_0_1_TopDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsack01.Q02_Knapsack_0_1_TopDown" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="dp.knapsack01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_015_ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Q_015_ThreeSum" />
+    <configuration name="Q05_SubsetSumCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsack01.Q05_SubsetSumCount" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="dp.knapsack01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_016_ThreeSumCloset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.Q_016_ThreeSumCloset" />
+    <configuration name="Q09_UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q09_UnboundedKnapsack" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="dp.knapsackunbounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trie.Trie" />
+    <configuration name="Q11_CoinChange_1_MaxNoOfWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q11_CoinChange_1_MaxNoOfWays" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trie.*" />
+          <option name="PATTERN" value="dp.knapsackunbounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrieNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trie.TrieNode" />
+    <configuration name="Q12_CoinChange_2_MinNumOfCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q12_CoinChange_2_MinNumOfCoins" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trie.*" />
+          <option name="PATTERN" value="dp.knapsackunbounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q_016_ThreeSumCloset" />
-        <item itemvalue="Application.Q_015_ThreeSum" />
-        <item itemvalue="Application.Q_014_LongestCommonPrefix" />
-        <item itemvalue="Application.Trie" />
-        <item itemvalue="Application.TrieNode" />
+        <item itemvalue="Application.Q12_CoinChange_2_MinNumOfCoins" />
+        <item itemvalue="Application.Q11_CoinChange_1_MaxNoOfWays" />
+        <item itemvalue="Application.Q09_UnboundedKnapsack" />
+        <item itemvalue="Application.Q05_SubsetSumCount" />
+        <item itemvalue="Application.Q02_Knapsack_0_1_TopDown" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724865254090</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added description to a question">
+      <option name="closed" value="true" />
+      <created>1724945726524</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724945726524</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +447,8 @@
     <MESSAGE value="added connected graph problem" />
     <MESSAGE value="added floodFill" />
     <MESSAGE value="added trienode" />
-    <option name="LAST_COMMIT_MESSAGE" value="added trienode" />
+    <MESSAGE value="added description to a question" />
+    <option name="LAST_COMMIT_MESSAGE" value="added description to a question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,6 +477,14 @@
           <url>file://$PROJECT_DIR$/Trees/src/trie/TrieNode.java</url>
           <line>27</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java</url>
+          <line>31</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

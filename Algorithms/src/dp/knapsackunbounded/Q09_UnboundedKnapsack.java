@@ -26,14 +26,43 @@ We get maximum value with one unit of
 weight 5 and one unit of weight 3.
 */
 
+import java.util.Arrays;
+
 public class Q09_UnboundedKnapsack {
 
+    static int t[][];
     public static void main(String[] args) {
         int W = 100;
         int[] val = {10, 30, 20};
         int[] wt = {5, 10, 15};
         int n = val.length;
         System.out.println(unboundedKnapsack(val, wt, W, n));
+
+        t = new int[n+1][W+1];
+        for (int i = 0 ; i <= n ; i++) {
+            for (int j = 0 ; j <= W ; j++) {
+                t[i][j] = -1;
+            }
+        }
+        System.out.println(unboundedKnapsackRecursive(val, wt, W, n));
+    }
+
+    private static int unboundedKnapsackRecursive(int[] val, int[] wt, int W, int n) {
+        if (val.length == 0 || wt.length == 0 || W == 0 || n == 0) {
+            return 0;
+        }
+
+        if (t[n][W] != -1) {
+            return t[n][W];
+        }
+
+        if (wt[n - 1] <= W) {
+             t[n][W] = Math.max(val[n - 1] + unboundedKnapsackRecursive(val, wt, W - wt[n - 1], n),
+                    unboundedKnapsackRecursive(val, wt, W, n - 1));
+        } else {
+             t[n][W] = unboundedKnapsackRecursive(val, wt, W, n - 1);
+        }
+        return t[n][W];
     }
 
     private static int unboundedKnapsack(int[] val, int[] wt, int W, int n) {
