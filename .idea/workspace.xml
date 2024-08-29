@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added floodFill">
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added trienode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_014_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/src/trie/TrieNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/src/trie/TrieNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +110,13 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q_014_LongestCommonPrefix">
-    <configuration name="ConnectedComponents_FindGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="misc.ConnectedComponents_FindGroups" />
+  <component name="RunManager" selected="Application.Q_016_ThreeSumCloset">
+    <configuration name="Q_014_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Q_014_LongestCommonPrefix" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="misc.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_014_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.Q_014_LongestCommonPrefix" />
+    <configuration name="Q_015_ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q_015_ThreeSum" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_016_ThreeSumCloset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.Q_016_ThreeSumCloset" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YT_03bPermutationWithSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.YT_03bPermutationWithSpaces" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DataStructureJava" />
       <method v="2">
@@ -193,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q_016_ThreeSumCloset" />
+        <item itemvalue="Application.Q_015_ThreeSum" />
         <item itemvalue="Application.Q_014_LongestCommonPrefix" />
         <item itemvalue="Application.Trie" />
         <item itemvalue="Application.TrieNode" />
-        <item itemvalue="Application.ConnectedComponents_FindGroups" />
-        <item itemvalue="Application.YT_03bPermutationWithSpaces" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724770819003</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added trienode">
+      <option name="closed" value="true" />
+      <created>1724865254090</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1724865254090</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +434,8 @@
     <MESSAGE value="added few more" />
     <MESSAGE value="added connected graph problem" />
     <MESSAGE value="added floodFill" />
-    <option name="LAST_COMMIT_MESSAGE" value="added floodFill" />
+    <MESSAGE value="added trienode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added trienode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

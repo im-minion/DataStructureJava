@@ -1,7 +1,11 @@
 package medium;
 
 import java.util.Arrays;
+/*Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.
 
+Return the sum of the three integers.
+
+You may assume that each input would have exactly one solution.*/
 public class Q_016_ThreeSumCloset {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 0, -1, 0, -2, 2};
