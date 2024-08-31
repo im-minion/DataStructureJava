@@ -17,9 +17,40 @@ Let us see how this problem possesses both important properties of a Dynamic Pro
 and can efficiently be solved using Dynamic Programming.
 */
 public class Q18_LongestPalindromicSubsequence {
+
+    static int[][] t;
+
     public static void main(String[] args) {
         String seq = "BBABCBCAB";
-        System.out.printf("The length of the LPS is %d", lps(seq));
+        System.out.println("The length of the LPS is " + lps(seq));
+        System.out.println("The length of the LPS by lpsByRec is " + lpsByRec(seq));
+
+    }
+
+    private static int lpsByRec(String X) {
+        String Y = new StringBuilder(X).reverse().toString();
+        t = new int[X.length() + 1][Y.length() + 1];
+        for (int[] arr : t) {
+            Arrays.fill(arr, -1);
+        }
+        return lpsRecSolve(X.toCharArray(), Y.toCharArray(), X.length(), Y.length());
+    }
+
+    private static int lpsRecSolve(char[] X, char[] Y, int m, int n) {
+        if (X.length == 0 || Y.length == 0 || m == 0 || n == 0) {
+            return 0;
+        }
+        if (t[m][n] != -1) {
+            return t[m][n];
+        }
+
+        if (X[m - 1] == Y[n - 1]) {
+            t[m][n] = 1 + lpsRecSolve(X, Y, m - 1, n - 1);
+        } else {
+            t[m][n] = Math.max(lpsRecSolve(X, Y, m - 1, n), lpsRecSolve(X, Y, m, n - 1));
+        }
+        return t[m][n];
+
     }
 
     private static int lps(String s) {

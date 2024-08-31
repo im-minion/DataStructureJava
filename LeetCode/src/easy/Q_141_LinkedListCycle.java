@@ -1,3 +1,7 @@
+package easy;
+
+import util.ListNode;
+
 public class Q_141_LinkedListCycle {
     public static void main(String[] args) {
 

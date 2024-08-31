@@ -1,5 +1,7 @@
 package dp.lcs;
 
+import java.util.Arrays;
+
 /*
 Minimum number of deletions and insertions to transform one string into another
 Difficulty Level : Medium
@@ -25,13 +27,47 @@ Thus, p contributes one to the deletion_count
 and one to the insertion_count.
 */
 public class Q17_MinNoOfInsertionAndDeletion {
+    static int t[][];
+
     public static void main(String[] args) {
         String str1 = "heap";
         String str2 = "pea";
 
         // Function Call
+        System.out.println("ByTopDown -");
         String op = printMinDelAndInsert(str1.toCharArray(), str2.toCharArray(), str1.length(), str2.length());
         System.out.println(op);
+
+        System.out.println("ByRec -");
+        t = new int[str1.length() + 1][str2.length() + 1];
+        for (int[] arr : t) {
+            Arrays.fill(arr, -1);
+        }
+        String op2 = printMinDelAndInsertWithRecursive(str1.toCharArray(), str2.toCharArray(), str1.length(), str2.length());
+        System.out.println(op2);
+    }
+
+    private static String printMinDelAndInsertWithRecursive(char[] X, char[] Y, int m, int n) {
+        int op = solveByRec(X, Y, m, n);
+        return "Deletion : " + (m - op) + "\nInsertion : " + (n - op);
+    }
+
+    private static int solveByRec(char[] X, char[] Y, int m, int n) {
+        if (X.length == 0 || Y.length == 0 || m == 0 || n == 0) {
+            return 0;
+        }
+
+        if (t[m][n] != -1) {
+            return t[m][n];
+        }
+
+        if (X[m - 1] == Y[n - 1]) {
+            t[m][n] = 1 + solveByRec(X, Y, m - 1, n - 1);
+        } else {
+            t[m][n] = Math.max(solveByRec(X, Y, m - 1, n), solveByRec(X, Y, m, n - 1));
+        }
+
+        return t[m][n];
     }
 
     private static String printMinDelAndInsert(char[] x, char[] y, int m, int n) {

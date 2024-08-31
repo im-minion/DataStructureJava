@@ -22,12 +22,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added description to a question">
+    <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added and updated some more stuff">
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_303_RangeSumQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_643_MaximumAverageSubarrayI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_056_MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_057_InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_167_TwoSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_215_KthLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_347_TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_373_FindKPairsWithSmallestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_525_ContiguousArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_560_SubarraySumEqualsK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_739_DailyTemperature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsack01/Q02_Knapsack_0_1_TopDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsack01/Q02_Knapsack_0_1_TopDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q09_UnboundedKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q09_UnboundedKnapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q11_CoinChange_1_MaxNoOfWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/knapsackunbounded/Q12_CoinChange_2_MinNumOfCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q17_MinNoOfInsertionAndDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q17_MinNoOfInsertionAndDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q18_LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q18_LongestPalindromicSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_141_LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_141_LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_252_MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_252_MeetingRooms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,46 +126,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q12_CoinChange_2_MinNumOfCoins">
-    <configuration name="Q02_Knapsack_0_1_TopDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.knapsack01.Q02_Knapsack_0_1_TopDown" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.knapsack01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q05_SubsetSumCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.knapsack01.Q05_SubsetSumCount" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.knapsack01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q09_UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q09_UnboundedKnapsack" />
-      <module name="DataStructureJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.knapsackunbounded.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q17_MinNoOfInsertionAndDeletion">
     <configuration name="Q11_CoinChange_1_MaxNoOfWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q11_CoinChange_1_MaxNoOfWays" />
       <module name="DataStructureJava" />
@@ -180,6 +153,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q15_PrintLongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.lcs.Q15_PrintLongestCommonSubsequence" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.lcs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q16_ShortestCommonSuperSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.lcs.Q16_ShortestCommonSuperSequence" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.lcs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q17_MinNoOfInsertionAndDeletion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.lcs.Q17_MinNoOfInsertionAndDeletion" />
+      <module name="DataStructureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.lcs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DataStructureJava" />
       <method v="2">
@@ -195,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q17_MinNoOfInsertionAndDeletion" />
+        <item itemvalue="Application.Q16_ShortestCommonSuperSequence" />
+        <item itemvalue="Application.Q15_PrintLongestCommonSubsequence" />
         <item itemvalue="Application.Q12_CoinChange_2_MinNumOfCoins" />
         <item itemvalue="Application.Q11_CoinChange_1_MaxNoOfWays" />
-        <item itemvalue="Application.Q09_UnboundedKnapsack" />
-        <item itemvalue="Application.Q05_SubsetSumCount" />
-        <item itemvalue="Application.Q02_Knapsack_0_1_TopDown" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724945726524</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="learnt dp a bit">
+      <option name="closed" value="true" />
+      <created>1724953026817</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1724953026817</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,24 +468,25 @@
     <MESSAGE value="added floodFill" />
     <MESSAGE value="added trienode" />
     <MESSAGE value="added description to a question" />
-    <option name="LAST_COMMIT_MESSAGE" value="added description to a question" />
+    <MESSAGE value="learnt dp a bit" />
+    <option name="LAST_COMMIT_MESSAGE" value="learnt dp a bit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java</url>
-          <line>15</line>
+          <line>50</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java</url>
-          <line>19</line>
+          <line>54</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java</url>
-          <line>18</line>
+          <line>53</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
