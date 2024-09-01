@@ -23,23 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12bb126f-3e57-4c7e-9137-8bdaf6869b12" name="Default Changelist" comment="added and updated some more stuff">
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_303_RangeSumQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_643_MaximumAverageSubarrayI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_056_MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_057_InsertInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_167_TwoSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_215_KthLargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_347_TopKFrequentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_373_FindKPairsWithSmallestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_525_ContiguousArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_560_SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/src/medium/Q_739_DailyTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph/src/misc/BipartiteGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q17_MinNoOfInsertionAndDeletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q17_MinNoOfInsertionAndDeletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q18_LongestPalindromicSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/src/dp/lcs/Q18_LongestPalindromicSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_141_LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_141_LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_202_HappyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/src/easy/Q_252_MeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/src/easy/Q_252_MeetingRooms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,13 +111,13 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q17_MinNoOfInsertionAndDeletion">
-    <configuration name="Q11_CoinChange_1_MaxNoOfWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.knapsackunbounded.Q11_CoinChange_1_MaxNoOfWays" />
+  <component name="RunManager" selected="Application.BipartiteGraph">
+    <configuration name="BipartiteGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="misc.BipartiteGraph" />
       <module name="DataStructureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.knapsackunbounded.*" />
+          <option name="PATTERN" value="misc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BipartiteGraph" />
         <item itemvalue="Application.Q17_MinNoOfInsertionAndDeletion" />
         <item itemvalue="Application.Q16_ShortestCommonSuperSequence" />
         <item itemvalue="Application.Q15_PrintLongestCommonSubsequence" />
         <item itemvalue="Application.Q12_CoinChange_2_MinNumOfCoins" />
-        <item itemvalue="Application.Q11_CoinChange_1_MaxNoOfWays" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724953026817</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added and updated some more stuff">
+      <option name="closed" value="true" />
+      <created>1725109589942</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1725109589942</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -469,7 +462,8 @@
     <MESSAGE value="added trienode" />
     <MESSAGE value="added description to a question" />
     <MESSAGE value="learnt dp a bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="learnt dp a bit" />
+    <MESSAGE value="added and updated some more stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added and updated some more stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
