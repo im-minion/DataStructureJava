@@ -41,13 +41,21 @@ public class YT_02a_AllSubset {
     }
 
     static void solve(int index, int[] arr, int n, Set<ArrayList<Integer>> op, ArrayList<Integer> subSet) {
+        // base cond
         if (index == n) {
             op.add(new ArrayList<>(subSet));
             return;
         }
+        // recur without considering
         solve(index + 1, arr, n, op, subSet);
+
+        // consider
         subSet.add(arr[index]);
+
+        // recur after considering
         solve(index + 1, arr, n, op, subSet);
+
+        // rollback consideration
         subSet.remove(subSet.size() - 1);
     }
 }
